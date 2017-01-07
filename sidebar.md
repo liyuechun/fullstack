@@ -1,6 +1,6 @@
-# [react/react-native/weex/vue/小程序/nodejs全栈笔记]()
+# [JavaScript全栈笔记]()
 
-作者：[春哥](http://www.kongyixueyuan.com)
+作者：[春哥(微信：liyc1215)](http://www.kongyixueyuan.com)
 
 
 ## 目录
