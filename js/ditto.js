@@ -42,24 +42,7 @@ var getHash = function (hash) {
   }
 };
 
-
-
-
-
-var disqusCode = '<div class="ds-thread" data-thread-key="disqus_thread" data-title="react-nodjs" data-url="http://liyuechun.com.cn"></div>
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"liyuechun"};
-(function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0]
-    || document.getElementsByTagName('body')[0]).appendChild(ds);
-})();
-</script>';
-
-// var disqusCode = '<h3>留言</h3><div id="disqus_thread"></div>';
+var disqusCode = '<h3>留言</h3><div id="disqus_thread"></div>';
 var menu = new Array();
 
 function initialize() {
