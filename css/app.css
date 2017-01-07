@@ -142,16 +142,16 @@ input.searchButton {
     margin-right: 20px;
     font-size: 0.8rem;
     line-height: 1.3rem;
-
+    width: 100%;
     /* border: 1px solid black; */
 
     counter-reset: section;
-    background-color: green;
+
 }
 
 @media (min-width: 40rem) {
     #content {
-        width: 580px;
+        width: 75%;
         padding-left: 330px;
         margin-left: 0px;
         margin-right: 0px;
@@ -318,7 +318,7 @@ input.searchButton {
     width: 70px;
     top: 20px;
 
-    margin-left: 930px;
+    margin-left: 90%;
     margin-top: 0px;
 
     color: #FFF;
@@ -343,7 +343,7 @@ input.searchButton {
     width: 70px;
     top: 45px;
 
-    margin-left: 930px;
+    margin-left: 90%;
     margin-top: 0px;
 
     color: #FFF;
