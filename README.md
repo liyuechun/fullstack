@@ -17,10 +17,31 @@
 - [亚马逊](http://www.amazon.cn/ES6-%E6%A0%87%E5%87%86%E5%85%A5%E9%97%A8-%E9%98%AE%E4%B8%80%E5%B3%B0/dp/B01A18WWAG/)
 - [China-pub](http://product.china-pub.com/4904712)
 
-### 版权许可
+### 版权许可证
 
 本书采用“保持署名—非商用”创意共享4.0许可证。
 
 只要保持原作者署名和非商用，您可以自由地阅读、分享、修改本书。
 
 详细的法律条文请参见[创意共享](http://creativecommons.org/licenses/by-nc/4.0/)网站。
+
+
+### 最近访客
+
+<ul class="ds-recent-visitors" data-num-items="200" style="padding-left: 0;"></ul>
+
+### 留言
+<div class="ds-thread" data-thread-key="#README" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
+
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"liyuechun"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+
