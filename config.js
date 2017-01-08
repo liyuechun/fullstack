@@ -1,6 +1,6 @@
 var CONFIG = {
   // your website's title
-  document_title: "React/React-Native+nodejs全栈笔记",
+  document_title: "前端&&后端",
 
   // index page
   index: "README.md",
@@ -23,4 +23,3 @@ function addConfig(obj, conf) {
     obj[key] = conf[key];
   });
 }
-
