@@ -1,7 +1,5 @@
 # 循环
 
-- pubdate: 2015-03-17
-
 ------
 
 循环让一块代码运行一定的次数：
@@ -148,7 +146,7 @@ for ( var i = 0; i < 10; i++ ) {
 
 
 ### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
+<div class="ds-thread" data-thread-key="#docs/js/javascript-101/006loops" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
 
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"liyuechun"};

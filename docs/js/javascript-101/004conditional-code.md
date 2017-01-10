@@ -1,7 +1,5 @@
 # 条件代码
 
-- pubdate: 2015-03-11
-
 ------
 
 有时候一个代码块应该只在一定条件下运行。流程控制 － 通过 `if` 和 `else` 代码块，让你的代码只在满足一定的条件下运行。
@@ -128,7 +126,7 @@ if ( stuffToDo[ foo ] ) {
 对象会在 [类型](/javascript-101/types.html) 和 [对象](/javascript-101/objects.html) 部分进一步讨论。
 
 ### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
+<div class="ds-thread" data-thread-key="#docs/js/javascript-101/004conditional-code" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
 
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"liyuechun"};

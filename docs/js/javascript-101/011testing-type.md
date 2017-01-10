@@ -1,7 +1,5 @@
 # 类型测试
 
-- pubdate: 2015-03-09
-
 ------
 
 JavaScript 提供了一种方法来测试变量的类型。然而，其结果可能会让人迷惑 － 例如，一个数组的类型是 `object`。
@@ -44,7 +42,7 @@ if ( Object.prototype.toString.call( myArray ) === "[object Array]" ) {
 ```
 
 ### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
+<div class="ds-thread" data-thread-key="#docs/js/javascript-101/011testing-type" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
 
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"liyuechun"};

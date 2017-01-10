@@ -1,7 +1,5 @@
 # 闭包
 
-- pubdate: 2015-04-21
-
 --------
 
 闭包是作用域概念的扩展。通过闭包，函数可以访问存在函数被创建的作用域中的变量。如果这显得令人困惑，别担心：闭包一般最适合通过例子来理解。
@@ -137,7 +135,7 @@ boundGetUser();
 ```
 
 ### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
+<div class="ds-thread" data-thread-key="#docs/js/javascript-101/014closures" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
 
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"liyuechun"};

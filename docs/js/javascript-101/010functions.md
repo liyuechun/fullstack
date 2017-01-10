@@ -1,7 +1,5 @@
 # 函数
 
-- pubdate: 2015-04-09
-
 -------
 
 函数包含需要反复执行的代码块。函数可以取零个或多个参数，并且可以可选的返回一个值。
@@ -111,7 +109,7 @@ myFn( myOtherFn ); // "hello world"
 ```
 
 ### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
+<div class="ds-thread" data-thread-key="#docs/js/javascript-101/010functions" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
 
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"liyuechun"};

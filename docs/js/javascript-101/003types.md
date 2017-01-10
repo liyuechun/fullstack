@@ -1,7 +1,5 @@
 # 类型
 
-- pubdate: 2015-03-09
-
 ------
 
 JavaScript 中的数据类型有两类：原始类型和对象。原始类型包括：
@@ -206,7 +204,7 @@ jQuery.isPlainObject( myValue ); // false
 jQuery.isArray( myValue ); // true
 ```
 ### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
+<div class="ds-thread" data-thread-key="#docs/js/javascript-101/003types" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
 
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"liyuechun"};

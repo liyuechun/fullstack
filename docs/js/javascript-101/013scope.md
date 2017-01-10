@@ -1,7 +1,5 @@
 # 作用域
 
-- pubdate: 2015-04-19
-
 -------
 
 作用域通常是指在指定的时间内，变量存在于一段代码中。缺乏对作用域的理解可能会导致令人沮丧的调试体验。作用域的概念是关于我们的代码中可以访问到哪些确定的函数或变量，代码的上下文和执行环境。
@@ -181,7 +179,7 @@ bim(); // ReferenceError: bim is not defined
 
 
 ### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
+<div class="ds-thread" data-thread-key="#docs/js/javascript-101/013scope" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
 
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"liyuechun"};

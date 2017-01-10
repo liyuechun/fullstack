@@ -1,6 +1,11 @@
 ## 本书架构
+## 本书架构
+- Flexbox
+- 微信小程序
+- JavaScript 101
+- JavaScript 30
+- ECMAScript 2015
 - React.js Fundamentals
-- ES6/7 for React
 - Flux
 - Redux + Immutable
 - Universal React
@@ -8,10 +13,7 @@
 - React Native With Swift
 - React Native With Objective-C
 - React Native With Android
-- Swift
-- Java SE
-- Android
-- Java EE
+- Vue
+- Weex
+- AngularJS
 - NodeJS
-- Python
-- 开源项目实战

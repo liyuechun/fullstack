@@ -1,7 +1,5 @@
 # this 关键字
 
-- pubdate: 2014-04-12
-
 -------
 
 在 JavaScript 中，如同在大部分面向对象编程语言中一样，`this` 是一个特殊的关键字，它常在被某个对象调用的方法中指向对象本身。`this` 的值可通过一系列简单的步骤来确定：
@@ -102,7 +100,7 @@ obj.sayHello(); // "Hi! My name is Rebecca"
 ```
 
 ### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
+<div class="ds-thread" data-thread-key="#docs/js/javascript-101/012this-keyword" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
 
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"liyuechun"};

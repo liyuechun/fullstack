@@ -70,12 +70,12 @@
 1. [闭包](#docs/js/javascript-101/014closures)
 
 
-## 003 - DailyJS 101
-1. [JavaScript 的过去和现在](#docs/js/js101/000the-language-past-and-present)
+## 003 - JavaScript 进阶
+<!-- 1. [JavaScript 的过去和现在](#docs/js/js101/000the-language-past-and-present)
 1. [原始值和对象](#docs/js/js101/001primitive-values-and-objects)
 1. [原型](#docs/js/js101/002prototype)
-1. [继承](#docs/js/js101/003inheritance)
-1. [Object.create](#docs/js/js101/004object.create)
+1. [继承](#docs/js/js101/003inheritance) -->
+<!-- 1. [Object.create](#docs/js/js101/004object.create)
 1. [Constructor Functions](#docs/js/js101/005constructor-functions)
 1. [this](#docs/js/js101/006this)
 1. [Call, Apply and Bind](#docs/js/js101/007Call_Apply_and_Bind)
@@ -86,7 +86,7 @@
 1. [Equality](#docs/js/js101/012equality)
 1. [Deep Equal](#docs/js/js101/013deep-equal)
 1. [A Primer on Strings and String Encodings](#docs/js/js101/014strings)
-1. [Terminology: Modules](#docs/js/js101/015modules)
+1. [Terminology: Modules](#docs/js/js101/015modules) -->
 
 ## 004 - 正则表达式
 1. [正则表达式](#TODO)

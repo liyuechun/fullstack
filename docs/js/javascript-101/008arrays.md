@@ -1,7 +1,5 @@
 # 数组
 
-- pubdate: 2015-03-28
-
 -------
 
 数组是从零索引，值的有序列表。数组是一个简便的方式来存储一组相同类型的有关项（例如字符串），但实际上，一个数组可以包含多个类型的项，甚至是其他数组。
@@ -277,7 +275,7 @@ myArray.forEach( negateElement );
 
 
 ### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
+<div class="ds-thread" data-thread-key="#docs/js/javascript-101/008arrays" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
 
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"liyuechun"};

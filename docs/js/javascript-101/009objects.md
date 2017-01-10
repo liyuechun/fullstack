@@ -1,7 +1,5 @@
 # 对象
 
-- pubdate: 2015-04-08
-
 -------
 
 对象包含一个或更多键值对。键的部分可以是任何字符串。值的部分可以是任何类型的值：数字、字符串、数组、函数，甚至是另一个对象。当这些值中的一个是函数，它被称为对象的方法。否则，它们被称为属性。
@@ -58,7 +56,7 @@ for ( var prop in myObject ) {
 // Property : some string ; value : 456
 ```
 ### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
+<div class="ds-thread" data-thread-key="#docs/js/javascript-101/009objects" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
 
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"liyuechun"};
