@@ -71,7 +71,7 @@
 
 
 ## 003 - JavaScript 进阶
-<!-- 1. [JavaScript 的过去和现在](#docs/js/js101/000the-language-past-and-present)
+1. [JavaScript 的过去和现在](#docs/js/js101/000the-language-past-and-present)
 1. [原始值和对象](#docs/js/js101/001primitive-values-and-objects)
 1. [原型](#docs/js/js101/002prototype)
 1. [继承](#docs/js/js101/003inheritance) -->
@@ -86,7 +86,7 @@
 1. [Equality](#docs/js/js101/012equality)
 1. [Deep Equal](#docs/js/js101/013deep-equal)
 1. [A Primer on Strings and String Encodings](#docs/js/js101/014strings)
-1. [Terminology: Modules](#docs/js/js101/015modules) -->
+1. [Terminology: Modules](#docs/js/js101/015modules)  -->
 
 ## 004 - 正则表达式
 1. [正则表达式](#TODO)
@@ -119,3 +119,37 @@
 
 ## 002 - 源码
 1. [DOWNLOAD](http://github.com/liyuechun)
+
+-----------------
+## JavaScript 30
+-----------------
+1. [JavaScript Drum Kit](#TODO)
+1. [JS + CSS Clock](#TODO)
+1. [CSS Variables](#TODO)
+1. [Array Cardio Day 1](#TODO)
+1. [Flex Panel Gallery](#TODO)
+1. [Type Ahead](#TODO)
+1. [Array Cardio Day 2](#TODO)
+1. [Fun with HTML5 Canvas](#TODO)
+1. [Dev Tools Domination](#TODO)
+1. [Hold Shift and Check Checkboxes](#TODO)
+1. [Custom Video Player](#TODO)
+1. [Key Sequence Detection](#TODO)
+1. [Slide in on Scroll](#TODO)
+1. [JavaScript References VS Copying](#TODO)
+1. [LocalStorage](#TODO)
+1. [Mouse Move Shadow](#TODO)
+1. [Sort Without Articles](#TODO)
+1. [Adding Up Times with Reduce](#TODO)
+1. [Webcam Fun](#TODO)
+1. [Speech Detection](#TODO)
+1. [Geolocation](#TODO)
+1. [Follow Along Link Highlighter](#TODO)
+1. [Speech Synthesis](#TODO)
+1. [Sticky Nav](#TODO)
+1. [Event Capture, Propagation, Bubbling and Once](#TODO)
+1. [Stripe Follow Along Nav](#TODO)
+1. [Click and Drag](#TODO)
+1. [Video Speed Controller](#TODO)
+1. [Countdown Timer](#TODO)
+1. [Whack A Mole](#TODO)
