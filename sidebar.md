@@ -1,4 +1,4 @@
-# [JavaScript全栈工程师学习笔记]()
+# [春哥JavaScript全栈笔记]()
 
 联系春哥：
 - [微信:liyc1215)](http://www.kongyixueyuan.com)
@@ -95,7 +95,7 @@
 ## ECMAScript 2015 特性
 -------------
 <!-- https://github.com/lukehoban/es6features#enhanced-object-literals -->
-## 001 - 新的变量
+## 001 - 特性
 1. [arrows](#TODO)
 1. [classes](#TODO)
 1. [enhanced object literals](#TODO)
