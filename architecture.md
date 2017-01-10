@@ -1,5 +1,4 @@
 ## 本书架构
-## 本书架构
 - Flexbox
 - 微信小程序
 - JavaScript 101
