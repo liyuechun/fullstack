@@ -1,4 +1,4 @@
-# [全栈工程师炼成记]()
+# [JavaScript全栈工程师学习笔记]()
 
 联系春哥：
 - [微信:liyc1215)](http://www.kongyixueyuan.com)
@@ -39,8 +39,8 @@
 1. [align-self](#TODO)
 
 ## 004 - 项目
-1. [flexbox single line form](#TODO)
-1. [create a mobile app layout with flexbox](#TODO)
+1. [单个form的flexbox项目](#TODO)
+1. [用flexbox创建一个mobile app](#TODO)
 
 ## 005 - 源码
 1. [DOWNLOAD](http://github.com/liyuechun)
@@ -92,112 +92,30 @@
 1. [正则表达式](#TODO)
 
 -------------
-## ECMAScript 2015 Features
+## ECMAScript 2015 特性
 -------------
-## 001 - New Variables
-1. [let VS const](#TODO)
-1. [let and const in the Real World](#TODO)
-1. [Temporal Dead Zone](#TODO)
-1. [Is var Dead? What should I use?](#TODO)
+<!-- https://github.com/lukehoban/es6features#enhanced-object-literals -->
+## 001 - 新的变量
+1. [arrows](#TODO)
+1. [classes](#TODO)
+1. [enhanced object literals](#TODO)
+1. [template strings](#TODO)
+1. [default + rest + spread](#TODO)
+1. [let + const](#TODO)
+1. [iterators + for..of](#TODO)
+1. [generators](#TODO)
+1. [unicode](#TODO)
+1. [modules](#TODO)
+1. [module loaders](#TODO)
+1. [map + set + weakmap + weakset](#TODO)
+1. [proxies](#TODO)
+1. [symbols](#TODO)
+1. [subclassable built-ins](#TODO)
+1. [promises](#TODO)
+1. [math + number + string + array + object APIs](#TODO)
+1. [binary and octal literals](#TODO)
+1. [reflect api](#TODO)
+1. [tail calls](#TODO)
 
-## 002 - Arrow functions
-1. [Arrow Functions Introduction](#TODO)
-1. [More Arrow Function Examples](#TODO)
-1. [Arrow Functions and `this`](#TODO)
-1. [Default Function Arguments](#TODO)
-1. [When NOT to use an Arrow Function](#TODO)
-1. [Arrow Functions Exercises](#TODO)
-
-## 003 - Template Strings
-1. [Template Strings Introduction](#TODO)
-1. [Creating HTML fragments with Template Literals](#TODO)
-1. [Tagged Template Literals](#TODO)
-1. [Tagged Templates Exercise](#TODO)
-1. [Santizing User Data with Tagged Templates](#TODO)
-
-## 004 - Additional String Improvements
-1. [New String Methods](#TODO)
-
-## 005 - Destructuring
-1. [Destructuring Objects](#TODO)
-1. [Destructing Arrays](#TODO)
-1. [Swapping Variables with Destructuring](#TODO)
-1. [Destructuring Functions - Multiple returns and named defaults](#TODO)
-
-## 006 - Iterables & Looping
-1. [The for of loop](#TODO)
-1. [The for of Loop in Action](#TODO)
-1. [Using for of with Objects](#TODO)
-
-## 007 - An Array of Improvements
-1. [Array.from() and Array.of()](#TODO)
-1. [Array. find() and .findIndex()](#TODO)
-1. [Array .some() and .every()](#TODO)
-
-
-## 008 - Say Hello to ...Spread and ..
-1. [Spread Operator Introduction](#TODO)
-1. [Spread Exercise](#TODO)
-1. [More Spread Examples](#TODO)
-1. [Spreading into a function](#TODO)
-1. [The ...rest param in Functions and destructuring](#TODO)
-
-## 009 - Object Literal Upgrades
-1. [Object Literal Upgrades](#TODO)
-
-## 010 - Promises
-1. [All About Symbols](#TODO)
-1. [Building your own Promises](#TODO)
-1. [Chaining Promises + Flow Control](#TODO)
-1. [Working with Multiple Promises](#TODO)
-
-## 011 - Symbols
-1. [All About Symbols](#TODO)
-
-
-## 012 - Code Quality with ESLint
-1. [Getting Started with ESLint](#TODO)
-1. [Airbnb ESLint Settings](#TODO)
-1. [Line and File Specific Settings](#TODO)
-1. [ESLint Plugins](#TODO)
-1. [ESLint inside Atom and Sublime Text](#TODO)
-1. [Only Allow ESLint Passing Code into your git repos](#TODO)
-
-## 013 - JavaScript Modules and Using npm
-1. [JavaScript Modules and WebPack 2 Tooling Setup](#TODO)
-1. [Creating your own Modules](#TODO)
-1. [More ES6 Module Practice](#TODO)
-
-## 014 - ES6 Tooling
-1. [Tool-Free Modules with SystemJS (+bonus BrowserSync setup)](#TODO)
-1. [All About Babel + npm scripts](#TODO)
-1. [Polyfilling ES6 for Older Browsers](#TODO)
-
-## 015 - Classes
-1. [Prototypal Inheritance Review](#TODO)
-1. [Say Hello to Classes](#TODO)
-1. [Extending Classes and using super()](#TODO)
-1. [Extending Arrays with Classes for Custom Collections](#TODO)
-
-## 016 - Generators
-1. [Introducing Generators](#TODO)
-1. [Using Generators for Ajax Flow Control](#TODO)
-1. [Looping Generators with for of](#TODO)
-
-## 017 - Proxies
-1. [What are Proxies?](#TODO)
-1. [Another Proxy Example](#TODO)
-1. [Using Proxies to combat silly errors](#TODO)
-
-## 018 - Sets and WeakSets
-1. [Sets](#TODO)
-1. [Understanding Sets with Brunch](#TODO)
-1. [WeakSets](#TODO)
-
-## 019 - Maps and WeakMaps
-1. [Maps](#TODO)
-1. [Map Metadata with DOM Node Keys](#TODO)
-1. [WeakMap and Garbage Collection](#TODO)
-
-## 020 - 源码
+## 002 - 源码
 1. [DOWNLOAD](http://github.com/liyuechun)
