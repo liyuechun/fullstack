@@ -1,7 +1,7 @@
 # [JavaScript全栈笔记](http://www.kongyixueyuan.com)
 
 联系春哥：
-- [微信:liyc1215)](http://www.kongyixueyuan.com)
+- [微信:liyc1215](http://www.kongyixueyuan.com)
 - [QQ:939442932](http://www.kongyixueyuan.com)
 - [新浪微博](http://weibo.com/mobiledevelopment)
 
@@ -41,6 +41,7 @@
 ## 004 - 项目
 1. [单个form的flexbox项目](#TODO)
 1. [用flexbox创建一个mobile app](#TODO)
+1. [骰子布局](#TODO)
 
 ## 005 - 源码
 1. [DOWNLOAD](http://github.com/liyuechun)
