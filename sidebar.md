@@ -74,7 +74,7 @@
 1. [JavaScript 的过去和现在](#docs/js/js101/000the-language-past-and-present)
 1. [原始值和对象](#docs/js/js101/001primitive-values-and-objects)
 1. [原型](#docs/js/js101/002prototype)
-1. [继承](#docs/js/js101/003inheritance) -->
+1. [继承](#docs/js/js101/003inheritance)
 <!-- 1. [Object.create](#docs/js/js101/004object.create)
 1. [Constructor Functions](#docs/js/js101/005constructor-functions)
 1. [this](#docs/js/js101/006this)
