@@ -70,8 +70,8 @@
 1. [闭包](#docs/js/javascript-101/014closures)
 
 
-## 003 - JavaScript 进阶
-<!-- 1. [JavaScript 的过去和现在](#docs/js/js101/000the-language-past-and-present)
+<!-- ## 003 - JavaScript 进阶
+1. [JavaScript 的过去和现在](#docs/js/js101/000the-language-past-and-present)
 1. [原始值和对象](#docs/js/js101/001primitive-values-and-objects)
 1. [原型](#docs/js/js101/002prototype)
 1. [继承](#docs/js/js101/003inheritance)
