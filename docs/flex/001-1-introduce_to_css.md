@@ -18,6 +18,7 @@ Selector {property:value}
 
 ```css
 示例代码：
+
 <p style="color:#f00;">这一行的字体颜色将显示为红色</p>
 ```
 
@@ -26,6 +27,7 @@ Selector {property:value}
 
 ```css
 示例代码：
+
 <style>
 body{background:#fff;color:#000;}
 p{font-size:14px;}
@@ -37,5 +39,6 @@ p{font-size:14px;}
 
 ```css
 示例代码：
+
 <link rel="stylesheet" href="*.css" />
 ```
