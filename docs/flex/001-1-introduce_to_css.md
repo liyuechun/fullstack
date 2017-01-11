@@ -5,7 +5,7 @@ CSS是Cascading Style Sheet（层叠样式表）的缩写。是用于（增强�
 
 ## 样式语法
 
-```
+```css
 Selector {property:value}
 ```
 
@@ -16,7 +16,7 @@ Selector {property:value}
 ### 内联方式 Inline Styles
 内联定义即是在对象的标记内使用对象的style属性定义适用其的样式表属性。
 
-```CSS
+```css
 示例代码：
 <p style="color:#f00;">这一行的字体颜色将显示为红色</p>
 ```
@@ -35,7 +35,7 @@ p{font-size:14px;}
 ### 外部样式表 Linking to a Style Sheet
 你可以先建立外部样式表文件*.css，然后使用HTML的link对象。
 
-```CSS
+```css
 示例代码：
 <link rel="stylesheet" href="*.css" />
 ```
