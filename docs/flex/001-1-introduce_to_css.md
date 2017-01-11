@@ -25,7 +25,7 @@ Selector {property:value}
 ### 内部样式块对象 Embedding a Style Block
 你可以在你的HTML文档的`<head>`标记里插入一个`<style></style>`块对象。
 
-```css
+```text
 示例代码：
 
 <style>
