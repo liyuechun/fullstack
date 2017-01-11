@@ -23,15 +23,19 @@ Selector {property:value}
 ```
 
 ### 内部样式块对象 Embedding a Style Block
-你可以在你的HTML文档的`<head>`标记里插入一个`<style></style>`块对象。
+你可以在你的HTML文档的`<head></head>`标记里插入一个`<style></style>`块对象,再在`<style></style>`里面插入如下代码。
 
 ```css
 示例代码：
 
-`<style>`
-body{background:#fff;color:#000;}
-p{font-size:14px;}
-`</style>`
+body {
+  background:#fff;
+  color:#000;
+}
+p {
+  font-size:14px;
+}
+
 ```
 
 ### 外部样式表 Linking to a Style Sheet
