@@ -28,7 +28,7 @@ Selector {property:value}
 ```css
 示例代码：
 
-<style>
+< style>
 body{background:#fff;color:#000;}
 p{font-size:14px;}
 </style>
