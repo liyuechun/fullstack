@@ -19,7 +19,6 @@
 1. [CSS介绍](#docs/flex/001-1-introduce_to_css)
 1. [flex布局是什么](#docs/flex/001-2-what_is_flex)
 1. [盒子模型](#TODO)
-1. [容器和项目分别有哪些属性](#TODO)
 
 ## 002 - 容器属性
 1. [flex-direction](#TODO)
@@ -37,9 +36,10 @@
 1. [align-self](#TODO)
 
 ## 004 - 项目
-1. [单个form的flexbox项目](#TODO)
-1. [用flexbox创建一个mobile app](#TODO)
 1. [骰子布局](#TODO)
+1. [单个form的flexbox项目](#TODO)
+1. [价格表项目](#TODO)
+
 
 ## 005 - 源码
 1. [DOWNLOAD](http://github.com/liyuechun)

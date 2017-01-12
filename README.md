@@ -1,8 +1,7 @@
 # 博客架构以及问题反馈
 
 ## 本书架构
-
-[![cover](images/JavaScript_fullstack_note.png)](images/JavaScript_fullstack_note.png)
+[![cover](images/fullstack_course.png)](images/fullstack_course.png)
 
 ## 学习视频
 - [学习视频](http://liyuechun.com.cn/course/2623)
