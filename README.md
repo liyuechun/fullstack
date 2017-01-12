@@ -1,26 +1,11 @@
-## 本书架构
-- Flexbox
-- 微信小程序
-- JavaScript 101
-- JavaScript 30
-- ECMAScript 2015
-- React.js Fundamentals
-- Flux
-- Redux + Immutable
-- Universal React
-- React Native
-- React Native With Swift
-- React Native With Objective-C
-- React Native With Android
-- Vue
-- Weex
-- AngularJS
-- NodeJS
+# 博客内容架构以及问题反馈
 
-[![cover](images/cover_thumbnail.jpg)](images/cover-2nd.jpg)
+## 本书架构
+
+[![cover](images/JavaScript_fullstack_note.png)](images/JavaScript_fullstack_note.png)
 
 ## 学习视频
-- [视频资料](http://liyuechun.com.cn/course/2623)
+- [学习视频](http://liyuechun.com.cn/course/2623)
 
 ## 联系我
 ### 扫一扫加我QQ
