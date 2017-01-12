@@ -107,11 +107,11 @@
 ## 002 - 源码
 1. [DOWNLOAD](http://github.com/liyuechun)
 
-<!-- -----------------
+-----------------
 ## JavaScript 30天
 -----------------
 ## 001 - 每天一项目
-1. [JavaScript Drum Kit](#TODO)
+<!-- 1. [JavaScript Drum Kit](#TODO)
 1. [JS + CSS Clock](#TODO)
 1. [CSS Variables](#TODO)
 1. [Array Cardio Day 1](#TODO)
@@ -140,7 +140,7 @@
 1. [Click and Drag](#TODO)
 1. [Video Speed Controller](#TODO)
 1. [Countdown Timer](#TODO)
-1. [Whack A Mole](#TODO)
+1. [Whack A Mole](#TODO) -->
 
 ## 002 - JavaScript 30源码
-1. [源码下载](#TODO) -->
+<!-- 1. [源码下载](#TODO) -->
