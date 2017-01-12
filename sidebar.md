@@ -4,6 +4,7 @@
 - [微信:liyc1215](http://www.kongyixueyuan.com)
 - [QQ:939442932](http://www.kongyixueyuan.com)
 - [新浪微博](http://weibo.com/mobiledevelopment)
+- [学习视频](http://www.kongyixueyuan.com/course/default/view?friendlyUrl=http%3A%2F%2Fliyuechun.com.cn%2Fcourse%2F2623)
 
 
 ## 版权申明
