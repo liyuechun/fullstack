@@ -12,7 +12,7 @@
 - [学习视频](http://www.kongyixueyuan.com/course/default/view?friendlyUrl=http%3A%2F%2Fliyuechun.com.cn%2Fcourse%2F2623)
 
 ## 一起众创
-- [一起众创](http://yiqizhongchuang.cn)
+- [一起众创](http://yiqizhongchuang.cn/)
 
 -------------
 ## Flex 布局
