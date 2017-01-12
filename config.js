@@ -1,6 +1,6 @@
 var CONFIG = {
   // your website's title
-  document_title: "前端&&后端",
+  document_title: "JavaScript全栈笔记",
 
   // index page
   index: "README.md",
