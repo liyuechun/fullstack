@@ -1,8 +1,6 @@
 # [JavaScript全栈笔记](http://www.kongyixueyuan.com)
 
 - [联系我](#contactme)
-- [学习视频](http://www.kongyixueyuan.com/course/default/view?friendlyUrl=http%3A%2F%2Fliyuechun.com.cn%2Fcourse%2F2623)
-
 
 ## 版权申明
 - [版权申明](#copyright)
@@ -10,7 +8,11 @@
 ## 本书架构
 - [本书架构](#architecture)
 
+## 学习视频
+- [学习视频](http://www.kongyixueyuan.com/course/default/view?friendlyUrl=http%3A%2F%2Fliyuechun.com.cn%2Fcourse%2F2623)
 
+## 一起众创
+- [一起众创](http://yiqizhongchuang.cn)
 -------------
 ## Flex 布局
 -------------
