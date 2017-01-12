@@ -14,6 +14,41 @@
 ## 一起众创
 - [一起众创](http://yiqizhongchuang.cn/)
 
+
+-------------
+## Flex 布局
+-------------
+## 001 - flex介绍
+1. [CSS参考文档](#docs/flex/001-0css_document)
+1. [CSS介绍](#docs/flex/001-1-introduce_to_css)
+1. [flex布局是什么](#docs/flex/001-2-what_is_flex)
+1. [盒子模型](#TODO)
+
+## 002 - 容器属性
+1. [flex-direction](#TODO)
+1. [flex-wrap](#TODO)
+1. [flex-flow](#TODO)
+1. [justify-content](#TODO)
+1. [align-items](#TODO)
+1. [align-content](#TODO)
+
+## 003 - 项目属性
+1. [order](#TODO)
+1. [flex-grow](#TODO)
+1. [flex-shrink](#TODO)
+1. [flex](#TODO)
+1. [align-self](#TODO)
+
+## 004 - 项目
+1. [骰子布局](#TODO)
+1. [单个form的flexbox项目](#TODO)
+1. [价格表项目](#TODO)
+
+
+## 005 - 源码
+1. [DOWNLOAD](http://github.com/liyuechun)
+
+
 -------------
 ## React/Flux/Redux快速入门
 -------------
@@ -73,39 +108,6 @@
 
 
 -------------
-## Flex 布局
--------------
-## 001 - flex介绍
-1. [CSS参考文档](#docs/flex/001-0css_document)
-1. [CSS介绍](#docs/flex/001-1-introduce_to_css)
-1. [flex布局是什么](#docs/flex/001-2-what_is_flex)
-1. [盒子模型](#TODO)
-
-## 002 - 容器属性
-1. [flex-direction](#TODO)
-1. [flex-wrap](#TODO)
-1. [flex-flow](#TODO)
-1. [justify-content](#TODO)
-1. [align-items](#TODO)
-1. [align-content](#TODO)
-
-## 003 - 项目属性
-1. [order](#TODO)
-1. [flex-grow](#TODO)
-1. [flex-shrink](#TODO)
-1. [flex](#TODO)
-1. [align-self](#TODO)
-
-## 004 - 项目
-1. [骰子布局](#TODO)
-1. [单个form的flexbox项目](#TODO)
-1. [价格表项目](#TODO)
-
-
-## 005 - 源码
-1. [DOWNLOAD](http://github.com/liyuechun)
-
--------------
 ## React-Native跨平台
 -------------
 ## 001 - React-Native快速入门
@@ -122,16 +124,47 @@
 1. [Chrome断点跟踪调试](#TODO)
 1. [Atom调试React-Native程序](#TODO)
 
-## 002 - React-Native跨平台CounterApp
+## 002 - CounterApp(跨平台)
 1. [CounterApp基础版](#TODO)
 1. [CounterApp+Flux](#TODO)
 1. [CounterApp+Redux](#TODO)
 
 
-## 003 - React-Native跨平台TodoApp
-1. [CounterApp基础版](#TODO)
-1. [CounterApp+Flux](#TODO)
-1. [CounterApp+Redux](#TODO)
+## 003 - TodoApp基础版(跨平台)
+1. [项目效果图](#TODO)
+1. [项目结构分析](#TODO)
+1. [完成第一个跨平台组建TodoApp](#TODO)
+1. [完成输入框布局](#TODO)
+1. [ListView集成](#TODO)
+1. [ListView初识](#TODO)
+1. [Cell自定义布局](#TODO)
+1. [通过数据动态完成ListView数据展示](#TODO)
+1. [通过数据动态动态展示待办和完成按钮](#TODO)
+1. [给已完成事项内容添加删除线](#TODO)
+1. [创建待办事项](#TODO)
+1. [待办与已处理状态的变更](#TODO)
+1. [任务删除](#TODO)
+1. [计算待办事项](#TODO)
+1. [完成全部已处理](#TODO)
+1. [清楚所有已处理任务](#TODO)
+
+
+## 004 - TodoApp+Flux(跨平台)
+1. [配置flux](#TODO)
+1. [完成 Dispatcher：Flux 最重要的角色](#TODO)
+1. [完成 Actions：集中所有应用行为](#TODO)
+1. [完成 Stores：统一管理业务逻辑和资料](#TODO)
+1. [完成 Controller View：让元件同步资料状态](#TODO)
+1. [引进 Container Pattern：必学的设计模式](#TODO)
+1. [使用 Flux 提供的 Utils](#TODO)
+
+## 005 - TodoApp+Redux(跨平台)
+1. [完成 Reducers：让状态的改变可预测化](#TODO)
+1. [完成 Store：Redux 的重要角色](#TODO)
+1. [修改 Actions：让它们做更简单的事](#TODO)
+1. [加入 Middlewares：动态扩充 dispatch 行为](#TODO)
+1. [让 React 应用连接 Redux 系统](#TODO)
+1. [整合 ImmutableJS](#TODO)
 
 
 -------------
