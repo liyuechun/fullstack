@@ -334,30 +334,30 @@ function router() {
       Prism.highlightElement(this);
     });
 
-      (function(){
-        window.disqus_shortname = 'liyuechun';
-        window.disqus_identifier = (location.hash ? location.hash.replace("#", "") : 'READEME');
-        window.disqus_title = $(ditto.content_id + " h1").text();
-        window.disqus_url = 'http://kongyixueyuan.cn/' + (location.hash ? location.hash.replace("#", "") : 'README');
-        var div = document.createElement('div');
-        div.class = "ds-thread";
-        div.data-thread-key = window.disqus_identifier;
-        div.data-title = window.disqus_title;
-        div.data-url = window.disqus_url;
-        var duoshuoQuery = {short_name: window.disqus_shortname};
-        <script type="text/javascript">
-          (function() {
-            var ds = document.createElement('script');
-            ds.type = 'text/javascript';
-            ds.async = true;
-            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-            ds.charset = 'UTF-8';
-            (document.getElementsByTagName('head')[0]
-             || document.getElementsByTagName('body')[0]).appendChild(ds);
-          })();
-          </script>
-      })();
-
+    //   (function(){
+    //     window.disqus_shortname = 'liyuechun';
+    //     window.disqus_identifier = (location.hash ? location.hash.replace("#", "") : 'READEME');
+    //     window.disqus_title = $(ditto.content_id + " h1").text();
+    //     window.disqus_url = 'http://kongyixueyuan.cn/' + (location.hash ? location.hash.replace("#", "") : 'README');
+    //     var div = document.createElement('div');
+    //     div.class = "ds-thread";
+    //     div.data-thread-key = window.disqus_identifier;
+    //     div.data-title = window.disqus_title;
+    //     div.data-url = window.disqus_url;
+    //     var duoshuoQuery = {short_name: window.disqus_shortname};
+    //     <script type="text/javascript">
+    //       (function() {
+    //         var ds = document.createElement('script');
+    //         ds.type = 'text/javascript';
+    //         ds.async = true;
+    //         ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    //         ds.charset = 'UTF-8';
+    //         (document.getElementsByTagName('head')[0]
+    //          || document.getElementsByTagName('body')[0]).appendChild(ds);
+    //       })();
+    //       </script>
+    //   })();
+    //
     // // 加载disqus
     // (function() {
     //   // http://docs.disqus.com/help/2/
@@ -368,11 +368,13 @@ function router() {
     //
     //   // http://docs.disqus.com/developers/universal/
     //   (function() {
-    //     var dsq = document.createElement('script');
-    //     dsq.type = 'text/javascript';
-    //     dsq.async = true;
-    //     dsq.src = 'http://' + window.disqus_shortname + '.disqus.com/embed.js';
-    //     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    //     var ds = document.createElement('script');
+    //     ds.type = 'text/javascript';
+    //     ds.async = true;
+    //     ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    //     ds.charset = 'UTF-8';
+    //     (document.getElementsByTagName('head')[0]
+    //      || document.getElementsByTagName('body')[0]).appendChild(ds);
     //   })();
     // })();
 
