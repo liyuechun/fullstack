@@ -26,7 +26,7 @@
 <div class="ds-thread" data-thread-key="#README" data-title="kongyixueyuan.cn" data-url="kongyixueyuan.cn"></div>
 
 <script type="text/javascript">
-var duoshuoQuery = {short_name:"liyuechun"};
+	var duoshuoQuery = {short_name:"liyuechun"};
 	(function() {
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;
