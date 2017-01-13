@@ -339,11 +339,11 @@ function router() {
         window.disqus_identifier = (location.hash ? location.hash.replace("#", "") : 'READEME');
         window.disqus_title = $(ditto.content_id + " h1").text();
         window.disqus_url = 'http://kongyixueyuan.cn/' + (location.hash ? location.hash.replace("#", "") : 'README');
-        var _div = document.createElement('div');
-        _div.class = "ds-thread";
-        _div.data-thread-key = window.disqus_identifier;
-        _div.data-title = "disqus_title";
-        _div.data-url = "disqus_url";
+        var div = document.createElement('div');
+        div.class = "ds-thread";
+        div.data-thread-key = window.disqus_identifier;
+        div.data-title = window.disqus_title;
+        div.data-url = window.disqus_url;
         var duoshuoQuery = {short_name: window.disqus_shortname};
         <script type="text/javascript">
           (function() {
