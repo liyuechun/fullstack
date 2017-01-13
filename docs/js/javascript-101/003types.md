@@ -204,7 +204,7 @@ jQuery.isPlainObject( myValue ); // false
 jQuery.isArray( myValue ); // true
 ```
 ### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/003types" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
+<div class="ds-thread" data-thread-key="#docs/js/javascript-101/003types" data-title="kongyixueyuan.cn" data-url="kongyixueyuan.cn"></div>
 
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"liyuechun"};

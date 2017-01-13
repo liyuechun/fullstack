@@ -74,7 +74,7 @@ console.log( title );
 
 
 ### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/001running-code" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
+<div class="ds-thread" data-thread-key="#docs/js/javascript-101/001running-code" data-title="kongyixueyuan.cn" data-url="kongyixueyuan.cn"></div>
 
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"liyuechun"};
