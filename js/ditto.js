@@ -334,6 +334,30 @@ function router() {
       Prism.highlightElement(this);
     });
 
+    (function(){
+
+        window.disqus_shortname = 'liyuechun';
+        window.disqus_identifier = (location.hash ? location.hash.replace("#", "") : 'READEME');
+        window.disqus_title = $(ditto.content_id + " h1").text();
+        window.disqus_url = 'http://kongyixueyuan.cn/' + (location.hash ? location.hash.replace("#", "") : 'README');
+
+
+      <div class="ds-thread" data-thread-key={window.disqus_identifier} data-title={window.disqus_title} data-url={window.disqus_url}></div>
+
+      <script type="text/javascript">
+      var duoshuoQuery = {short_name:window.disqus_shortname};
+        (function() {
+          var ds = document.createElement('script');
+          ds.type = 'text/javascript';ds.async = true;
+          ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+          ds.charset = 'UTF-8';
+          (document.getElementsByTagName('head')[0]
+           || document.getElementsByTagName('body')[0]).appendChild(ds);
+        })();
+        </script>
+
+    })()
+
     // // 加载disqus
     // (function() {
     //   // http://docs.disqus.com/help/2/
