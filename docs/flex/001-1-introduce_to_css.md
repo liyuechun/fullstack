@@ -48,7 +48,7 @@ p {
 ```
 
 ### 留言
-<div class="ds-thread" data-thread-key="#README" data-title="kongyixueyuan.cn" data-url="kongyixueyuan.cn"></div>
+<div class="ds-thread" data-thread-key="#docs/flex/001-1-introduce_to_css" data-title="kongyixueyuan.cn" data-url="kongyixueyuan.cn"></div>
 
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"liyuechun"};
