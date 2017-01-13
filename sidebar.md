@@ -57,7 +57,6 @@
 ## 001 - React基础
 1. [React简易环境安装](#TODO)
 1. [React项目结构](#TODO)
-1. [React项目结构](#TODO)
 1. [使用JSX印出“Hello World！”](#TODO)
 1. [ReactDOM.render()函数](#TODO)
 1. [JSX语法讲解](#TODO)
