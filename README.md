@@ -4,7 +4,7 @@
 [![cover](images/fullstack_course.png)](images/fullstack_course.png)
 
 ## 学习视频
-- [JavaScript全栈工程师学习视频](http://www.kongyixueyuan.com/course/default/view?friendlyUrl=http%3A%2F%2Fliyuechun.com.cn%2Fcourse%2F2623)
+- [JavaScript全栈工程师学习视频](http://kongyixueyuan.com/course/2623)
 
 ## 联系我
 ### 扫一扫加我QQ
