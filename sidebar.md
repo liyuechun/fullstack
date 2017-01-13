@@ -42,9 +42,9 @@
 1. [align-self](#TODO)
 
 ## 004 - 项目
-1. [骰子布局](#TODO)
-1. [单个form的flexbox项目](#TODO)
-1. [价格表项目](#TODO)
+1. [骰子布局](#docs/flex/004-0-dice)
+1. [单个form的flexbox项目](#docs/flex/004-1-flexbox-form)
+1. [价格表项目](#docs/flex/004-2-flexbox-pricing)
 
 
 ## 005 - 源码
