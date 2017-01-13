@@ -342,7 +342,7 @@ function router() {
         window.disqus_url = 'http://kongyixueyuan.cn/' + (location.hash ? location.hash.replace("#", "") : 'README');
 
 
-      <div class="ds-thread" data-thread-key="${window.disqus_identifier}" data-title="${window.disqus_title}" data-url="${window.disqus_url}"></div>
+      <div class="ds-thread" data-thread-key="window.disqus_identifier" data-title="window.disqus_title" data-url="window.disqus_url"></div>
 
       <script type="text/javascript">
       var duoshuoQuery = {short_name:window.disqus_shortname};
