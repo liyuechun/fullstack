@@ -13,7 +13,7 @@ Before we start with describing the flexbox properties let’s give a little int
 
 ### 代码
 
-```HTML
+```CSS
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,7 +65,8 @@ Before we start with describing the flexbox properties let’s give a little int
 
 ## flex-container和flex-item之间的关系
 
-```HTML
+```CSS
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -99,7 +100,6 @@ Before we start with describing the flexbox properties let’s give a little int
 
 </body>
 </html>
-
 ```
 
 ## 效果图解析
