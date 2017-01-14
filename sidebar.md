@@ -27,19 +27,19 @@
 1. [盒子模型](#docs/flex/001-3-box_model)
 
 ## 002 - 容器属性
-1. [flex-direction](#TODO)
-1. [flex-wrap](#TODO)
-1. [flex-flow](#TODO)
-1. [justify-content](#TODO)
-1. [align-items](#TODO)
-1. [align-content](#TODO)
+1. [flex-direction](#docs/flex/002-0-flex-direction)
+1. [flex-wrap](#docs/flex/002-1-flex-wrap)
+1. [flex-flow](#docs/flex/002-2-flex-flow)
+1. [justify-content](#docs/flex/002-3-justify-content)
+1. [align-items](#docs/flex/002-4-align-items)
+1. [align-content](#docs/flex/002-5-align-content)
 
 ## 003 - 项目属性
-1. [order](#TODO)
-1. [flex-grow](#TODO)
-1. [flex-shrink](#TODO)
-1. [flex](#TODO)
-1. [align-self](#TODO)
+1. [order](#docs/flex/003-0-order)
+1. [flex-grow](#docs/flex/003-1-flex-grow)
+1. [flex-shrink](#docs/flex/003-2-flex-shrink)
+1. [flex](#docs/flex/003-3-flex)
+1. [align-self](#docs/flex/003-4-align-self)
 
 ## 004 - 项目
 1. [骰子布局](#docs/flex/004-0-dice)
