@@ -28,7 +28,29 @@ The prime characteristic of the flex container is the ability to modify the widt
 - Android 4.4+
 - iOS 7.1+ (prefixed with -webkit-)
 
-You can see detailed browser support and compatibility [here](http://caniuse.com/#feat=flexbox).
+[查看浏览器支持特性](http://caniuse.com/#feat=flexbox).
+
+
+## flexbox用法
+要想使用 flexbox 布局只需要在父标签设置display属性即可:
+
+```javascript
+.flex-container {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}
+```
+
+如果你希望你的子元素能够使用flexbox布局，你可以这样写：
+
+```javascript
+.flex-container {
+  display: -webkit-inline-flex; /* Safari */
+  display: inline-flex;
+}
+```
+
+`Note`:这是让container能够使用flexbox布局的唯一属性，它能够让所有的子视图立刻变成flex items。
 
 
 ### 留言
