@@ -20,11 +20,28 @@ The prime characteristic of the flex container is the ability to modify the widt
 
 ## 最新的flexbox支持的浏览器
 
-Chrome 29+
-Firefox 28+
-Internet Explorer 11+
-Opera 17+
-Safari 6.1+ (prefixed with -webkit-)
-Android 4.4+
-iOS 7.1+ (prefixed with -webkit-)
+- Chrome 29+
+- Firefox 28+
+- Internet Explorer 11+
+- Opera 17+
+- Safari 6.1+ (prefixed with -webkit-)
+- Android 4.4+
+- iOS 7.1+ (prefixed with -webkit-)
+
 You can see detailed browser support and compatibility [here](http://caniuse.com/#feat=flexbox).
+
+
+### 留言
+<div class="ds-thread" data-thread-key="#docs/flex/001-2-what_is_flex" data-title="kongyixueyuan.cn" data-url="kongyixueyuan.cn"></div>
+
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"liyuechun"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0]
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
