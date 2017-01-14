@@ -38,8 +38,9 @@
 1. [order](#docs/flex/003-0-order)
 1. [flex-grow](#docs/flex/003-1-flex-grow)
 1. [flex-shrink](#docs/flex/003-2-flex-shrink)
-1. [flex](#docs/flex/003-3-flex)
-1. [align-self](#docs/flex/003-4-align-self)
+1. [flex](#docs/flex/003-4-flex-basis)
+1. [flex](#docs/flex/003-4-flex)
+1. [align-self](#docs/flex/003-5-align-self)
 
 ## 004 - 项目
 1. [骰子布局](#docs/flex/004-0-dice)
