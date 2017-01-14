@@ -38,7 +38,7 @@
 1. [order](#docs/flex/003-0-order)
 1. [flex-grow](#docs/flex/003-1-flex-grow)
 1. [flex-shrink](#docs/flex/003-2-flex-shrink)
-1. [flex-basis](#docs/flex/003-4-flex-basis)
+1. [flex-basis](#docs/flex/003-3-flex-basis)
 1. [flex](#docs/flex/003-4-flex)
 1. [align-self](#docs/flex/003-5-align-self)
 
