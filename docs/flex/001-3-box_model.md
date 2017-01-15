@@ -61,7 +61,7 @@ Before we start with describing the flexbox properties let’s give a little int
 盒子的高度 = 效果图中蓝色边框的高度
 
 ### 标准的盒子模型结构图
-[![cover](http://ojp7xe8x3.bkt.clouddn.com/biaozhunboxmodel.png)](http://ojp7xe8x3.bkt.clouddn.com/biaozhunboxmodel.png)
+[![cover](http://ojp7xe8x3.bkt.clouddn.com/box-model.png)](http://ojp7xe8x3.bkt.clouddn.com/box-model.png)
 
 ## flex-container和flex-item之间的关系
 
