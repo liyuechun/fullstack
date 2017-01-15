@@ -1,7 +1,5 @@
 # 盒子模型
 
-Before we start with describing the flexbox properties let’s give a little introduction of the flexbox model. The flex layout is constituted of parent container referred as flex container and its immediate children which are called flex items.
-
 在我们开始学习flexbox相关属性之前，我们先介绍一下flexbox model。
 ## 类和对象的类比
 类：它是抽象的概念，比如`div`，`p`，`span`，`input`等等标签
