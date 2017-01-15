@@ -1,5 +1,10 @@
 # CSS介绍
 
+## 参考文档
+- [http://www.css88.com/book/css/](http://www.css88.com/book/css/)
+- [http://www.w3school.com.cn/css3/index.asp](http://www.w3school.com.cn/css3/index.asp)
+- [http://www.runoob.com](http://www.runoob.com)
+
 ## 什么是层叠样式表
 CSS是Cascading Style Sheet（层叠样式表）的缩写。是用于（增强）控制网页样式并允许将样式信息与网页内容分离的一种标记性语言。
 
