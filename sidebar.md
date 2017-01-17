@@ -55,62 +55,70 @@
 -------------
 ## React/Flux/Redux快速入门
 -------------
-## 001 - TodoApp项目效果图
-1. [README](#docs/todoApp/todoApp)
+- [README](#docs/todoApp/todoApp)
 
-## 002 - React基础
-1. [Level 01. React简易环境安装](#TODO)
-1. [Level 02. React项目结构](#TODO)
-1. [Level 03. 使用JSX印出“Hello World！”](#TODO)
-1. [Level 04. ReactDOM.render()函数](#TODO)
-1. [Level 05. JSX语法讲解](#TODO)
-1. [Level 06. map函数](#TODO)
-1. [Level 07. 使用ES5创建第一个组建](#TODO)
-1. [Level 08. ES5和ES6创建组建代码对比](#TODO)
-1. [Level 09. 对象的导入导出](#TODO)
-1. [Level 10. 组建和props之间的关系](#TODO)
-1. [Level 11. 给属性设置默认值](#TODO)
-1. [Level 12. 给属性设置类型](#TODO)
-1. [Level 13. 状态机State](#TODO)
-1. [Level 14. 组建的生命周期](#TODO)
+## 章节一. React基础快入入门
+- [Level 01. React简易环境安装](#TODO)
+- [Level 02. React项目结构](#TODO)
+- [Level 03. 使用JSX印出“Hello World！”](#TODO)
+- [Level 04. ReactDOM.render()函数](#TODO)
+- [Level 05. JSX语法讲解](#TODO)
+- [Level 06. map函数](#TODO)
+- [Level 07. 使用ES5创建第一个组建](#TODO)
+- [Level 08. ES5和ES6创建组建代码对比](#TODO)
+- [Level 09. 对象的导入导出](#TODO)
+- [Level 10. 组建和props之间的关系](#TODO)
+- [Level 11. 给属性设置默认值](#TODO)
+- [Level 12. 给属性设置类型](#TODO)
+- [Level 13. 状态机State](#TODO)
+- [Level 14. 组建的生命周期](#TODO)
 
-## 003 - 从模仿开始，完成第一个TodoApp应用
-1. [Level 15. 用元件思维设计应用程序](#TODO)
-1. [Level 16. 快速建立简易的开发环境](#TODO)
-1. [Level 17. 完成第一个React元件](#TODO)
-1. [Level 18. 组合多个React元件](#TODO)
-1. [Level 19. 使用props传递元件参数](#TODO)
-1. [Level 20. 培养好习惯，设计防呆的React元件](#TODO)
-1. [Level 21. 动态生成多个React元件](#TODO)
-1. [Level 22. 管理React元件的内部状态](#TODO)
-1. [Level 23. 使用React表单元件](#TODO)
-1. [Level 24. 理解React元件的生命周期](#TODO)
+## 章节二. 从模仿开始，完成第一個 React 应用 TodoApp
+- [Level 15. 用元件思维设计应用程序](#TODO)
+- [Level 16. 快速建立简易的开发环境](#TODO)
+- [Level 17. 完成第一个React元件](#TODO)
+- [Level 18. 组合多个React元件](#TODO)
+- [Level 19. 使用props传递元件参数](#TODO)
+- [Level 20. 培养好习惯，设计防呆的React元件](#TODO)
+- [Level 21. 动态生成多个React元件](#TODO)
+- [Level 22. 管理React元件的内部状态](#TODO)
+- [Level 23. 使用React表单元件](#TODO)
+- [Level 24. 理解React元件的生命周期](#TODO)
 
-## 004 - 往实战再迈向一步，完成React + Flux应用
-1. [Level 25. 深入浅出Flux](#TODO)
-1. [Level 26. 完成 Dispatcher：Flux 最重要的角色](#TODO)
-1. [Level 27. 完成 Actions：集中所有应用行为](#TODO)
-1. [Level 28. 完成 Stores：统一管理业务逻辑和资料](#TODO)
-1. [Level 29. 完成 Controller View：让元件同步资料状态](#TODO)
-1. [Level 30. 引进 Container Pattern：必学的设计模式](#TODO)
-1. [Level 31. 使用 Flux 提供的 Utils](#TODO)
-
-
-## 005 - 完成业界最夯实的React + Redux应用
-1. [Level 32. 深入浅出 Redux](#TODO)
-1. [Level 33. 完成 Reducers：让状态的改变可预测化](#TODO)
-1. [Level 34. 完成 Store：Redux 的重要角色](#TODO)
-1. [Level 35. 修改 Actions：让它们做更简单的事](#TODO)
-1. [Level 36. 加入 Middlewares：动态扩充 dispatch 行为](#TODO)
-1. [Level 37. 让 React 应用连接 Redux 系统](#TODO)
-1. [Level 38. 整合 ImmutableJS](#TODO)
+## 章节三. 往实战再向一步，完成 React + Flux 的应用
+- [Level 25. 深入浅出Flux](#TODO)
+- [Level 26. 完成 Dispatcher：Flux 最重要的角色](#TODO)
+- [Level 27. 完成 Actions：集中所有应用行为](#TODO)
+- [Level 28. 完成 Stores：统一管理业务逻辑和资料](#TODO)
+- [Level 29. 完成 Controller View：让元件同步资料状态](#TODO)
+- [Level 30. 引进 Container Pattern：必学的设计模式](#TODO)
+- [Level 31. 使用 Flux 提供的 Utils](#TODO)
 
 
-## 006 - Flux版本的CounterApp
-1. [Level 38. 基础版本CounterApp](#TODO)
-1. [Level 40. Flux版本CounterApp](#TODO)
-1. [Level 41. Redux版本CounterApp](#TODO)
+## 章节四. 完成业界最夯的 React + Redux 的应用
+- [Level 32. 深入浅出 Redux](#TODO)
+- [Level 33. 完成 Reducers：让状态的改变可预测化](#TODO)
+- [Level 34. 完成 Store：Redux 的重要角色](#TODO)
+- [Level 35. 修改 Actions：让它们做更简单的事](#TODO)
+- [Level 36. 加入 Middlewares：动态扩充 dispatch 行为](#TODO)
+- [Level 37. 让 React 应用连接 Redux 系统](#TODO)
+- [Level 38. 整合 ImmutableJS](#TODO)
 
+
+## 章节五. 基础班+Flux+Redux版本CounterApp
+- [Level 38. 基础版本CounterApp](#TODO)
+- [Level 40. Flux版本CounterApp](#TODO)
+- [Level 41. Redux版本CounterApp](#TODO)
+
+
+## 章节六. React / ES6 / Webpack的使用
+
+- [Level 43. React and ES6 - Part 1, Introduction into ES6 and React](http://egorsmirnov.me/2015/05/22/react-and-es6-part1.html)  
+- [Level 44. React and ES6 - Part 2, React Classes and ES7 Property Initializers](http://egorsmirnov.me/2015/06/14/react-and-es6-part2.html)
+- [Level 45. React and ES6 - Part 3, Binding to methods of React class (ES7 included)](http://egorsmirnov.me/2015/08/16/react-and-es6-part3.html)
+- [Level 46. React and ES6 - Part 4, React Mixins when using ES6 and React](http://egorsmirnov.me/2015/09/30/react-and-es6-part4.html)
+- [Level 47. React and ES6 - Part 5, React and ES6 Workflow with JSPM](http://egorsmirnov.me/2015/10/11/react-and-es6-part5.html)
+- [Level 48. React and ES6 - Part 6, React and ES6 Workflow with Webpack](http://egorsmirnov.me/2016/04/11/react-and-es6-part6.html)
 
 -------------
 ## React-Native跨平台
