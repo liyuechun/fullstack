@@ -20,13 +20,15 @@
 -------------
 ## Flex 布局
 -------------
-## 001 - flex介绍
+- [源码下载](https://github.com/yiqizhongchuang/flexbox)
+
+## 章节一. flex介绍
 - [Level 01. CSS介绍](#docs/flex/001-1-introduce_to_css)
 - [Level 02. 盒子模型](#docs/flex/001-3-box_model)
 - [Level 03. flex布局是什么](#docs/flex/001-2-what_is_flex)
 
 
-## 002 - 容器属性
+## 章节二. 容器属性
 - [Level 04. flex-direction](#docs/flex/002-0-flex-direction)
 - [Level 05. flex-wrap](#docs/flex/002-1-flex-wrap)
 - [Level 06. flex-flow](#docs/flex/002-2-flex-flow)
@@ -34,7 +36,7 @@
 - [Level 08. align-items](#docs/flex/002-4-align-items)
 - [Level 09. align-content](#docs/flex/002-5-align-content)
 
-## 003 - 项目属性
+## 章节三. 项目属性
 - [Level 10. order](#docs/flex/003-0-order)
 - [Level 11. flex-grow](#docs/flex/003-1-flex-grow)
 - [Level 12. flex-shrink](#docs/flex/003-2-flex-shrink)
@@ -42,15 +44,10 @@
 - [Level 14. flex](#docs/flex/003-4-flex)
 - [Level 15. align-self](#docs/flex/003-5-align-self)
 
-## 004 - 项目
+## 章节四. 项目
 - [Level 16. 骰子布局](#docs/flex/004-0-dice)
 - [Level 17. 单个form的flexbox项目](#docs/flex/004-1-flexbox-form)
 - [Level 18. 价格表项目](#docs/flex/004-2-flexbox-pricing)
-
-
-## 005 - 源码
-- [DOWNLOAD](https://github.com/yiqizhongchuang/flexbox)
-
 
 -------------
 ## React/Flux/Redux快速入门
