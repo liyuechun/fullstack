@@ -112,7 +112,7 @@
 - [Level 41. Redux版本CounterApp](#TODO)
 
 
-## 章节六. React / ES6 / Webpack的使用参考文档
+## 章节六. React / ES6 / Webpack参考文档
 
 - [Level 43. React and ES6 - Part 1, Introduction into ES6 and React](http://egorsmirnov.me/2015/05/22/react-and-es6-part1.html)  
 - [Level 44. React and ES6 - Part 2, React Classes and ES7 Property Initializers](http://egorsmirnov.me/2015/06/14/react-and-es6-part2.html)
