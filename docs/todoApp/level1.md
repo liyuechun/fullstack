@@ -29,7 +29,7 @@
 
 ## :triangular_flag_on_post: 主线任务
 
-### 1. 环境配置
+### 1. nodejs安装
 
 下方列出三种安裝方法，挑一个适合你的吧：
 
@@ -41,12 +41,12 @@
   1. 使用 `$ brew install nvm` 安装 NVM，再使用 NVM 下載 Node.js
   2. 使用 `$ brew install node` 直接安裝 Node.js
 
-4. 安装 `create-react-app` 全局命令:直接打开终端，终端输入 `sudo npm install -g create-react-app`安装即可。
+> :bowtie:：偷偷跟你讲，春哥选择的是第三种！：）
 
+### 2. `create-react-app`命令安装
+安装 `create-react-app` 全局命令:直接打开终端，终端输入 `sudo npm install -g create-react-app`安装即可。
 
-> :bowtie:：偷偷跟你讲，春哥选择的是第二种！：）
-
-### 2. 项目初始化
+### 3. 项目初始化
 
 1. 到常用的目录下（如：documents/workspace、desktop）
 2. 通过 `create-react-app` 命令创建项目
