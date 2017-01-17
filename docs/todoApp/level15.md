@@ -1,4 +1,4 @@
-# Level 1. 用元件思维设计应用程序
+# Level 15. 用元件思维设计应用程序
 
 欢迎来到「24小时，React+Flux+Redux快速入门」系列教学 :mortar_board: Level 15 ～！
 > :bowtie:：Wish you have a happy learning!
