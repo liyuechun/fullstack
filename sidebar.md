@@ -50,7 +50,7 @@
 - [Level 18. 价格表项目](#docs/flex/004-2-flexbox-pricing)
 
 -------------
-## React/Flux/Redux快速入门
+## 24小时，React+Flux+Redux快速入门
 -------------
 - [README](#docs/todoApp/README)
 - [源码下载](http://github.com/liyuechun)
