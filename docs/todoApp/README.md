@@ -32,7 +32,7 @@
 #### 章节二. 从模仿开始，完成第一個 React 应用 TodoApp
 
 - [Level 15. 用元件思维设计应用程序](#level1)  
-- [Level 16. 搭建简易的开发环境](#level1)  
+- [Level 16. 项目初始化和项目裁剪](#level1)  
 - [Level 17. 使用 JSX 印出 hello, world](#level1)  
 - [Level 18. 完成第一个 React 元件](#level1)  
 - [Level 19. 组合多个 React 元件](#level1)  

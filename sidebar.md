@@ -73,7 +73,7 @@
 
 ## 章节二. 从模仿开始，完成第一個 React 应用 TodoApp
 - [Level 15. 用元件思维设计应用程序](#docs/todoApp/level15)
-- [Level 16. 快速建立简易的开发环境](#TODO)
+- [Level 16. 项目初始化和项目裁剪](#TODO)
 - [Level 17. 完成第一个React元件](#TODO)
 - [Level 18. 组合多个React元件](#TODO)
 - [Level 19. 使用props传递元件参数](#TODO)
