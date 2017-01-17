@@ -44,24 +44,24 @@
 - [Level 24. 使用 React 表单元件](#level1)  
 - [Level 25. 理解 React 元件的生命週期](#level1)  
 
-#### 章節二. 往實戰再邁向一步，完成 React + Flux 的應用
+#### 章节二. 往实战再向一步，完成 React + Flux 的应用
 
-- [Level 26. 深入淺出 Flux](#level1)  
+- [Level 26. 深入浅出 Flux](#level1)  
 - [Level 27. 完成 Dispatcher：Flux 最重要的角色](#level1)  
-- [Level 28. 完成 Actions：集中所有應用行為](#level1)  
-- [Level 29. 完成 Stores：統一管理業務邏輯和資料](#level1)  
-- [Level 30. 完成 Controller View：讓元件同步資料狀態](#level1)  
-- [Level 31. 引進 Container Pattern：必學的設計模式](#level1)  
+- [Level 28. 完成 Actions：集中所有应用行为](#level1)  
+- [Level 29. 完成 Stores：统一管理业务逻辑和资料](#level1)  
+- [Level 30. 完成 Controller View：让元件同步资料状态](#level1)  
+- [Level 31. 引进 Container Pattern：必学的设计模式](#level1)  
 - [Level 32. 使用 Flux 提供的 Utils](#level1)  
 
-#### 章節三. 完成業界最夯的 React + Redux 的應用
+#### 章节三. 完成业界最夯的 React + Redux 的应用
 
-- [Level 33. 深入淺出 Redux](#level1)  
-- [Level 34. 完成 Reducers：讓狀態的改變可預測化](#level1)  
+- [Level 33. 深入浅出 Redux](#level1)  
+- [Level 34. 完成 Reducers：让状态的改变可预测化](#level1)  
 - [Level 35. 完成 Store：Redux 的重要角色](#level1)  
-- [Level 36. 修改 Actions：讓它們做更簡單的事](#level1)  
-- [Level 37. 加入 Middlewares：動態擴充 dispatch 行為](#level1)  
-- [Level 38. 讓 React 應用連結 Redux 系統](#level1)  
+- [Level 36. 修改 Actions：让它们做更简单的事](#level1)  
+- [Level 37. 加入 Middlewares：动态扩充 dispatch 行为](#level1)  
+- [Level 38. 让 React 应用 Redux 系統](#level1)  
 - [Level 39. 整合 ImmutableJS](#level1)  
 
 
@@ -71,7 +71,7 @@
 - [Level 42. Redux版本CounterApp](#TODO)
 
 
-#### 章节四. React / ES6 / Webpack的使用
+#### 章节五. React / ES6 / Webpack的使用
 
 - [Level 43. React and ES6 - Part 1, Introduction into ES6 and React](http://egorsmirnov.me/2015/05/22/react-and-es6-part1.html)  
 - [Level 44. React and ES6 - Part 2, React Classes and ES7 Property Initializers](http://egorsmirnov.me/2015/06/14/react-and-es6-part2.html)
@@ -80,6 +80,6 @@
 - [Level 47. React and ES6 - Part 5, React and ES6 Workflow with JSPM](http://egorsmirnov.me/2015/10/11/react-and-es6-part5.html)
 - [Level 48. React and ES6 - Part 6, React and ES6 Workflow with Webpack](http://egorsmirnov.me/2016/04/11/react-and-es6-part6.html)
 
-## :rocket: 开始冒险吧 :flashlight:
+## 开始冒险吧
 
 ｜ [Level 01. React简易环境安装](#level1) ｜

@@ -21,35 +21,35 @@
 ## Flex 布局
 -------------
 ## 001 - flex介绍
-1. [CSS介绍](#docs/flex/001-1-introduce_to_css)
-1. [盒子模型](#docs/flex/001-3-box_model)
-1. [flex布局是什么](#docs/flex/001-2-what_is_flex)
+- [Level 01. CSS介绍](#docs/flex/001-1-introduce_to_css)
+- [Level 02. 盒子模型](#docs/flex/001-3-box_model)
+- [Level 03. flex布局是什么](#docs/flex/001-2-what_is_flex)
 
 
 ## 002 - 容器属性
-1. [flex-direction](#docs/flex/002-0-flex-direction)
-1. [flex-wrap](#docs/flex/002-1-flex-wrap)
-1. [flex-flow](#docs/flex/002-2-flex-flow)
-1. [justify-content](#docs/flex/002-3-justify-content)
-1. [align-items](#docs/flex/002-4-align-items)
-1. [align-content](#docs/flex/002-5-align-content)
+- [Level 04. flex-direction](#docs/flex/002-0-flex-direction)
+- [Level 05. flex-wrap](#docs/flex/002-1-flex-wrap)
+- [Level 06. flex-flow](#docs/flex/002-2-flex-flow)
+- [Level 07. justify-content](#docs/flex/002-3-justify-content)
+- [Level 08. align-items](#docs/flex/002-4-align-items)
+- [Level 09. align-content](#docs/flex/002-5-align-content)
 
 ## 003 - 项目属性
-1. [order](#docs/flex/003-0-order)
-1. [flex-grow](#docs/flex/003-1-flex-grow)
-1. [flex-shrink](#docs/flex/003-2-flex-shrink)
-1. [flex-basis](#docs/flex/003-3-flex-basis)
-1. [flex](#docs/flex/003-4-flex)
-1. [align-self](#docs/flex/003-5-align-self)
+- [Level 10. order](#docs/flex/003-0-order)
+- [Level 11. flex-grow](#docs/flex/003-1-flex-grow)
+- [Level 12. flex-shrink](#docs/flex/003-2-flex-shrink)
+- [Level 13. flex-basis](#docs/flex/003-3-flex-basis)
+- [Level 14. flex](#docs/flex/003-4-flex)
+- [Level 15. align-self](#docs/flex/003-5-align-self)
 
 ## 004 - 项目
-1. [骰子布局](#docs/flex/004-0-dice)
-1. [单个form的flexbox项目](#docs/flex/004-1-flexbox-form)
-1. [价格表项目](#docs/flex/004-2-flexbox-pricing)
+- [Level 16. 骰子布局](#docs/flex/004-0-dice)
+- [Level 17. 单个form的flexbox项目](#docs/flex/004-1-flexbox-form)
+- [Level 18. 价格表项目](#docs/flex/004-2-flexbox-pricing)
 
 
 ## 005 - 源码
-1. [DOWNLOAD](https://github.com/yiqizhongchuang/flexbox)
+- [DOWNLOAD](https://github.com/yiqizhongchuang/flexbox)
 
 
 -------------
@@ -59,57 +59,57 @@
 1. [README](#docs/todoApp/todoApp)
 
 ## 002 - React基础
-1. [React简易环境安装](#TODO)
-1. [React项目结构](#TODO)
-1. [使用JSX印出“Hello World！”](#TODO)
-1. [ReactDOM.render()函数](#TODO)
-1. [JSX语法讲解](#TODO)
-1. [map函数](#TODO)
-1. [使用ES5创建第一个组建](#TODO)
-1. [ES5和ES6创建组建代码对比](#TODO)
-1. [对象的导入导出](#TODO)
-1. [组建和props之间的关系](#TODO)
-1. [给属性设置默认值](#TODO)
-1. [给属性设置类型](#TODO)
-1. [状态机State](#TODO)
-1. [组建的生命周期](#TODO)
+1. [Level 01. React简易环境安装](#TODO)
+1. [Level 02. React项目结构](#TODO)
+1. [Level 03. 使用JSX印出“Hello World！”](#TODO)
+1. [Level 04. ReactDOM.render()函数](#TODO)
+1. [Level 05. JSX语法讲解](#TODO)
+1. [Level 06. map函数](#TODO)
+1. [Level 07. 使用ES5创建第一个组建](#TODO)
+1. [Level 08. ES5和ES6创建组建代码对比](#TODO)
+1. [Level 09. 对象的导入导出](#TODO)
+1. [Level 10. 组建和props之间的关系](#TODO)
+1. [Level 11. 给属性设置默认值](#TODO)
+1. [Level 12. 给属性设置类型](#TODO)
+1. [Level 13. 状态机State](#TODO)
+1. [Level 14. 组建的生命周期](#TODO)
 
 ## 003 - 从模仿开始，完成第一个TodoApp应用
-1. [用元件思维设计应用程序](#TODO)
-1. [快速建立简易的开发环境](#TODO)
-1. [完成第一个React元件](#TODO)
-1. [组合多个React元件](#TODO)
-1. [使用props传递元件参数](#TODO)
-1. [培养好习惯，设计防呆的React元件](#TODO)
-1. [动态生成多个React元件](#TODO)
-1. [管理React元件的内部状态](#TODO)
-1. [使用React表单元件](#TODO)
-1. [理解React元件的生命周期](#TODO)
+1. [Level 15. 用元件思维设计应用程序](#TODO)
+1. [Level 16. 快速建立简易的开发环境](#TODO)
+1. [Level 17. 完成第一个React元件](#TODO)
+1. [Level 18. 组合多个React元件](#TODO)
+1. [Level 19. 使用props传递元件参数](#TODO)
+1. [Level 20. 培养好习惯，设计防呆的React元件](#TODO)
+1. [Level 21. 动态生成多个React元件](#TODO)
+1. [Level 22. 管理React元件的内部状态](#TODO)
+1. [Level 23. 使用React表单元件](#TODO)
+1. [Level 24. 理解React元件的生命周期](#TODO)
 
 ## 004 - 往实战再迈向一步，完成React + Flux应用
-1. [深入浅出Flux](#TODO)
-1. [完成 Dispatcher：Flux 最重要的角色](#TODO)
-1. [完成 Actions：集中所有应用行为](#TODO)
-1. [完成 Stores：统一管理业务逻辑和资料](#TODO)
-1. [完成 Controller View：让元件同步资料状态](#TODO)
-1. [引进 Container Pattern：必学的设计模式](#TODO)
-1. [使用 Flux 提供的 Utils](#TODO)
+1. [Level 25. 深入浅出Flux](#TODO)
+1. [Level 26. 完成 Dispatcher：Flux 最重要的角色](#TODO)
+1. [Level 27. 完成 Actions：集中所有应用行为](#TODO)
+1. [Level 28. 完成 Stores：统一管理业务逻辑和资料](#TODO)
+1. [Level 29. 完成 Controller View：让元件同步资料状态](#TODO)
+1. [Level 30. 引进 Container Pattern：必学的设计模式](#TODO)
+1. [Level 31. 使用 Flux 提供的 Utils](#TODO)
 
 
 ## 005 - 完成业界最夯实的React + Redux应用
-1. [深入浅出 Redux](#TODO)
-1. [完成 Reducers：让状态的改变可预测化](#TODO)
-1. [完成 Store：Redux 的重要角色](#TODO)
-1. [修改 Actions：让它们做更简单的事](#TODO)
-1. [加入 Middlewares：动态扩充 dispatch 行为](#TODO)
-1. [让 React 应用连接 Redux 系统](#TODO)
-1. [整合 ImmutableJS](#TODO)
+1. [Level 32. 深入浅出 Redux](#TODO)
+1. [Level 33. 完成 Reducers：让状态的改变可预测化](#TODO)
+1. [Level 34. 完成 Store：Redux 的重要角色](#TODO)
+1. [Level 35. 修改 Actions：让它们做更简单的事](#TODO)
+1. [Level 36. 加入 Middlewares：动态扩充 dispatch 行为](#TODO)
+1. [Level 37. 让 React 应用连接 Redux 系统](#TODO)
+1. [Level 38. 整合 ImmutableJS](#TODO)
 
 
 ## 006 - Flux版本的CounterApp
-1. [基础版本CounterApp](#TODO)
-1. [Flux版本CounterApp](#TODO)
-1. [Redux版本CounterApp](#TODO)
+1. [Level 38. 基础版本CounterApp](#TODO)
+1. [Level 40. Flux版本CounterApp](#TODO)
+1. [Level 41. Redux版本CounterApp](#TODO)
 
 
 -------------
