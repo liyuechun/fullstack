@@ -69,44 +69,45 @@
 - [Level 11. 给属性设置默认值](#TODO)
 - [Level 12. 给属性设置类型](#TODO)
 - [Level 13. 状态机State](#TODO)
-- [Level 14. 组建的生命周期](#TODO)
+- [Level 14. this && 箭头函数](#TODO)
+- [Level 15. 组建的生命周期](#TODO)
 
 ## 章节二. 从模仿开始，完成第一個 React 应用 TodoApp
-- [Level 15. 用元件思维设计应用程序](#docs/todoApp/level15)
-- [Level 16. 项目初始化和项目裁剪](#TODO)
-- [Level 17. 完成第一个React元件](#TODO)
-- [Level 18. 组合多个React元件](#TODO)
-- [Level 19. 使用props传递元件参数](#TODO)
-- [Level 20. 培养好习惯，设计防呆的React元件](#TODO)
-- [Level 21. 动态生成多个React元件](#TODO)
-- [Level 22. 管理React元件的内部状态](#TODO)
-- [Level 23. 使用React表单元件](#TODO)
-- [Level 24. 理解React元件的生命周期](#TODO)
+- [Level 16. 用元件思维设计应用程序](#docs/todoApp/level15)
+- [Level 17. 项目初始化和项目裁剪](#TODO)
+- [Level 18. 完成第一个React元件](#TODO)
+- [Level 19. 组合多个React元件](#TODO)
+- [Level 20. 使用props传递元件参数](#TODO)
+- [Level 21. 培养好习惯，设计防呆的React元件](#TODO)
+- [Level 22. 动态生成多个React元件](#TODO)
+- [Level 23. 管理React元件的内部状态](#TODO)
+- [Level 24. 使用React表单元件](#TODO)
+- [Level 25. 理解React元件的生命周期](#TODO)
 
 ## 章节三. 往实战再向一步，完成 React + Flux 的应用
-- [Level 25. 深入浅出Flux](#TODO)
-- [Level 26. 完成 Dispatcher：Flux 最重要的角色](#TODO)
-- [Level 27. 完成 Actions：集中所有应用行为](#TODO)
-- [Level 28. 完成 Stores：统一管理业务逻辑和资料](#TODO)
-- [Level 29. 完成 Controller View：让元件同步资料状态](#TODO)
-- [Level 30. 引进 Container Pattern：必学的设计模式](#TODO)
-- [Level 31. 使用 Flux 提供的 Utils](#TODO)
+- [Level 26. 深入浅出Flux](#TODO)
+- [Level 27. 完成 Dispatcher：Flux 最重要的角色](#TODO)
+- [Level 28. 完成 Actions：集中所有应用行为](#TODO)
+- [Level 29. 完成 Stores：统一管理业务逻辑和资料](#TODO)
+- [Level 30. 完成 Controller View：让元件同步资料状态](#TODO)
+- [Level 31. 引进 Container Pattern：必学的设计模式](#TODO)
+- [Level 32. 使用 Flux 提供的 Utils](#TODO)
 
 
 ## 章节四. 完成业界最夯的 React + Redux 的应用
-- [Level 32. 深入浅出 Redux](#TODO)
-- [Level 33. 完成 Reducers：让状态的改变可预测化](#TODO)
-- [Level 34. 完成 Store：Redux 的重要角色](#TODO)
-- [Level 35. 修改 Actions：让它们做更简单的事](#TODO)
-- [Level 36. 加入 Middlewares：动态扩充 dispatch 行为](#TODO)
-- [Level 37. 让 React 应用连接 Redux 系统](#TODO)
-- [Level 38. 整合 ImmutableJS](#TODO)
+- [Level 33. 深入浅出 Redux](#TODO)
+- [Level 34. 完成 Reducers：让状态的改变可预测化](#TODO)
+- [Level 35. 完成 Store：Redux 的重要角色](#TODO)
+- [Level 36. 修改 Actions：让它们做更简单的事](#TODO)
+- [Level 37. 加入 Middlewares：动态扩充 dispatch 行为](#TODO)
+- [Level 38. 让 React 应用连接 Redux 系统](#TODO)
+- [Level 39. 整合 ImmutableJS](#TODO)
 
 
 ## 章节五. 完成基础版+Flux+Redux版本CounterApp
-- [Level 38. 基础版本CounterApp](#TODO)
-- [Level 40. Flux版本CounterApp](#TODO)
-- [Level 41. Redux版本CounterApp](#TODO)
+- [Level 40. 基础版本CounterApp](#TODO)
+- [Level 41. Flux版本CounterApp](#TODO)
+- [Level 42. Redux版本CounterApp](#TODO)
 
 
 ## 章节六. React / ES6 / Webpack参考文档
