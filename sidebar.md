@@ -55,7 +55,7 @@
 -------------
 ## React/Flux/Redux快速入门
 -------------
-- [README](#docs/todoApp/todoApp)
+- [README](#docs/todoApp/README)
 - [源码下载](http://github.com/liyuechun)
 
 ## 章节一. React基础快入入门
