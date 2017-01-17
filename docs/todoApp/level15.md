@@ -31,7 +31,7 @@
 
 ### 2. 使用元件思维，设计 TodoApp
 
-> :neckbeard:：骚年，我看你天资聪颖，是万中选一的前端人，我这有..[视频密集](http://www.kongyixueyuan.com)，替你打通元件思维的任督二脉，你斟酌看看 :lollipop:
+> :neckbeard:：骚年，我看你天资聪颖，是万中选一的前端人，我这有..[武功秘笈](http://www.kongyixueyuan.com)，替你打通元件思维的任督二脉，你斟酌看看 :lollipop:
 
 将上一步的 UI 割分成多个元件，并且替它们取上名称：
 
