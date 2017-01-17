@@ -1,8 +1,7 @@
 # 24小时，React+Flux+Redux快速入门
-> Wish you have a happy learning!
 
 
-## 在這趟旅程中，你可以學到
+## 在这趟旅程中，你可以学到
 
 1. React
 2. Flux
@@ -12,7 +11,7 @@
 6. Webpack
 
 
-## 教学关卡
+## 学习关卡
 #### 章节一. React基础快入入门
 
 - [Level 01. React简易环境安装](#level1)
