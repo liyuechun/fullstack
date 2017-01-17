@@ -112,7 +112,7 @@
 - [Level 41. Redux版本CounterApp](#TODO)
 
 
-## 章节六. React / ES6 / Webpack的使用
+## 章节六. React / ES6 / Webpack的使用参考文档
 
 - [Level 43. React and ES6 - Part 1, Introduction into ES6 and React](http://egorsmirnov.me/2015/05/22/react-and-es6-part1.html)  
 - [Level 44. React and ES6 - Part 2, React Classes and ES7 Property Initializers](http://egorsmirnov.me/2015/06/14/react-and-es6-part2.html)
@@ -319,6 +319,8 @@
 1. [闭包](#docs/js/javascript-101/014closures)
 
 
+
+<!--
 ## 003 - JavaScript 中级
 
 
@@ -328,7 +330,7 @@
 -------------
 ## ECMAScript 2015 特性
 -------------
-<!-- https://github.com/lukehoban/es6features#enhanced-object-literals -->
+https://github.com/lukehoban/es6features#enhanced-object-literals
 ## 001 - 特性
 1. [arrows](#TODO)
 1. [classes](#TODO)
@@ -391,3 +393,4 @@
 
 ## 002 - JavaScript 30源码
 1. [源码下载](#TODO)
+-->
