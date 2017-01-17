@@ -12,7 +12,7 @@
 
 
 ## 学习关卡
-#### 章节一. React基础快入入门
+#### 章节一. React基础快速入门
 
 - [Level 01. React简易环境安装](#level1)
 - [Level 02. React项目结构](#level1)
