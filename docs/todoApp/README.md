@@ -64,7 +64,7 @@
 - [Level 39. 整合 ImmutableJS](#level1)  
 
 
-#### 章节五. 基础班+Flux+Redux版本CounterApp
+#### 章节五. 完成基础版+Flux+Redux版本CounterApp
 - [Level 40. 基础版本CounterApp](#TODO)
 - [Level 41. Flux版本CounterApp](#TODO)
 - [Level 42. Redux版本CounterApp](#TODO)
