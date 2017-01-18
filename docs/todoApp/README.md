@@ -32,7 +32,7 @@
 
 #### 章节二. 从模仿开始，完成第一個 React 应用 TodoApp
 
-- [Level 16. 用元件思维设计应用程序](#level1)  
+- [Level 16. 用元件思维设计应用程序](#level16)  
 - [Level 17. 项目初始化和项目裁剪](#level1)  
 - [Level 18. 完成第一个 React 元件](#level1)  
 - [Level 19. 组合多个 React 元件](#level1)  
@@ -78,6 +78,15 @@
 - [Level 46. React and ES6 - Part 4, React Mixins when using ES6 and React](http://egorsmirnov.me/2015/09/30/react-and-es6-part4.html)
 - [Level 47. React and ES6 - Part 5, React and ES6 Workflow with JSPM](http://egorsmirnov.me/2015/10/11/react-and-es6-part5.html)
 - [Level 48. React and ES6 - Part 6, React and ES6 Workflow with Webpack](http://egorsmirnov.me/2016/04/11/react-and-es6-part6.html)
+
+
+#### 章节七. TodoApp第二版(React/Flux/Redux/Webpack)
+- [Level 49. 第二版TodoApp亮点升级](#level49)
+
+
+#### 章节八. TodoApp第三版(React/MobX/Webpack)
+- [Level 50. 第三版TodoApp亮点升级](#level49)
+
 
 ## 开始冒险吧
 

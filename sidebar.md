@@ -119,6 +119,13 @@
 - [Level 47. React and ES6 - Part 5, React and ES6 Workflow with JSPM](http://egorsmirnov.me/2015/10/11/react-and-es6-part5.html)
 - [Level 48. React and ES6 - Part 6, React and ES6 Workflow with Webpack](http://egorsmirnov.me/2016/04/11/react-and-es6-part6.html)
 
+## 章节七. TodoApp第二版(React/Flux/Redux/Webpack)
+- [Level 49. 第二版TodoApp亮点升级](#level49)
+
+
+## 章节八. TodoApp第三版(React/MobX/Webpack)
+- [Level 50. 第三版TodoApp亮点升级](#level50)
+
 -------------
 ## React-Native跨平台
 -------------
