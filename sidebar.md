@@ -73,7 +73,7 @@
 - [Level 15. 组建的生命周期](#TODO)
 
 ## 章节二. 从模仿开始，完成第一個 React 应用 TodoApp
-- [Level 16. 用元件思维设计应用程序](#docs/todoApp/level15)
+- [Level 16. 用元件思维设计应用程序](#docs/todoApp/level16)
 - [Level 17. 项目初始化和项目裁剪](#TODO)
 - [Level 18. 完成第一个React元件](#TODO)
 - [Level 19. 组合多个React元件](#TODO)
@@ -120,11 +120,11 @@
 - [Level 48. React and ES6 - Part 6, React and ES6 Workflow with Webpack](http://egorsmirnov.me/2016/04/11/react-and-es6-part6.html)
 
 ## 章节七. TodoApp第二版(React/Flux/Redux/Webpack)
-- [Level 49. 第二版TodoApp亮点升级](#level49)
+- [Level 49. 第二版TodoApp亮点升级](#docs/todoApp/level49)
 
 
 ## 章节八. TodoApp第三版(React/MobX/Webpack)
-- [Level 50. 第三版TodoApp亮点升级](#level50)
+- [Level 50. 第三版TodoApp亮点升级](#docs/todoApp/level50)
 
 -------------
 ## React-Native跨平台
