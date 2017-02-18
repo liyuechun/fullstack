@@ -14,7 +14,7 @@
 - [学习视频](http://kongyixueyuan.com/course/2623)
 
 ## 一起众创
-- [加入一起众创](http://yiqizhongchuang.cn/)
+- [加入一起众创](http://yiqizhongchuang.cn/JoinYiQiZhongChuang)
 
 
 -------------
