@@ -1,38 +1,50 @@
-# 博客架构以及问题反馈
+# 「从零到壹全栈部落」白皮书
 
-## 本书架构
-[![cover](images/fullstack_course.png)](images/fullstack_course.png)
+## 「从零到壹全栈部落」组织架构
 
-## 学习视频
-- [JavaScript全栈工程师学习视频](http://kongyixueyuan.com/course/2623)
-
-## 联系我
-### 扫一扫加我QQ
-[![cover](images/qq.jpg)](images/qq.jpg)
-### 扫一扫加我微信
-[![cover](images/weixin.jpg)](images/weixin.jpg)
-### 扫一扫关注微博
-[![cover](images/weibo.jpg)](images/weibo.jpg)
+![架构图](http://os8vua8h7.bkt.clouddn.com/%E4%BB%8E%E9%9B%B6%E5%88%B0%E5%A3%B9%E5%85%A8%E6%A0%88%E9%83%A8%E8%90%BD%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
 
-## 公众号推荐
-### 微信扫一扫加入一起众创
-[![cover](images/yiqizhongchuang.jpg)](images/yiqizhongchuang.jpg)
-### 扫一扫关注全栈炼成记
-[![cover](images/fullstack.jpg)](images/fullstack.jpg)
+## 21点见 是一款怎样的产品？
+### 1.部分效果图
+
+|第一列|第二列|第三列|
+|:------:|:-----:|:----:|
+|![faxian](http://os8vua8h7.bkt.clouddn.com/WechatIMG86.png)|![](http://os8vua8h7.bkt.clouddn.com/WechatIMG87.png)|![](http://os8vua8h7.bkt.clouddn.com/WechatIMG89.png)|
+|![](http://os8vua8h7.bkt.clouddn.com/WechatIMG91.png)|![](http://os8vua8h7.bkt.clouddn.com/WechatIMG92.png)|![](http://os8vua8h7.bkt.clouddn.com/WechatIMG93.png)|
+
+### 2.21点见产品技术分布图
+
+![](http://os8vua8h7.bkt.clouddn.com/21%E7%82%B9%E8%A7%81%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E5%88%86%E5%B8%83%E5%9B%BE-%E6%96%B0.png)
 
 
-<!--### 留言
-<div class="ds-thread" data-thread-key="#README" data-title="kongyixueyuan.cn" data-url="kongyixueyuan.cn"></div>
+## 攻城狮们心里的痛？
 
-<script type="text/javascript">
-	var duoshuoQuery = {short_name:"liyuechun"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0]
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>-->
+![](http://os8vua8h7.bkt.clouddn.com/%E6%94%BB%E5%9F%8E%E7%8B%AE%E4%BB%AC%E5%BF%83%E9%87%8C%E7%9A%84%E7%97%9B-%E6%96%B0.png)
+
+## 大学生有木有痛，有木有痛，有木有痛？
+
+![](http://os8vua8h7.bkt.clouddn.com/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%9C%89%E6%9C%A8%E6%9C%89%E7%97%9B-%E6%96%B0.png)
+
+## 培训之痛
+
+ ![](http://os8vua8h7.bkt.clouddn.com/%E5%9F%B9%E8%AE%AD%E6%9C%BA%E6%9E%84%E4%B9%8B%E7%97%9B.png)
+ 
+
+## IT培训应该回归本真 
+
+![](http://os8vua8h7.bkt.clouddn.com/%E5%9B%9E%E5%BD%92%E6%9C%AC%E7%9C%9F-%E6%96%B0.png)
+
+
+## 怎样才能申请加入「从零到壹全栈部落」？
+
+![](http://os8vua8h7.bkt.clouddn.com/%E7%94%B3%E8%AF%B7%E5%8A%A0%E5%85%A5%E4%BB%8E%E9%9B%B6%E5%88%B0%E5%A3%B9%E5%85%A8%E6%A0%88%E9%83%A8%E8%90%BDv2.0.png)
+
+## 致谢
+感谢从零到壹全栈部落所有学习者的认可，感谢从零到壹全栈部落所有内容输出者，真诚的表示致谢！
+
+## 联系我们
+小精灵QQ：723591353
+微信：ershiyidianjian
+
+
