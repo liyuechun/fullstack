@@ -101,7 +101,7 @@ function init_sidebar_section() {
 }
 
 function init_searchbar() {
-  var search = '<form class="searchBox" onSubmit="return searchbar_listener()">' +
+  var search = '<form class="searchBox" style="margin-top:10px;margin-bottom:10px" onSubmit="return searchbar_listener()">' +
     '<input name="search" type="search">' +
     '<input type="image" class="searchButton" src="images/magnifier.jpg" alt="Search" />' +
 //    '<a class="searchLink" href="#" target="_blank"><img src="images/magnifier.jpg"></a>' +
@@ -115,7 +115,7 @@ function searchbar_listener(event) {
     // event.preventDefault();
     var q = $('input[name=search]').val();
     if (q !== '') {
-      var url = 'https://github.com/ruanyf/es6tutorial/search?utf8=✓&q=' + encodeURIComponent(q);
+      var url = 'https://github.com/liyuechun/fullstack/search?utf8=✓&q=' + encodeURIComponent(q);
       window.open(url, '_blank');
       win.focus();
     }
@@ -124,7 +124,7 @@ function searchbar_listener(event) {
   if (event.which === 13) {
     var q = $('input[name=search]').val();
     if (q !== '') {
-      var url = 'https://github.com/ruanyf/es6tutorial/search?utf8=✓&q=' + encodeURIComponent(q);
+      var url = 'https://github.com/liyuechun/fullstack/search?utf8=✓&q=' + encodeURIComponent(q);
       location.href = url;
     }
   }

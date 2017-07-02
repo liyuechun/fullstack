@@ -1,4 +1,4 @@
-# [JavaScript全栈笔记](http://www.kongyixueyuan.com)
+# [从零到壹全栈部落](http://www.kongyixueyuan.com)
 
 
 ## 联系我
@@ -13,8 +13,8 @@
 ## 学习视频
 - [学习视频](http://kongyixueyuan.com/course/2623)
 
-## 一起众创
-- [加入一起众创](http://yiqizhongchuang.cn/JoinYiQiZhongChuang)
+## 从零到壹全栈部落技术社群
+- [加入一起众创](http://bbs.kongyixueyuan.com)
 
 
 -------------
