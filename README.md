@@ -22,7 +22,7 @@
 [![cover](images/fullstack.jpg)](images/fullstack.jpg)
 
 
-### 留言
+<!--### 留言
 <div class="ds-thread" data-thread-key="#README" data-title="kongyixueyuan.cn" data-url="kongyixueyuan.cn"></div>
 
 <script type="text/javascript">
@@ -35,4 +35,4 @@
 		(document.getElementsByTagName('head')[0]
 		 || document.getElementsByTagName('body')[0]).appendChild(ds);
 	})();
-	</script>
+	</script>-->
