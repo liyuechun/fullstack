@@ -1,20 +1,9 @@
 # [从零到壹全栈部落](http://www.kongyixueyuan.com)
 
+## 从零到壹全栈部落
+- [从零到壹全栈部落白皮书](#fullstack)
 
-## 联系我
-- [联系我](#contactme)
-
-## 版权申明
-- [版权申明](#copyright)
-
-## 本书架构
-- [本书架构](#architecture)
-
-## 学习视频
-- [学习视频](http://kongyixueyuan.com/course/2623)
-
-## 从零到壹全栈部落技术社群
-- [加入一起众创](http://bbs.kongyixueyuan.com)
+- [全栈部落系列视频教程](http://kongyixueyuan.com)
 
 
 -------------
