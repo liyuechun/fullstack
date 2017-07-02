@@ -42,7 +42,7 @@ var getHash = function (hash) {
   }
 };
 
-var disqusCode = '<h3></h3><div id="disqus_thread"></div>';
+var disqusCode = '<h3>留言</h3><div id="disqus_thread"></div>';
 var menu = new Array();
 
 function initialize() {
@@ -115,7 +115,7 @@ function searchbar_listener(event) {
     // event.preventDefault();
     var q = $('input[name=search]').val();
     if (q !== '') {
-      var url = 'https://github.com/liyuechun/fullstack/search?utf8=✓&q=' + encodeURIComponent(q);
+      var url = 'https://github.com/ruanyf/es6tutorial/search?utf8=✓&q=' + encodeURIComponent(q);
       window.open(url, '_blank');
       win.focus();
     }
@@ -287,7 +287,7 @@ function show_loading() {
   return loading;
 }
 
-function router() {
+function router() { 
   var path = location.hash.replace(/#([^#]*)(#.*)?/, './$1');
 
   var hashArr = location.hash.split('#');
@@ -334,7 +334,24 @@ function router() {
       Prism.highlightElement(this);
     });
 
-  
+    // 加载disqus
+    (function() {
+      // http://docs.disqus.com/help/2/
+      window.disqus_shortname = 'es6';
+      window.disqus_identifier = (location.hash ? location.hash.replace("#", "") : 'READEME');
+      window.disqus_title = $(ditto.content_id + " h1").text();
+      window.disqus_url = 'http://es6.ruanyifeng.com/' + (location.hash ? location.hash.replace("#", "") : 'README');
+
+      // http://docs.disqus.com/developers/universal/
+      (function() {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = 'http://' + window.disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    })();
+
     var perc = ditto.save_progress ? store.get('page-progress') || 0 : 0;
 
     if (sectionId) {

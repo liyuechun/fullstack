@@ -52,18 +52,3 @@ The prime characteristic of the flex container is the ability to modify the widt
 
 `Note`:这是让container能够使用flexbox布局的唯一属性，它能够让所有的子视图立刻变成flex items。
 
-
-### 留言
-<div class="ds-thread" data-thread-key="#docs/flex/001-2-what_is_flex" data-title="kongyixueyuan.cn" data-url="kongyixueyuan.cn"></div>
-
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"liyuechun"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0]
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
