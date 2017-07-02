@@ -3,7 +3,7 @@
 ## 从零到壹全栈部落
 [全栈部落白皮书](#fullstack)
 
-[系列视频教程](http://kongyixueyuan.com)
+[全栈部落系列视频教程](http://kongyixueyuan.com)
 
 
 -------------
