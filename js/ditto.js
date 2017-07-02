@@ -337,10 +337,10 @@ function router() {
     // 加载disqus
     (function() {
       // http://docs.disqus.com/help/2/
-      window.disqus_shortname = 'es6';
+      window.disqus_shortname = 'fullstack';
       window.disqus_identifier = (location.hash ? location.hash.replace("#", "") : 'READEME');
       window.disqus_title = $(ditto.content_id + " h1").text();
-      window.disqus_url = 'http://es6.ruanyifeng.com/' + (location.hash ? location.hash.replace("#", "") : 'README');
+      window.disqus_url = 'http://fullstack.kongyixueyuan.com/' + (location.hash ? location.hash.replace("#", "") : 'README');
 
       // http://docs.disqus.com/developers/universal/
       (function() {
