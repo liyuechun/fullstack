@@ -10,10 +10,8 @@
 -------------
 ## JavaScript 101教程
 -------------
-## 001 - something 101
-1. [101是什么意思](#TODO)
+## 001 - JavaScript 101
 
-## 002 - JavaScript 101
 1. [入门](#docs/js/javascript-101/000index)
 1. [运行代码](#docs/js/javascript-101/001running-code)
 1. [语法基础](#docs/js/javascript-101/002syntax-basics)

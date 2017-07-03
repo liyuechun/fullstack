@@ -178,17 +178,3 @@ bim(); // ReferenceError: bim is not defined
 `.bim()` 只在函数中定义的，所以它作为局部变量而不存在于全局对象中。
 
 
-### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/013scope" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
-
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"liyuechun"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0]
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>

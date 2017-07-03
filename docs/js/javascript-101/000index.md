@@ -10,17 +10,4 @@
 
 如果你有其他编程语言的经验，那对你有好处。如果不是，也不用担心。我们会慢慢的教你所需要知道的 JavaScript 知识，以解开 jQuery 的强大力量。
 
-### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/000index" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
 
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"liyuechun"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0]
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
