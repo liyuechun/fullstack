@@ -37,7 +37,10 @@
 -------------
 ## ECMAScript 2015 特性
 -------------
-https://github.com/lukehoban/es6features#enhanced-object-literals
+
+<!--https://github.com/lukehoban/es6features#enhanced-object-literals-->
+
+
 ## 001 - 特性
 1. [arrows](#TODO)
 1. [classes](#TODO)
