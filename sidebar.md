@@ -33,7 +33,7 @@
 1. [Object.create](#docs/js/js101/004object.create)
 1. [Constructor Functions](#docs/js/js101/005constructor-functions)
 1. [this](#docs/js/js101/006this)
-1. [Call, Apply and Bind](#docs/js/js101/007this-binding)
+1. [Call, Apply and Bind](#docs/js/js101/007Call_Apply_and_Bind)
 1. [Function](#docs/js/js101/008function)
 1. [The Function Constructor](#docs/js/js101/009function-constructor)
 1. [A Brief Lesson on Scope](#docs/js/js101/010scope)
