@@ -42,7 +42,7 @@ var getHash = function (hash) {
   }
 };
 
-var disqusCode = '<h2>立即加入从零到壹全栈部落</h2><div id="disqus_thread"><ol><li>春哥微信 & 电话：13331184066</li><li>微博：黎跃春-追时间的人</li><li>QQ：939442932</li></ol></div>';
+var disqusCode = '<h2>立即加入从零到壹全栈部落</h2><div id="disqus_thread"><ol><li>春哥微信 & 电话：13331184066</li><li>微博：黎跃春-追时间的人</li><li>QQ：939442932</li><li>邮箱：liyuechun@cldy.org</li></ol></div>';
 
 
 var menu = new Array();
