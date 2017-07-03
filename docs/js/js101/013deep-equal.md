@@ -51,17 +51,3 @@ The `source` property has a string that represents the original regular expressi
 
 The next time you're writing a test, or even just comparing objects, remember that `==` will only work for "shallow" comparisons. Testing other values like arrays, dates, regular expressions, and objects requires a little bit more effort.
 
-### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
-
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"liyuechun"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0]
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>

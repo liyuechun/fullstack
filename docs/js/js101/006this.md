@@ -105,17 +105,3 @@ Strict mode causes `this` to evaluate to `undefined` instead of the global conte
 `this` can be referenced by a variable, and `self` is the conventionally used name
 If you want to read lower-level details on this topic, start by looking at how the ECMAScript 5.1 specification defines the algorithms that are used to determine `this` for various situations: [entering global code](http://es5.github.io/#x10.4.1), [executing `eval` code](http://es5.github.io/#x10.4.2), and [entering functions](http://es5.github.io/#x10.4.3).
 
-### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
-
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"liyuechun"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0]
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>

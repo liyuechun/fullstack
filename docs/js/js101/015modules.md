@@ -78,18 +78,3 @@ There's still a disparity between development and production builds. Even though
 The need for script loading and building, and tailoring for various environments (typically development, test, and production) has resulted in a new class of projects. [Yeoman](http://yeoman.io/) is a good example of this: it uses Grunt for managing builds and running a development server, Bower for defining the source of dependencies so they can be fetched, and then RequireJS for loading and managing dependencies in the browser. Yeoman generates skeleton projects that set up development and build environments so you can focus on writing code.
 
 Hopefully now you know all about client-side modules, so the next time you hear *RequireJS*, *AMD*, or *CommonJS*, you know what people are talking about!
-
-### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
-
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"liyuechun"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0]
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>

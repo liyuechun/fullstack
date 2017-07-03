@@ -133,17 +133,4 @@ console.log(harley.toString());
 ```
 
 Despite the fact changing a prototype affects all of the instances, replacing a constructor's prototype entirely does not affect older instances. Why? Well, instances have a *reference* to the prototype rather than a discrete copy. Think of it like this: each instance created by the `new` keyword is *connected* to the original prototype.
-### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
 
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"liyuechun"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0]
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>

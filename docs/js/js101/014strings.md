@@ -31,17 +31,3 @@ If you need to work on string encodings in JavaScript, Johan Sundström's post [
 Monsur Hossain went on to write [UTF-8 in JavaScript](http://monsur.hossa.in/2012/07/20/utf-8-in-javascript.html) which goes into `unescape` and `encodeURIComponent` in more detail.
 
 
-### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
-
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"liyuechun"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0]
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>

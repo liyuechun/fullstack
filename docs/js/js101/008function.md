@@ -61,20 +61,3 @@ The fact these inner functions receive access to the variables in their containi
 
 > Let closure be the result of creating a new `Function` object as specified in 13.2 with parameters specified by FormalParameterListopt and body specified by FunctionBody. Pass in funcEnv as the Scope.
 
-## References
-- [Standard ECMA-262 5.1 Edition](http://ecma-international.org/ecma-262/5.1/)
-
-### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
-
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"liyuechun"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0]
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>

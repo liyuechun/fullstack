@@ -166,17 +166,3 @@ This makes it possible to track whenever this value is changed, as illustrated b
 In JavaScript implementations that don't include `Object.create`, this second argument may not be supported. The [ECMAScript 5 compatibility table](http://kangax.github.com/es5-compat-table/) by Kangax has a wide range of compatibility tests that can help you decide if it's safe to use it.
 
 
-### 留言
-<div class="ds-thread" data-thread-key="#docs/js/javascript-101/002syntax-basics" data-title="liyuechun.com.cn" data-url="liyuechun.com.cn"></div>
-
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"liyuechun"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0]
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
