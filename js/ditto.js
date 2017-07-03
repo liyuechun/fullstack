@@ -42,7 +42,7 @@ var getHash = function (hash) {
   }
 };
 
-var disqusCode = '<h2><a bref="http://fullstack.kongyixueyuan.com/#fullstack">立即加入从零到壹全栈部落</a></h2><div id="disqus_thread"></div>';
+var disqusCode = '<h2>立即加入从零到壹全栈部落</h2><div id="disqus_thread"><a bref="http://fullstack.kongyixueyuan.com/#fullstack">http://fullstack.kongyixueyuan.com/#fullstack</a></div>';
 
 
 var menu = new Array();
@@ -228,7 +228,7 @@ function create_page_anchors() {
           ' <a href="#' + location.hash.split('#')[1] +
           '#' +
           replace_symbols(content) +
-          '" class="section-link">§</a> <a href="#' +
+          '" class="section-link">§</> <a href="#' +
           location.hash.split('#')[1] + '" onclick="goTop()">⇧</a>');
       }, function () {
         $(this).html(content);
