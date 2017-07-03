@@ -1,8 +1,8 @@
 # [从零到壹全栈部落](http://www.kongyixueyuan.com)
 
-## 从零到壹全栈部落
+## 从零到壹全栈部落-输出是最好的学习方式
 
-1. [全栈部落白皮书](#fullstack)
+1. [申请加入全栈部落-必看](#fullstack)
 
 1. [全栈部落系列视频教程](http://kongyixueyuan.com)
 
