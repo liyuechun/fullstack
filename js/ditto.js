@@ -42,7 +42,7 @@ var getHash = function (hash) {
   }
 };
 
-var disqusCode = '<h3 style="font-size:25px">联系我，立即申请加入从零到壹全栈部落</h3><div id="disqus_thread"><ol><li>微信：liyc1215</li><li>微博：黎跃春-追时间的人</li><li>QQ：939442932</li><li>邮箱：liyuechun@cldy.org</li></ol></div>';
+var disqusCode = '<h3 style="font-size:25px">联系我，立即申请加入从零到壹全栈部落</h3><div id="disqus_thread"><ol><li>春哥微信：liyc1215</li><li>微博：黎跃春-追时间的人</li><li>小精灵微信：ershiyidianjian</li><li>小精灵QQ：723591353</li></ol></div>';
 
 
 var menu = new Array();
