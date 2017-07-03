@@ -6,7 +6,7 @@
 
 1. [全栈部落系列视频教程](http://kongyixueyuan.com)
 
-1. [全栈部落技术社群](http://bbs.kongyixueyuan.com)
+1. [全栈部落技术社区](http://bbs.kongyixueyuan.com)
 
 -------------
 ## JavaScript 101教程
