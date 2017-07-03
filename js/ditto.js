@@ -42,7 +42,7 @@ var getHash = function (hash) {
   }
 };
 
-var disqusCode = '<h3><a bref="http://fullstack.kongyixueyuan.com/#fullstack">立即加入从零到壹全栈部落</a></h3><div id="disqus_thread"></div>';
+var disqusCode = '<h2><a bref="http://fullstack.kongyixueyuan.com/#fullstack">立即加入从零到壹全栈部落</a></h2><div id="disqus_thread"></div>';
 
 
 var menu = new Array();
