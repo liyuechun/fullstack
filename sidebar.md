@@ -1,11 +1,11 @@
 # [从零到壹全栈部落](http://www.kongyixueyuan.com)
 
 ## 从零到壹全栈部落
-[全栈部落白皮书](#fullstack)
+1. [全栈部落白皮书](#fullstack)
 
-[全栈部落系列视频教程](http://kongyixueyuan.com)
+1. [全栈部落系列视频教程](http://kongyixueyuan.com)
 
-
+1. [全栈部落技术社群](http://bbs.kongyixueyuan.com)
 
 -------------
 ## JavaScript 101教程
