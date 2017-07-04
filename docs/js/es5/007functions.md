@@ -1,6 +1,6 @@
-### Functions
+## Functions
 
-1. Use function declarations instead of function expressions.
+  - [1.1](#1.1) <a name='1.1'></a> Use function declarations instead of function expressions.
 
     > Why? Function declarations are named, so they're easier to identify in call stacks. Also, the whole body of a function declaration is hoisted, whereas only the reference of a function expression is hoisted. This rule makes it possible to always use [Arrow Functions](#arrow-functions) in place of function expressions.
 
@@ -14,7 +14,7 @@
     }
     ```
 
-1. Function expressions:
+  - [1.2](#1.2) <a name='1.2'></a> Function expressions:
 
     ```javascript
     // immediately-invoked function expression (IIFE)
@@ -23,9 +23,9 @@
     })();
     ```
 
-1. Never declare a function in a non-function block (if, while, etc). Assign the function to a variable instead. Browsers will allow you to do it, but they all interpret it differently, which is bad news bears.
+  - [1.3](#1.3) <a name='1.3'></a> Never declare a function in a non-function block (if, while, etc). Assign the function to a variable instead. Browsers will allow you to do it, but they all interpret it differently, which is bad news bears.
 
-1. **Note:** ECMA-262 defines a `block` as a list of statements. A function declaration is not a statement. [Read ECMA-262's note on this issue](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf#page=97).
+  - [1.4](#1.4) <a name='1.4'></a> **Note:** ECMA-262 defines a `block` as a list of statements. A function declaration is not a statement. [Read ECMA-262's note on this issue](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf#page=91).
 
     ```javascript
     // bad
@@ -44,7 +44,7 @@
     }
     ```
 
-1. Never name a parameter `arguments`. This will take precedence over the `arguments` object that is given to every function scope.
+  - [1.5](#1.5) <a name='1.5'></a> Never name a parameter `arguments`. This will take precedence over the `arguments` object that is given to every function scope.
 
     ```javascript
     // bad
@@ -58,7 +58,8 @@
     }
     ```
 
-1. Never use `arguments`, opt to use rest syntax `...` instead.
+  <a name="es6-rest"></a>
+  - [1.6](#1.6) <a name='1.6'></a> Never use `arguments`, opt to use rest syntax `...` instead.
 
     > Why? `...` is explicit about which arguments you want pulled. Plus rest arguments are a real Array and not Array-like like `arguments`.
 
@@ -75,7 +76,8 @@
     }
     ```
 
-1. Use default parameter syntax rather than mutating function arguments.
+  <a name="es6-default-parameters"></a>
+  - [1.1](#1.1) <a name='1.1'></a> Use default parameter syntax rather than mutating function arguments.
 
     ```javascript
     // really bad
@@ -101,7 +103,7 @@
     }
     ```
 
-1. Avoid side effects with default parameters.
+  - [1.8](#1.8) <a name='1.8'></a> Avoid side effects with default parameters.
 
     > Why? They are confusing to reason about.
 
@@ -117,7 +119,7 @@
     count();  // 3
     ```
 
-1. Always put default parameters last.
+  - [1.9](#1.9) <a name='1.9'></a> Always put default parameters last.
 
     ```javascript
     // bad
@@ -131,7 +133,7 @@
     }
     ```
 
-1. Never use the Function constructor to create a new function.
+  - [1.10](#1.10) <a name='1.10'></a> Never use the Function constructor to create a new function.
 
     > Why? Creating a function in this way evaluates a string similarly to eval(), which opens vulnerabilities.
 
@@ -143,7 +145,7 @@
     var subtract = Function('a', 'b', 'return a - b');
     ```
 
-1. Spacing in a function signature.
+  - [1.11](#1.11) <a name="1.11"></a> Spacing in a function signature.
 
     > Why? Consistency is good, and you shouldn’t have to add or remove a space when adding or removing a name.
 
@@ -158,7 +160,7 @@
     const y = function a() {};
     ```
 
-1. Never mutate parameters.
+  - [1.12](#1.12) <a name="1.12"></a> Never mutate parameters.
 
     > Why? Manipulating objects passed in as parameters can cause unwanted variable side effects in the original caller.
 
@@ -176,7 +178,7 @@
     };
     ```
 
-1. Never reassign parameters.
+  - [1.13](#1.13) <a name="1.13"></a> Never reassign parameters.
 
     > Why? Reassigning parameters can lead to unexpected behavior, especially when accessing the `arguments` object. It can also cause optimization issues, especially in V8.
 

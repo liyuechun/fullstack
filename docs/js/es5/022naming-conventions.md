@@ -1,6 +1,6 @@
-### Naming Conventions
+## Naming Conventions
 
-1. Avoid single letter names. Be descriptive with your naming.
+  - [1.1](#1.1) <a name='1.1'></a> Avoid single letter names. Be descriptive with your naming.
 
     ```javascript
     // bad
@@ -14,7 +14,7 @@
     }
     ```
 
-1. Use camelCase when naming objects, functions, and instances.
+  - [1.2](#1.2) <a name='1.2'></a> Use camelCase when naming objects, functions, and instances.
 
     eslint rules: [`camelcase`](http://eslint.org/docs/rules/camelcase.html).
 
@@ -29,7 +29,7 @@
     function thisIsMyFunction() {}
     ```
 
-1. Use PascalCase when naming constructors or classes.
+  - [1.3](#1.3) <a name='1.3'></a> Use PascalCase when naming constructors or classes.
 
     ```javascript
     // bad
@@ -53,7 +53,7 @@
     });
     ```
 
-1. Use a leading underscore `_` when naming private properties.
+  - [1.4](#1.4) <a name='1.4'></a> Use a leading underscore `_` when naming private properties.
 
     eslint rules: [`no-underscore-dangle`](http://eslint.org/docs/rules/no-underscore-dangle.html).
 
@@ -66,7 +66,7 @@
     this._firstName = 'Panda';
     ```
 
-1. Don't save references to `this`. Use arrow functions or Function#bind.
+  - [1.5](#1.5) <a name='1.5'></a> Don't save references to `this`. Use arrow functions or Function#bind.
 
     ```javascript
     // bad
@@ -93,7 +93,7 @@
     }
     ```
 
-1. If your file exports a single class, your filename should be exactly the name of the class.
+  - [1.6](#1.6) <a name='1.6'></a> If your file exports a single class, your filename should be exactly the name of the class.
 
     ```javascript
     // file contents
@@ -113,7 +113,7 @@
     import CheckBox from './CheckBox';
     ```
 
-1. Use camelCase when you export-default a function. Your filename should be identical to your function's name.
+  - [1.7](#1.7) <a name='1.7'></a> Use camelCase when you export-default a function. Your filename should be identical to your function's name.
 
     ```javascript
     function makeStyleGuide() {
@@ -122,7 +122,7 @@
     export default makeStyleGuide;
     ```
 
-1. Use PascalCase when you export a singleton / function library / bare object.
+  - [1.8](#1.8) <a name='1.8'></a> Use PascalCase when you export a singleton / function library / bare object.
 
     ```javascript
     const AirbnbStyleGuide = {

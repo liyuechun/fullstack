@@ -1,6 +1,6 @@
-### Properties
+## Properties
 
-1. Use dot notation when accessing properties.
+  - [1.1](#1.1) <a name='1.1'></a> Use dot notation when accessing properties.
 
     eslint rules: [`dot-notation`](http://eslint.org/docs/rules/dot-notation.html).
 
@@ -17,7 +17,7 @@
     const isJedi = luke.jedi;
     ```
 
-1. Use subscript notation `[]` when accessing properties with a variable.
+  - [1.2](#1.2) <a name='1.2'></a> Use subscript notation `[]` when accessing properties with a variable.
 
     ```javascript
     const luke = {

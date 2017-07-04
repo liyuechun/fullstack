@@ -1,6 +1,8 @@
-### Objects
+## Objects
 
-1. Use the literal syntax for object creation.eslint rules: [`no-new-object`](http://eslint.org/docs/rules/no-new-object.html).
+  - [1.1](#1.1) <a name='1.1'></a> Use the literal syntax for object creation.
+
+    eslint rules: [`no-new-object`](http://eslint.org/docs/rules/no-new-object.html).
 
     ```javascript
     // bad
@@ -10,7 +12,7 @@
     const item = {};
     ```
 
-1. If your code will be executed in browsers in script context, don't use [reserved words](http://es5.github.io/#x7.6.1) as keys. It won't work in IE8. [More info](https://github.com/airbnb/javascript/issues/61). It’s OK to use them in ES6 modules and server-side code.
+  - [1.2](#1.2) <a name='1.2'></a> If your code will be executed in browsers in script context, don't use [reserved words](http://es5.github.io/#x7.6.1) as keys. It won't work in IE8. [More info](https://github.com/airbnb/javascript/issues/61). It’s OK to use them in ES6 modules and server-side code.
 
     ```javascript
     // bad
@@ -26,7 +28,7 @@
     };
     ```
 
-1. Use readable synonyms in place of reserved words.
+  - [1.3](#1.3) <a name='1.3'></a> Use readable synonyms in place of reserved words.
 
     ```javascript
     // bad
@@ -45,10 +47,13 @@
     };
     ```
 
-1. Use computed property names when creating objects with dynamic property names.
-> Why? They allow you to define all the properties of an object in one place.
+  <a name="es6-computed-properties"></a>
+  - [1.4](#1.4) <a name='1.4'></a> Use computed property names when creating objects with dynamic property names.
+
+    > Why? They allow you to define all the properties of an object in one place.
 
     ```javascript
+
     function getKey(k) {
       return `a key named ${k}`;
     }
@@ -66,10 +71,12 @@
       name: 'San Francisco',
       [getKey('enabled')]: true,
     };
-   ```
+    ```
 
-1. Use object method shorthand.eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
+  <a name="es6-object-shorthand"></a>
+  - [1.5](#1.5) <a name='1.5'></a> Use object method shorthand.
 
+    eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
     ```javascript
     // bad
@@ -91,8 +98,12 @@
     };
     ```
 
-1. Use property value shorthand.
-> Why? It is shorter to write and descriptive.eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
+  <a name="es6-object-concise"></a>
+  - [1.6](#1.6) <a name='1.6'></a> Use property value shorthand.
+
+    > Why? It is shorter to write and descriptive.
+
+    eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
     ```javascript
     const lukeSkywalker = 'Luke Skywalker';
@@ -108,8 +119,9 @@
     };
     ```
 
-1. Group your shorthand properties at the beginning of your object declaration.
-> Why? It's easier to tell which properties are using the shorthand.
+  - [1.7](#1.7) <a name='1.7'></a> Group your shorthand properties at the beginning of your object declaration.
+
+    > Why? It's easier to tell which properties are using the shorthand.
 
     ```javascript
     const anakinSkywalker = 'Anakin Skywalker';
@@ -136,8 +148,11 @@
     };
     ```
 
-1. Only quote properties that are invalid identifiers.
-> Why? In general we consider it subjectively easier to read. It improves syntax highlighting, and is also more easily optimized by many JS engines.eslint rules: [`quote-props`](http://eslint.org/docs/rules/quote-props.html).
+  - [1.8](#1.8) <a name="1.8"></a> Only quote properties that are invalid identifiers.
+
+  > Why? In general we consider it subjectively easier to read. It improves syntax highlighting, and is also more easily optimized by many JS engines.
+
+  eslint rules: [`quote-props`](http://eslint.org/docs/rules/quote-props.html).
 
   ```javascript
   // bad

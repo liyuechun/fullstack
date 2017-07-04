@@ -1,6 +1,6 @@
-### Iterators and Generators
+## Iterators and Generators
 
-1. Don't use iterators. Prefer JavaScript's higher-order functions like `map()` and `reduce()` instead of loops like `for-of`.
+  - [1.1](#1.1) <a name='1.1'></a> Don't use iterators. Prefer JavaScript's higher-order functions like `map()` and `reduce()` instead of loops like `for-of`.
 
     > Why? This enforces our immutable rule. Dealing with pure functions that return values is easier to reason about than side-effects.
 
@@ -27,6 +27,6 @@
     sum === 15;
     ```
 
-1. Don't use generators for now.
+  - [1.2](#1.2) <a name='1.2'></a> Don't use generators for now.
 
     > Why? They don't transpile well to ES5.

@@ -1,6 +1,6 @@
-### Constructors
+## Constructors
 
-1. Always use `class`. Avoid manipulating `prototype` directly.
+  - [1.1](#1.1) <a name='1.1'></a> Always use `class`. Avoid manipulating `prototype` directly.
 
     > Why? `class` syntax is more concise and easier to reason about.
 
@@ -29,7 +29,7 @@
     }
     ```
 
-1. Use `extends` for inheritance.
+  - [1.2](#1.2) <a name='1.2'></a> Use `extends` for inheritance.
 
     > Why? It is a built-in way to inherit prototype functionality without breaking `instanceof`.
 
@@ -52,7 +52,7 @@
     }
     ```
 
-1. Methods can return `this` to help with method chaining.
+  - [1.3](#1.3) <a name='1.3'></a> Methods can return `this` to help with method chaining.
 
     ```javascript
     // bad
@@ -86,23 +86,4 @@
 
     luke.jump()
       .setHeight(20);
-    ```
-
-
-1. It's okay to write a custom toString() method, just make sure it works successfully and causes no side effects.
-
-    ```javascript
-    class Jedi {
-      constructor(options = {}) {
-        this.name = options.name || 'no name';
-      }
-
-      getName() {
-        return this.name;
-      }
-
-      toString() {
-        return `Jedi - ${this.getName()}`;
-      }
-    }
     ```
