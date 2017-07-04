@@ -1,8 +1,6 @@
 ### Objects
 
-1. Use the literal syntax for object creation.
-
-    eslint rules: [`no-new-object`](http://eslint.org/docs/rules/no-new-object.html).
+1. Use the literal syntax for object creation.eslint rules: [`no-new-object`](http://eslint.org/docs/rules/no-new-object.html).
 
     ```javascript
     // bad
@@ -48,8 +46,7 @@
     ```
 
 1. Use computed property names when creating objects with dynamic property names.
-
-  > Why? They allow you to define all the properties of an object in one place.
+> Why? They allow you to define all the properties of an object in one place.
 
     ```javascript
 
@@ -95,9 +92,7 @@
     ```
 
 1. Use property value shorthand.
-
-
-  > Why? It is shorter to write and descriptive.
+> Why? It is shorter to write and descriptive.
 
     eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
@@ -116,8 +111,7 @@
     ```
 
 1. Group your shorthand properties at the beginning of your object declaration.
-
-  > Why? It's easier to tell which properties are using the shorthand.
+> Why? It's easier to tell which properties are using the shorthand.
 
     ```javascript
     const anakinSkywalker = 'Anakin Skywalker';
@@ -145,8 +139,7 @@
     ```
 
 1. Only quote properties that are invalid identifiers.
-
-  > Why? In general we consider it subjectively easier to read. It improves syntax highlighting, and is also more easily optimized by many JS engines.
+> Why? In general we consider it subjectively easier to read. It improves syntax highlighting, and is also more easily optimized by many JS engines.
 
   eslint rules: [`quote-props`](http://eslint.org/docs/rules/quote-props.html).
 
