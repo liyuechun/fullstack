@@ -49,7 +49,7 @@
 
 1. Use computed property names when creating objects with dynamic property names.
 
-    > Why? They allow you to define all the properties of an object in one place.
+  > Why? They allow you to define all the properties of an object in one place.
 
     ```javascript
 
@@ -72,10 +72,7 @@
     };
     ```
 
-
-1. Use object method shorthand.
-
-    eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
+1. Use object method shorthand.eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
     ```javascript
     // bad
@@ -96,6 +93,7 @@
       },
     };
     ```
+
 1. Use property value shorthand.
 
 
@@ -119,7 +117,7 @@
 
 1. Group your shorthand properties at the beginning of your object declaration.
 
-    > Why? It's easier to tell which properties are using the shorthand.
+  > Why? It's easier to tell which properties are using the shorthand.
 
     ```javascript
     const anakinSkywalker = 'Anakin Skywalker';
