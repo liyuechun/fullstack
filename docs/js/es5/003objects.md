@@ -67,7 +67,9 @@
       [getKey('enabled')]: true,
     };
    ```
+
 1. Use object method shorthand.eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
+
 
     ```javascript
     // bad
