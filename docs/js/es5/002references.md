@@ -1,6 +1,6 @@
 ### References
 
-  1. Use `const` for all of your references; avoid using `var`.
+  - Use `const` for all of your references; avoid using `var`.
 
     > Why? This ensures that you can't reassign your references, which can lead to bugs and difficult to comprehend code.
 
@@ -16,7 +16,7 @@
     const b = 2;
     ```
 
-  1. If you must reassign references, use `let` instead of `var`.
+  - If you must reassign references, use `let` instead of `var`.
 
     > Why? `let` is block-scoped rather than function-scoped like `var`.
 
@@ -36,7 +36,7 @@
     }
     ```
 
-  1. Note that both `let` and `const` are block-scoped.
+  - Note that both `let` and `const` are block-scoped.
 
     ```javascript
     // const and let only exist in the blocks they are defined in.

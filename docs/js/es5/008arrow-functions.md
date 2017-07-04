@@ -1,4 +1,4 @@
-## Arrow Functions
+### Arrow Functions
 
   - [1.1](#1.1) <a name='1.1'></a> When you must use function expressions (as when passing an anonymous function), use arrow function notation.
 

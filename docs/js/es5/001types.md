@@ -1,6 +1,6 @@
 ### Types
 
-  1. **Primitives**: When you access a primitive type you work directly on its value.
+  - **Primitives**: When you access a primitive type you work directly on its value.
 
     + `string`
     + `number`
@@ -16,7 +16,7 @@
 
     console.log(foo, bar); // => 1, 9
     ```
-  1. **Complex**: When you access a complex type you work on a reference to its value.
+  - **Complex**: When you access a complex type you work on a reference to its value.
 
     + `object`
     + `array`
@@ -30,3 +30,5 @@
 
     console.log(foo[0], bar[0]); // => 9, 9
     ```
+
+
