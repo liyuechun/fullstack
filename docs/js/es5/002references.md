@@ -1,6 +1,6 @@
-## References
+# 2.References
 
-  - [2.1](#2.1) <a name='2.1'></a> Use `const` for all of your references; avoid using `var`.
+   - [2.1](#2.1) <a name='2.1'></a> Use `const` for all of your references; avoid using `var`.
 
     > Why? This ensures that you can't reassign your references, which can lead to bugs and difficult to comprehend code.
 
