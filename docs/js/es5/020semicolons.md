@@ -1,6 +1,6 @@
 ### Semicolons
 
-  1. **Yup.**
+1. **Yup.**
 
     eslint rules: [`semi`](http://eslint.org/docs/rules/semi.html).
 

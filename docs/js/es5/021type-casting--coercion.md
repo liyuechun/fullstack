@@ -1,7 +1,8 @@
 ### Type Casting & Coercion
 
-  1. Perform type coercion at the beginning of the statement.
-  1. Strings:
+1. Perform type coercion at the beginning of the statement.
+  
+1. Strings:
 
     ```javascript
     //  => this.reviewScore = 9;
@@ -13,7 +14,7 @@
     const totalScore = String(this.reviewScore);
     ```
 
-  1. Numbers: Use `Number` for type casting and `parseInt` always with a radix for parsing strings.
+1. Numbers: Use `Number` for type casting and `parseInt` always with a radix for parsing strings.
 
     eslint rules: [`radix`](http://eslint.org/docs/rules/radix).
 
@@ -39,7 +40,7 @@
     const val = parseInt(inputValue, 10);
     ```
 
-  1. If for whatever reason you are doing something wild and `parseInt` is your bottleneck and need to use Bitshift for [performance reasons](http://jsperf.com/coercion-vs-casting/3), leave a comment explaining why and what you're doing.
+1. If for whatever reason you are doing something wild and `parseInt` is your bottleneck and need to use Bitshift for [performance reasons](http://jsperf.com/coercion-vs-casting/3), leave a comment explaining why and what you're doing.
 
     ```javascript
     // good
@@ -51,7 +52,7 @@
     const val = inputValue >> 0;
     ```
 
-  1. **Note:** Be careful when using bitshift operations. Numbers are represented as [64-bit values](http://es5.github.io/#x4.3.19), but Bitshift operations always return a 32-bit integer ([source](http://es5.github.io/#x11.7)). Bitshift can lead to unexpected behavior for integer values larger than 32 bits. [Discussion](https://github.com/airbnb/javascript/issues/109). Largest signed 32-bit Int is 2,147,483,647:
+1. **Note:** Be careful when using bitshift operations. Numbers are represented as [64-bit values](http://es5.github.io/#x4.3.19), but Bitshift operations always return a 32-bit integer ([source](http://es5.github.io/#x11.7)). Bitshift can lead to unexpected behavior for integer values larger than 32 bits. [Discussion](https://github.com/airbnb/javascript/issues/109). Largest signed 32-bit Int is 2,147,483,647:
 
     ```javascript
     2147483647 >> 0 //=> 2147483647
@@ -59,7 +60,7 @@
     2147483649 >> 0 //=> -2147483647
     ```
 
-  1. Booleans:
+1. Booleans:
 
     ```javascript
     const age = 0;

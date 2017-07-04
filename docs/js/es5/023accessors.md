@@ -1,7 +1,8 @@
 ### Accessors
 
-  1. Accessor functions for properties are not required.
-  1. If you do make accessor functions use getVal() and setVal('hello').
+1. Accessor functions for properties are not required.
+  
+1. If you do make accessor functions use getVal() and setVal('hello').
 
     ```javascript
     // bad
@@ -17,7 +18,7 @@
     dragon.setAge(25);
     ```
 
-  1. If the property is a `boolean`, use `isVal()` or `hasVal()`.
+1. If the property is a `boolean`, use `isVal()` or `hasVal()`.
 
     ```javascript
     // bad
@@ -31,7 +32,7 @@
     }
     ```
 
-  1. It's okay to create get() and set() functions, but be consistent.
+1. It's okay to create get() and set() functions, but be consistent.
 
     ```javascript
     class Jedi {
