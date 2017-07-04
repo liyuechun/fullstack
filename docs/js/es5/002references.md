@@ -15,7 +15,6 @@
     const a = 1;
     const b = 2;
     ```
-
   1. If you must reassign references, use `let` instead of `var`.
 
     > Why? `let` is block-scoped rather than function-scoped like `var`.
@@ -35,7 +34,6 @@
       count += 1;
     }
     ```
-
   1. Note that both `let` and `const` are block-scoped.
 
     ```javascript

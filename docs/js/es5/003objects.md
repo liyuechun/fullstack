@@ -97,10 +97,10 @@
     };
     ```
 
+1. Use property value shorthand.
 
-  1. Use property value shorthand.
 
-    > Why? It is shorter to write and descriptive.
+  > Why? It is shorter to write and descriptive.
 
     eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
@@ -118,7 +118,7 @@
     };
     ```
 
-  1. Group your shorthand properties at the beginning of your object declaration.
+1. Group your shorthand properties at the beginning of your object declaration.
 
     > Why? It's easier to tell which properties are using the shorthand.
 
