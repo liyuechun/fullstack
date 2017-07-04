@@ -67,7 +67,6 @@
       [getKey('enabled')]: true,
     };
    ```
-
 1. Use object method shorthand.eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
     ```javascript
@@ -136,9 +135,7 @@
     ```
 
 1. Only quote properties that are invalid identifiers.
-> Why? In general we consider it subjectively easier to read. It improves syntax highlighting, and is also more easily optimized by many JS engines.
-
-  eslint rules: [`quote-props`](http://eslint.org/docs/rules/quote-props.html).
+> Why? In general we consider it subjectively easier to read. It improves syntax highlighting, and is also more easily optimized by many JS engines.eslint rules: [`quote-props`](http://eslint.org/docs/rules/quote-props.html).
 
   ```javascript
   // bad
