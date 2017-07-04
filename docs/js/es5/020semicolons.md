@@ -1,6 +1,6 @@
-## Semicolons
+### Semicolons
 
-  - [20.1](#20.1) <a name='20.1'></a> **Yup.**
+  1. **Yup.**
 
     eslint rules: [`semi`](http://eslint.org/docs/rules/semi.html).
 

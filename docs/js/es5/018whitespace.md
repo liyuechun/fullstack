@@ -1,6 +1,6 @@
-## Whitespace
+### Whitespace
 
-  - [18.1](#18.1) <a name='18.1'></a> Use soft tabs set to 2 spaces.
+  1. Use soft tabs set to 2 spaces.
 
     eslint rules: [`indent`](http://eslint.org/docs/rules/indent.html).
 
@@ -21,7 +21,7 @@
     }
     ```
 
-  - [18.2](#18.2) <a name='18.2'></a> Place 1 space before the leading brace.
+  1. Place 1 space before the leading brace.
 
     eslint rules: [`space-before-blocks`](http://eslint.org/docs/rules/space-before-blocks.html).
 
@@ -49,7 +49,7 @@
     });
     ```
 
-  - [18.3](#18.3) <a name='18.3'></a> Place 1 space before the opening parenthesis in control statements (`if`, `while` etc.). Place no space before the argument list in function calls and declarations.
+  1. Place 1 space before the opening parenthesis in control statements (`if`, `while` etc.). Place no space before the argument list in function calls and declarations.
 
     eslint rules: [`space-after-keywords`](http://eslint.org/docs/rules/space-after-keywords.html), [`space-before-keywords`](http://eslint.org/docs/rules/space-before-keywords.html).
 
@@ -75,7 +75,7 @@
     }
     ```
 
-  - [18.4](#18.4) <a name='18.4'></a> Set off operators with spaces.
+  1. Set off operators with spaces.
 
     eslint rules: [`space-infix-ops`](http://eslint.org/docs/rules/space-infix-ops.html).
 
@@ -87,7 +87,7 @@
     const x = y + 5;
     ```
 
-  - [18.5](#18.5) <a name='18.5'></a> End files with a single newline character.
+  1. End files with a single newline character.
 
     ```javascript
     // bad
@@ -111,7 +111,7 @@
     })(this);↵
     ```
 
-  - [18.6](#18.6) <a name='18.6'></a> Use indentation when making long method chains. Use a leading dot, which
+  1. Use indentation when making long method chains. Use a leading dot, which
     emphasizes that the line is a method call, not a new statement.
 
     ```javascript
@@ -151,7 +151,7 @@
         .call(tron.led);
     ```
 
-  - [18.7](#18.7) <a name='18.7'></a> Leave a blank line after blocks and before the next statement.
+  1. Leave a blank line after blocks and before the next statement.
 
     ```javascript
     // bad
@@ -208,7 +208,7 @@
     return arr;
     ```
 
-  - [18.8](#18.8) <a name='18.8'></a> Do not pad your blocks with blank lines.
+  1. Do not pad your blocks with blank lines.
 
     eslint rules: [`padded-blocks`](http://eslint.org/docs/rules/padded-blocks.html).
 
@@ -242,7 +242,7 @@
     }
     ```
 
-  - [18.9](#18.9) <a name='18.9'></a> Do not add spaces inside parentheses.
+  1. Do not add spaces inside parentheses.
 
     eslint rules: [`space-in-parens`](http://eslint.org/docs/rules/space-in-parens.html).
 
@@ -268,7 +268,7 @@
     }
     ```
 
-  - [18.10](#18.10) <a name='18.10'></a> Do not add spaces inside brackets.
+  1. Do not add spaces inside brackets.
 
     eslint rules: [`array-bracket-spacing`](http://eslint.org/docs/rules/array-bracket-spacing.html).
 
@@ -282,7 +282,7 @@
     console.log(foo[0]);
     ```
 
-  - [18.11](#18.11) <a name='18.11'></a> Add spaces inside curly braces.
+  1. Add spaces inside curly braces.
 
     eslint rules: [`object-curly-spacing`](http://eslint.org/docs/rules/object-curly-spacing.html).
 
@@ -294,7 +294,7 @@
     const foo = { clark: 'kent' };
     ```
 
-  - [18.12](#18.12) <a name='18.12'></a> Avoid having lines of code that are longer than 100 characters (including whitespace).
+  1. Avoid having lines of code that are longer than 100 characters (including whitespace).
 
     > Why? This ensures readability and maintainability.
 

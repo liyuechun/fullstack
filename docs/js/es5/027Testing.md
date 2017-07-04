@@ -1,6 +1,6 @@
 ## Testing
 
-  - [28.1](#28.1) <a name="28.1"></a> **Yup.**
+  1. **Yup.**
 
     ```javascript
     function () {
@@ -8,7 +8,7 @@
     }
     ```
 
-  - [28.2](#28.2) <a name="28.2"></a> **No, but seriously**:
+  1. **No, but seriously**:
    - Whichever testing framework you use, you should be writing tests!
    - Strive to write many small pure functions, and minimize where mutations occur.
    - Be cautious about stubs and mocks - they can make your tests more brittle.

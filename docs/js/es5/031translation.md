@@ -1,4 +1,4 @@
-## Translation
+### Translation
 
   This style guide is also available in other languages:
 

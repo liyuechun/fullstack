@@ -1,4 +1,4 @@
-## Resources
+### Resources
 
 **Learning ES6**
 

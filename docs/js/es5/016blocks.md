@@ -1,6 +1,6 @@
-## Blocks
+### Blocks
 
-  - [16.1](#16.1) <a name='16.1'></a> Use braces with all multi-line blocks.
+  1. Use braces with all multi-line blocks.
 
     ```javascript
     // bad
@@ -24,7 +24,7 @@
     }
     ```
 
-  - [16.2](#16.2) <a name='16.2'></a> If you're using multi-line blocks with `if` and `else`, put `else` on the same line as your
+  1. If you're using multi-line blocks with `if` and `else`, put `else` on the same line as your
     `if` block's closing brace.
 
     eslint rules: [`brace-style`](http://eslint.org/docs/rules/brace-style.html).

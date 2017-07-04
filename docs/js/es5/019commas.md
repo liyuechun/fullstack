@@ -1,6 +1,6 @@
-## Commas
+### Commas
 
-  - [19.1](#19.1) <a name='19.1'></a> Leading commas: **Nope.**
+  1. Leading commas: **Nope.**
 
     eslint rules: [`comma-style`](http://eslint.org/docs/rules/comma-style.html).
 
@@ -36,7 +36,7 @@
     };
     ```
 
-  - [19.2](#19.2) <a name='19.2'></a> Additional trailing comma: **Yup.**
+  1. Additional trailing comma: **Yup.**
 
     eslint rules: [`comma-dangle`](http://eslint.org/docs/rules/comma-dangle.html).
 

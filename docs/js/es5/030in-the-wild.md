@@ -1,4 +1,4 @@
-## In the Wild
+### In the Wild
 
   This is a list of organizations that are using this style guide. Send us a pull request and we'll add you to the list.
 
