@@ -9,19 +9,16 @@
 1. [全栈部落技术社区](http://bbs.kongyixueyuan.com)
 
 -------------
-## ES5
+## JavaScript 从零到壹
 -------------
-1. [Types](#docs/js/es5/001types)
-1. [References](#docs/js/es5/002references)
+
+##
+
+1. [数据类型](#docs/js/es5/001types)
 1. [Objects](#docs/js/es5/003objects)
 1. [Arrays](#docs/js/es5/004arrays)
-1. [Destructuring](#docs/js/es5/005destructuring)
 1. [Strings](#docs/js/es5/006strings)
 1. [Functions](#docs/js/es5/007functions)
-1. [Arrow Functions](#docs/js/es5/008arrow-functions)
-1. [Constructors](#docs/js/es5/009constructors)
-1. [Modules](#docs/js/es5/010modules)
-1. [Iterators and Generators](#docs/js/es5/011iterators-and-generators)
 1. [Properties](#docs/js/es5/012properties)
 1. [Variables](#docs/js/es5/013variables)
 1. [Hoisting](#docs/js/es5/014hoisting)
@@ -41,9 +38,6 @@
 1. [Performance](#docs/js/es5/028performance)
 1. [Resources](#docs/js/es5/029resources)
 1. [In the Wild](#docs/js/es5/030in-the-wild)
-1. [Translation](#docs/js/es5/031translation)
-1. [The JavaScript Style Guide Guide](#docs/js/es5/032the-javascript-style-guide-guide)
-1. [Chat With Us About JavaScript](#docs/js/es5/033chat-with-us-about-javascript)
 
 
 -------------
