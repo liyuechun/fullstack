@@ -42,7 +42,7 @@ var getHash = function (hash) {
   }
 };
 
-var disqusCode = '<h3 style="font-size:25px">联系我，立即申请加入从零到壹全栈部落</h3><div id="disqus_thread"><ol><li>小精灵QQ：723591353</li><li><img src="http://orhm8wuhd.bkt.clouddn.com/xiaojingling.jpeg" /></li></ol></div>';
+var disqusCode = '<h3 style="font-size:25px">微信添加小精灵，立即申请加入从零到壹全栈部落</h3><div id="disqus_thread"><img src="http://orhm8wuhd.bkt.clouddn.com/xiaojingling.jpeg" /></div>';
 
 
 var menu = new Array();
