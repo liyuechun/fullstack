@@ -12,7 +12,7 @@
 ## JavaScript 从零到壹
 -------------
 
-##
+### ES5
 
 1. [数据类型](#docs/js/es5/001types)
 1. [Objects](#docs/js/es5/003objects)
@@ -39,10 +39,7 @@
 1. [Resources](#docs/js/es5/029resources)
 1. [In the Wild](#docs/js/es5/030in-the-wild)
 
-
--------------
-## ECMAScript 2015 特性
--------------
+### ECMAScript 2015 特性
 
 1. [arrows](#docs/js/es6/001arrows)
 1. [classes](#docs/js/es6/002classes)
@@ -66,11 +63,8 @@
 1. [reflect api](#docs/js/es6/020reflect-api)
 1. [tail calls](#docs/js/es6/021tail-calls)
 
+### JavaScript 30天
 
------------------
-## JavaScript 30天
------------------
-## 001 - 每天一项目
 1. [JavaScript Drum Kit](#TODO)
 1. [JS + CSS Clock](#TODO)
 1. [CSS Variables](#TODO)
@@ -101,8 +95,6 @@
 1. [Video Speed Controller](#TODO)
 1. [Countdown Timer](#TODO)
 1. [Whack A Mole](#TODO)
-
-## 002 - JavaScript 30源码
 1. [源码下载](https://github.com/fullstacktribe/JavaScript30)
 
 --------------
