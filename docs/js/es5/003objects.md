@@ -1,8 +1,8 @@
-## 对象
+# 对象
 
-- 使用字面量创建对象
+## 使用字面量创建对象
 
-eslint rules: [`no-new-object`](http://eslint.org/docs/rules/no-new-object.html).
+eslint rules: [`no##new##object`](http://eslint.org/docs/rules/no##new##object.html).
 
 ```javascript
 // bad
@@ -12,7 +12,7 @@ const item = new Object();
 const item = {};
 ```
 
-- 不要使用保留字
+## 不要使用保留字
 
 ```javascript
 // bad
@@ -32,7 +32,7 @@ const superman = {
 };
 ```
 
-- 使用可读的同义词代替保留字。
+## 使用可读的同义词代替保留字。
 
 ```javascript
 // bad
@@ -51,7 +51,7 @@ const superman = {
 };
 ```
 
-- 创建具有动态属性名称的对象时，请使用可计算的属性命名。
+## 创建具有动态属性名称的对象时，请使用可计算的属性命名。
 
 > 为什么? 它们允许您在一个位置定义对象的所有属性。
 
@@ -75,9 +75,9 @@ const obj = {
 };  
 ```
 
-- 使用对象方法简写。
+## 使用对象方法简写。
 
-eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
+eslint rules: [`object##shorthand`](http://eslint.org/docs/rules/object##shorthand.html).
 
 ```javascript
 // bad
@@ -99,11 +99,11 @@ const atom = {
 };
 ```
 
-- 使用属性值简写
+## 使用属性值简写
 
 > 为什么? 简洁，清晰。
 
-  eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
+  eslint rules: [`object##shorthand`](http://eslint.org/docs/rules/object##shorthand.html).
 
 
 ```javascript
@@ -120,7 +120,7 @@ const obj = {
 };
 ```
 
-- 对象声明中属性使用简写之前，先做值声明。
+## 对象声明中属性使用简写之前，先做值声明。
 
 > 为什么? 它更容易知道哪些属性使用了简写。
 
@@ -150,25 +150,25 @@ const obj = {
 };
 ```
 
-- 只给无效标识符的属性添加引号。
+## 只给无效标识符的属性添加引号。
 
 > 为什么? 一般来说，我们认为它主观上更容易阅读。 它改进了语法高亮，并且更容易被许多JS引擎优化。
 
-eslint rules: [`quote-props`](http://eslint.org/docs/rules/quote-props.html).
+eslint rules: [`quote##props`](http://eslint.org/docs/rules/quote##props.html).
 
 ```javascript
 // bad
 const bad = {
     'foo': 3,
     'bar': 4,
-    'data-blah': 5
+    'data##blah': 5
 };
 
 // good
 const good = {
     foo: 3,
     bar: 4,
-    'data-blah': 5
+    'data##blah': 5
 };
 ```
 
