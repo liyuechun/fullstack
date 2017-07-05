@@ -1,170 +1,174 @@
-### Objects
+### 对象
 
-- Use the literal syntax for object creation.
+- 使用字面量创建对象
 
   eslint rules: [`no-new-object`](http://eslint.org/docs/rules/no-new-object.html).
 
-  ```javascript
-  // bad
-  const item = new Object();
+```javascript
+// bad
+const item = new Object();
 
-  // good
-  const item = {};
-  ```
+// good
+const item = {};
+```
 
-- If your code will be executed in browsers in script context, don't use [reserved words](http://es5.github.io/#x7.6.1) as keys. It won't work in IE8. [More info](https://github.com/airbnb/javascript/issues/61). It’s OK to use them in ES6 modules and server-side code.
+- 不要使用保留字
 
-  ```javascript
-  // bad
-  const superman = {
-    default: { clark: 'kent' },
-    private: true,
-  };
+```javascript
+// bad
+const superman = {
+    default: {
+        clark: 'kent'
+    },
+    private: true
+};
 
-  // good
-  const superman = {
-    defaults: { clark: 'kent' },
-    hidden: true,
-  };
-  ```
+// good
+const superman = {
+    defaults: {
+        clark: 'kent'
+    },
+    hidden: true
+};
+```
 
-- Use readable synonyms in place of reserved words.
+- 使用可读的同义词代替保留字。
 
-  ```javascript
-  // bad
-  const superman = {
-    class: 'alien',
-  };
+```javascript
+// bad
+const superman = {
+    class: 'alien'
+};
 
-  // bad
-  const superman = {
-    klass: 'alien',
-  };
+// bad
+const superman = {
+    klass: 'alien'
+};
 
-  // good
-  const superman = {
-    type: 'alien',
-  };
-  ```
+// good
+const superman = {
+    type: 'alien'
+};
+```
 
-- Use computed property names when creating objects with dynamic property names.
+- 创建具有动态属性名称的对象时，请使用可计算的属性命名。
 
-> Why? They allow you to define all the properties of an object in one place.
+> 为什么? 它们允许您在一个位置定义对象的所有属性。
 
-
-  ```javascript
-  function getKey(k) {
+```javascript
+function getKey(k) {
     return `a key named ${k}`;
-  }
+}
 
-  // bad
-  const obj = {
+// bad
+const obj = {
+    id: 5,
+    name: 'San Francisco'
+};
+obj[getKey('enabled')] = true;
+
+// good
+const obj = {
     id: 5,
     name: 'San Francisco',
-  };
-  obj[getKey('enabled')] = true;
+    [getKey('enabled')]: true
+};  
+```
 
-  // good
-  const obj = {
-    id: 5,
-    name: 'San Francisco',
-    [getKey('enabled')]: true,
-  };
-  ```
-
-- Use object method shorthand.
+- 使用对象方法简写。
 
   eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
-  ```javascript
-  // bad
-  const atom = {
+```javascript
+// bad
+const atom = {
     value: 1,
 
     addValue: function (value) {
-      return atom.value + value;
-    },
-  };
+        return atom.value + value;
+    }
+};
 
-  // good
-  const atom = {
+// good
+const atom = {
     value: 1,
 
     addValue(value) {
-      return atom.value + value;
-    },
-  };
-  ```
+        return atom.value + value;
+    }
+};
+```
 
-- Use property value shorthand.
+- 使用属性值简写
 
-> Why? It is shorter to write and descriptive.
+> 为什么? 简洁，清晰。
 
   eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
 
-  ```javascript
-  const lukeSkywalker = 'Luke Skywalker';
+```javascript
+const lukeSkywalker = 'Luke Skywalker';
 
-  // bad
-  const obj = {
-    lukeSkywalker: lukeSkywalker,
-  };
+// bad
+const obj = {
+    lukeSkywalker: lukeSkywalker
+};
 
-  // good
-  const obj = {
-    lukeSkywalker,
-  };
-  ```
+// good
+const obj = {
+    lukeSkywalker
+};
+```
 
-- Group your shorthand properties at the beginning of your object declaration.
+- 对象声明中属性使用简写之前，先做值声明。
 
-  > Why? It's easier to tell which properties are using the shorthand.
+> 为什么? 它更容易知道哪些属性使用了简写。
 
 
-  ```js
-  const anakinSkywalker = 'Anakin Skywalker';
-  const lukeSkywalker = 'Luke Skywalker';
+```js
+const anakinSkywalker = 'Anakin Skywalker';
+const lukeSkywalker = 'Luke Skywalker';
 
-  // bad
-  const obj = {
+// bad
+const obj = {
     episodeOne: 1,
     twoJediWalkIntoACantina: 2,
     lukeSkywalker,
     episodeThree: 3,
     mayTheFourth: 4,
-    anakinSkywalker,
-  };
+    anakinSkywalker
+};
 
-  // good
-  const obj = {
+// good
+const obj = {
     lukeSkywalker,
     anakinSkywalker,
     episodeOne: 1,
     twoJediWalkIntoACantina: 2,
     episodeThree: 3,
-    mayTheFourth: 4,
-  };
-  ```
+    mayTheFourth: 4
+};
+```
 
-- Only quote properties that are invalid identifiers.
+- 只给无效标识符的属性添加引号。
 
-> Why? In general we consider it subjectively easier to read. It improves syntax highlighting, and is also more easily optimized by many JS engines.
+> 为什么? 一般来说，我们认为它主观上更容易阅读。 它改进了语法高亮，并且更容易被许多JS引擎优化。
 
 eslint rules: [`quote-props`](http://eslint.org/docs/rules/quote-props.html).
 
 ```javascript
 // bad
 const bad = {
-  'foo': 3,
-  'bar': 4,
-  'data-blah': 5,
+    'foo': 3,
+    'bar': 4,
+    'data-blah': 5
 };
 
 // good
 const good = {
-  foo: 3,
-  bar: 4,
-  'data-blah': 5,
+    foo: 3,
+    bar: 4,
+    'data-blah': 5
 };
 ```
+

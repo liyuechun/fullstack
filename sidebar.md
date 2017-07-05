@@ -14,13 +14,13 @@
 
 ## ES5
 
-1. [Types](#docs/js/es5/001types)
-1. [Objects](#docs/js/es5/003objects)
-1. [Arrays](#docs/js/es5/004arrays)
-1. [Strings](#docs/js/es5/006strings)
-1. [Functions](#docs/js/es5/007functions)
-1. [Properties](#docs/js/es5/012properties)
-1. [Variables](#docs/js/es5/013variables)
+1. [类型](#docs/js/es5/001types)
+1. [对象](#docs/js/es5/003objects)
+1. [数组](#docs/js/es5/004arrays)
+1. [字符串](#docs/js/es5/006strings)
+1. [函数](#docs/js/es5/007functions)
+1. [属性](#docs/js/es5/012properties)
+1. [变量](#docs/js/es5/013variables)
 1. [Hoisting](#docs/js/es5/014hoisting)
 1. [Comparison Operators & Equality](#docs/js/es5/015comparison-operators--equality)
 1. [Blocks](#docs/js/es5/016blocks)
