@@ -1,8 +1,8 @@
-# Arrays
+# 数组
 
 ## 使用字面量创建数组
 
-eslint rules: [`no##array##constructor`](http://eslint.org/docs/rules/no##array##constructor.html).
+eslint rules: [`no-array-constructor`](http://eslint.org/docs/rules/no-array-constructor.html).
 
 ```javascript
 // bad

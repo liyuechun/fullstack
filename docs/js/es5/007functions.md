@@ -1,66 +1,63 @@
-# Functions
+# 函数
 
-## Use function declarations instead of function expressions.
+## 使用函数声明代替函数表达式
 
-  > Why? Function declarations are named, so they're easier to identify in call stacks. Also, the whole body of a function declaration is hoisted, whereas only the reference of a function expression is hoisted. This rule makes it possible to always use [Arrow Functions](#arrow##functions) in place of function expressions.
+> 为什么? 函数声明被命名，所以它们在调用堆栈中更容易识别。而且，它是一整个函数声明的整体被悬挂，而不只是一个函数表达式的引用被悬挂。
 
-  ```javascript
-  // bad
-  const foo = function () {
-  };
+```javascript
+// bad
+const foo = function () {};
 
-  // good
-  function foo() {
-  }
-  ```
+// good
+function foo() {}
+```
 
-## Function expressions:
+## 函数表达式：
 
-  ```javascript
-  // immediately##invoked function expression (IIFE)
-  (() => {
+```javascript
+// immediately##invoked function expression (IIFE)
+(() => {
     console.log('Welcome to the Internet. Please follow me.');
-  })();
-  ```
+})();
+```
 
-## Never declare a function in a non##function block (if, while, etc). Assign the function to a variable instead. Browsers will allow you to do it, but they all interpret it differently, which is bad news bears.
+## 绝不在一个非函数块(if,while,等等)中声明一个函数。
+绝不在一个非函数块(if,while,等等)中声明一个函数。而是将一个函数赋值给一个变量。其实浏览器允许你在非函数块中声明函数，但有一个坏消息，它们会以不同的方式来解释。
 
-## **Note:** ECMA##262 defines a `block` as a list of statements. A function declaration is not a statement. [Read ECMA##262's note on this issue](http://www.ecma##international.org/publications/files/ECMA##ST/Ecma##262.pdf#page=91).
-
-  ```javascript
-  // bad
-  if (currentUser) {
+```javascript
+// bad
+if (currentUser) {
     function test() {
-      console.log('Nope.');
+        console.log('Nope.');
     }
-  }
+}
 
-  // good
-  let test;
-  if (currentUser) {
+// good
+let test;
+if (currentUser) {
     test = () => {
-      console.log('Yup.');
+        console.log('Yup.');
     };
-  }
-  ```
+}
+```
 
-## Never name a parameter `arguments`. This will take precedence over the `arguments` object that is given to every function scope.
+## 绝不命名名字为`arguments`的参数。
 
-  ```javascript
-  // bad
-  function nope(name, options, arguments) {
+绝不命名名字为`arguments`的参数。，这将优先于给予每个函数范围的`arguments`对象。
+
+```javascript
+// bad
+function nope(name, options, arguments) {
     // ...stuff...
-  }
+}
 
-  // good
-  function yup(name, options, args) {
+// good
+function yup(name, options, args) {
     // ...stuff...
-  }
-  ```
+}
+```
 
-## Never use `arguments`, opt to use rest syntax `...` instead.
-
-  > Why? `...` is explicit about which arguments you want pulled. Plus rest arguments are a real Array and not Array##like like `arguments`.
+## 不要使用`arguments`，而是选择使用`rest`语法`...`
 
   ```javascript
   // bad
@@ -75,128 +72,135 @@
   }
   ```
 
-## Use default parameter syntax rather than mutating function arguments.
+## 使用默认参数语法而不是变异函数参数
 
-  ```javascript
-  // really bad
-  function handleThings(opts) {
-    // No! We shouldn't mutate function arguments.
-    // Double bad: if opts is falsy it'll be set to an object which may
-    // be what you want but it can introduce subtle bugs.
+```javascript
+// really bad
+function handleThings(opts) {
+    // No! We shouldn't mutate function arguments. Double bad: if opts is falsy
+    // it'll be set to an object which may be what you want but it can introduce
+    // subtle bugs.
     opts = opts || {};
     // ...
-  }
+}
 
-  // still bad
-  function handleThings(opts) {
+// still bad
+function handleThings(opts) {
     if (opts === void 0) {
-      opts = {};
+        opts = {};
     }
     // ...
-  }
+}
 
-  // good
-  function handleThings(opts = {}) {
+// good
+function handleThings(opts = {}) {
     // ...
-  }
-  ```
+}
+```
 
-## Avoid side effects with default parameters.
+## 使用默认参数避免副作用。
 
-  > Why? They are confusing to reason about.
+> 为什么? 他们有令人困惑的理由。
 
-  ```javascript
-  var b = 1;
-  // bad
-  function count(a = b++) {
+```javascript
+var b = 1;
+// bad
+function count(a = b++) {
     console.log(a);
-  }
-  count();  // 1
-  count();  // 2
-  count(3); // 3
-  count();  // 3
-  ```
+}
+count(); // 1
+count(); // 2
+count(3); // 3
+count(); // 3
+```
 
-## Always put default parameters last.
+## 最后一个参数总放默认值
 
-  ```javascript
-  // bad
-  function handleThings(opts = {}, name) {
+```javascript
+// bad
+function handleThings(opts = {}, name) {
     // ...
-  }
+}
 
-  // good
-  function handleThings(name, opts = {}) {
+// good
+function handleThings(name, opts = {}) {
     // ...
-  }
-  ```
+}
+```
 
-## Never use the Function constructor to create a new function.
+## 绝不实用构造函数创建一个新函数
 
-  > Why? Creating a function in this way evaluates a string similarly to eval(), which opens vulnerabilities.
+```javascript
+// bad
+var add = new Function('a', 'b', 'return a + b');
 
-  ```javascript
-  // bad
-  var add = new Function('a', 'b', 'return a + b');
+// still bad
+var subtract = Function('a', 'b', 'return a - b');
+```
 
-  // still bad
-  var subtract = Function('a', 'b', 'return a ## b');
-  ```
+## 间隔函数进行签名
 
-## Spacing in a function signature.
+> 为什么? 一致性很好，您不必在添加或删除名称时添加或删除空格。
 
-  > Why? Consistency is good, and you shouldn’t have to add or remove a space when adding or removing a name.
 
-  ```javascript
-  // bad
-  const f = function(){};
-  const g = function (){};
-  const h = function() {};
+```javascript
+// bad
+const f = function(){};
+const g = function (){};
+const h = function() {};
 
-  // good
-  const x = function () {};
-  const y = function a() {};
-  ```
+// good
+const x = function () {};
+const y = function a() {};
+```
 
-## Never mutate parameters.
 
-  > Why? Manipulating objects passed in as parameters can cause unwanted variable side effects in the original caller.
+## 不要突变参数。
 
-  eslint rules: [`no##param##reassign`](http://eslint.org/docs/rules/no##param##reassign.html).
+> 为什么? 操作作为参数传入的对象可能会导致原始调用者中不必要的可变副作用。
 
-  ```javascript
-  // bad
-  function f1(obj) {
+eslint rules: [`no-param-reassign`](http://eslint.org/docs/rules/no-param-reassign.html).
+
+```javascript
+// bad
+function f1(obj) {
     obj.key = 1;
-  };
+};
 
-  // good
-  function f2(obj) {
-    const key = Object.prototype.hasOwnProperty.call(obj, 'key') ? obj.key : 1;
-  };
-  ```
+// good
+function f2(obj) {
+    const key = Object
+        .prototype
+        .hasOwnProperty
+        .call(obj, 'key')
+        ? obj.key
+        : 1;
+};
+```
 
-## Never reassign parameters.
+## 绝不给参数重新赋值
 
-  > Why? Reassigning parameters can lead to unexpected behavior, especially when accessing the `arguments` object. It can also cause optimization issues, especially in V8.
+> 为什么? 重新分配参数可能导致意外的行为，特别是访问`arguments`对象时。 它也可能导致优化问题，特别是在V8中。
 
-  eslint rules: [`no##param##reassign`](http://eslint.org/docs/rules/no##param##reassign.html).
+eslint rules: [`no-param-reassign`](http://eslint.org/docs/rules/no-param-reassign.html).
 
-  ```javascript
-  // bad
-  function f1(a) {
+```javascript
+// bad
+function f1(a) {
     a = 1;
-  }
+}
 
-  function f2(a) {
-    if (!a) { a = 1; }
-  }
+function f2(a) {
+    if (!a) {
+        a = 1;
+    }
+}
 
-  // good
-  function f3(a) {
+// good
+function f3(a) {
     const b = a || 1;
-  }
+}
 
-  function f4(a = 1) {
-  }
-  ```
+function f4(a = 1) {}
+```
+

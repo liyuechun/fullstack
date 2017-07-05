@@ -37,7 +37,7 @@ const errorMessage = 'This is a super long error that was thrown because ' +
 
 > 为什么? 模板字符串为您提供可读的，简洁的语法，具有适当的换行符和字符串插入功能。
 
-eslint rules: [`prefer##template`](http://eslint.org/docs/rules/prefer##template.html).
+eslint rules: [`prefer-template`](http://eslint.org/docs/rules/prefer-template.html).
 
 ```javascript
 // bad

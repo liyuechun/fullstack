@@ -2,7 +2,7 @@
 
 ## 使用字面量创建对象
 
-eslint rules: [`no##new##object`](http://eslint.org/docs/rules/no##new##object.html).
+eslint rules: [`no-new-object`](http://eslint.org/docs/rules/no-new-object.html).
 
 ```javascript
 // bad
@@ -77,7 +77,7 @@ const obj = {
 
 ## 使用对象方法简写。
 
-eslint rules: [`object##shorthand`](http://eslint.org/docs/rules/object##shorthand.html).
+eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
 ```javascript
 // bad
@@ -103,7 +103,7 @@ const atom = {
 
 > 为什么? 简洁，清晰。
 
-  eslint rules: [`object##shorthand`](http://eslint.org/docs/rules/object##shorthand.html).
+  eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
 
 ```javascript
@@ -154,7 +154,7 @@ const obj = {
 
 > 为什么? 一般来说，我们认为它主观上更容易阅读。 它改进了语法高亮，并且更容易被许多JS引擎优化。
 
-eslint rules: [`quote##props`](http://eslint.org/docs/rules/quote##props.html).
+eslint rules: [`quote-props`](http://eslint.org/docs/rules/quote-props.html).
 
 ```javascript
 // bad
@@ -171,4 +171,5 @@ const good = {
     'data##blah': 5
 };
 ```
+
 
