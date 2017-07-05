@@ -1,89 +1,89 @@
 ## Constructors
 
-  - Always use `class`. Avoid manipulating `prototype` directly.
+- Always use `class`. Avoid manipulating `prototype` directly.
 
-    > Why? `class` syntax is more concise and easier to reason about.
+  > Why? `class` syntax is more concise and easier to reason about.
 
-    ```javascript
-    // bad
-    function Queue(contents = []) {
+  ```javascript
+  // bad
+  function Queue(contents = []) {
+    this._queue = [...contents];
+  }
+  Queue.prototype.pop = function () {
+    const value = this._queue[0];
+    this._queue.splice(0, 1);
+    return value;
+  }
+
+
+  // good
+  class Queue {
+    constructor(contents = []) {
       this._queue = [...contents];
     }
-    Queue.prototype.pop = function () {
+    pop() {
       const value = this._queue[0];
       this._queue.splice(0, 1);
       return value;
     }
+  }
+  ```
 
+- Use `extends` for inheritance.
 
-    // good
-    class Queue {
-      constructor(contents = []) {
-        this._queue = [...contents];
-      }
-      pop() {
-        const value = this._queue[0];
-        this._queue.splice(0, 1);
-        return value;
-      }
-    }
-    ```
+  > Why? It is a built-in way to inherit prototype functionality without breaking `instanceof`.
 
-  - Use `extends` for inheritance.
+  ```javascript
+  // bad
+  const inherits = require('inherits');
+  function PeekableQueue(contents) {
+    Queue.apply(this, contents);
+  }
+  inherits(PeekableQueue, Queue);
+  PeekableQueue.prototype.peek = function () {
+    return this._queue[0];
+  }
 
-    > Why? It is a built-in way to inherit prototype functionality without breaking `instanceof`.
-
-    ```javascript
-    // bad
-    const inherits = require('inherits');
-    function PeekableQueue(contents) {
-      Queue.apply(this, contents);
-    }
-    inherits(PeekableQueue, Queue);
-    PeekableQueue.prototype.peek = function () {
+  // good
+  class PeekableQueue extends Queue {
+    peek() {
       return this._queue[0];
     }
+  }
+  ```
 
-    // good
-    class PeekableQueue extends Queue {
-      peek() {
-        return this._queue[0];
-      }
-    }
-    ```
+- Methods can return `this` to help with method chaining.
 
-  - Methods can return `this` to help with method chaining.
+  ```javascript
+  // bad
+  Jedi.prototype.jump = function () {
+    this.jumping = true;
+    return true;
+  };
 
-    ```javascript
-    // bad
-    Jedi.prototype.jump = function () {
+  Jedi.prototype.setHeight = function (height) {
+    this.height = height;
+  };
+
+  const luke = new Jedi();
+  luke.jump(); // => true
+  luke.setHeight(20); // => undefined
+
+  // good
+  class Jedi {
+    jump() {
       this.jumping = true;
-      return true;
-    };
-
-    Jedi.prototype.setHeight = function (height) {
-      this.height = height;
-    };
-
-    const luke = new Jedi();
-    luke.jump(); // => true
-    luke.setHeight(20); // => undefined
-
-    // good
-    class Jedi {
-      jump() {
-        this.jumping = true;
-        return this;
-      }
-
-      setHeight(height) {
-        this.height = height;
-        return this;
-      }
+      return this;
     }
 
-    const luke = new Jedi();
+    setHeight(height) {
+      this.height = height;
+      return this;
+    }
+  }
 
-    luke.jump()
-      .setHeight(20);
-    ```
+  const luke = new Jedi();
+
+  luke.jump()
+    .setHeight(20);
+  ```
