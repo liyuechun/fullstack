@@ -1,6 +1,6 @@
-## Constructors
+# Constructors
 
-- Always use `class`. Avoid manipulating `prototype` directly.
+## Always use `class`. Avoid manipulating `prototype` directly.
 
   > Why? `class` syntax is more concise and easier to reason about.
 
@@ -29,9 +29,9 @@
   }
   ```
 
-- Use `extends` for inheritance.
+## Use `extends` for inheritance.
 
-  > Why? It is a built-in way to inherit prototype functionality without breaking `instanceof`.
+  > Why? It is a built##in way to inherit prototype functionality without breaking `instanceof`.
 
   ```javascript
   // bad
@@ -52,7 +52,7 @@
   }
   ```
 
-- Methods can return `this` to help with method chaining.
+## Methods can return `this` to help with method chaining.
 
   ```javascript
   // bad

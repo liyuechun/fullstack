@@ -1,6 +1,6 @@
-### Blocks
+# Blocks
 
-- Use braces with all multi-line blocks.
+## Use braces with all multi##line blocks.
 
   ```javascript
   // bad
@@ -24,10 +24,10 @@
   }
   ```
 
-- If you're using multi-line blocks with `if` and `else`, put `else` on the same line as your
+## If you're using multi##line blocks with `if` and `else`, put `else` on the same line as your
   `if` block's closing brace.
 
-  eslint rules: [`brace-style`](http://eslint.org/docs/rules/brace-style.html).
+  eslint rules: [`brace##style`](http://eslint.org/docs/rules/brace##style.html).
 
   ```javascript
   // bad

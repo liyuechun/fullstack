@@ -1,8 +1,8 @@
-### Commas
+# Commas
 
-- Leading commas: **Nope.**
+## Leading commas: **Nope.**
 
-  eslint rules: [`comma-style`](http://eslint.org/docs/rules/comma-style.html).
+  eslint rules: [`comma##style`](http://eslint.org/docs/rules/comma##style.html).
 
   ```javascript
   // bad
@@ -36,22 +36,22 @@
   };
   ```
 
-- Additional trailing comma: **Yup.**
+## Additional trailing comma: **Yup.**
 
-  eslint rules: [`comma-dangle`](http://eslint.org/docs/rules/comma-dangle.html).
+  eslint rules: [`comma##dangle`](http://eslint.org/docs/rules/comma##dangle.html).
 
   > Why? This leads to cleaner git diffs. Also, transpilers like Babel will remove the additional trailing comma in the transpiled code which means you don't have to worry about the [trailing comma problem](es5/README.md#commas) in legacy browsers.
 
   ```javascript
-  // bad - git diff without trailing comma
+  // bad ## git diff without trailing comma
   const hero = {
         firstName: 'Florence',
-  -    lastName: 'Nightingale'
+  ##    lastName: 'Nightingale'
   +    lastName: 'Nightingale',
   +    inventorOf: ['coxcomb graph', 'modern nursing']
   };
 
-  // good - git diff with trailing comma
+  // good ## git diff with trailing comma
   const hero = {
         firstName: 'Florence',
         lastName: 'Nightingale',

@@ -1,6 +1,6 @@
-### Variables
+# Variables
 
-  - Always use `const` to declare variables. Not doing so will result in global variables. We want to avoid polluting the global namespace. Captain Planet warned us of that.
+  ## Always use `const` to declare variables. Not doing so will result in global variables. We want to avoid polluting the global namespace. Captain Planet warned us of that.
 
     ```javascript
     // bad
@@ -10,11 +10,11 @@
     const superPower = new SuperPower();
     ```
 
-  - Use one `const` declaration per variable.
+  ## Use one `const` declaration per variable.
 
-    > Why? It's easier to add new variable declarations this way, and you never have to worry about swapping out a `;` for a `,` or introducing punctuation-only diffs.
+    > Why? It's easier to add new variable declarations this way, and you never have to worry about swapping out a `;` for a `,` or introducing punctuation##only diffs.
 
-    eslint rules: [`one-var`](http://eslint.org/docs/rules/one-var.html).
+    eslint rules: [`one##var`](http://eslint.org/docs/rules/one##var.html).
 
     ```javascript
     // bad
@@ -34,7 +34,7 @@
     const dragonball = 'z';
     ```
 
-  - Group all your `const`s and then group all your `let`s.
+  ## Group all your `const`s and then group all your `let`s.
 
     > Why? This is helpful when later on you might need to assign a variable depending on one of the previous assigned variables.
 
@@ -59,7 +59,7 @@
     let length;
     ```
 
-  - Assign variables where you need them, but place them in a reasonable place.
+  ## Assign variables where you need them, but place them in a reasonable place.
 
     > Why? `let` and `const` are block scoped and not function scoped.
 
@@ -80,7 +80,7 @@
       return name;
     }
 
-    // bad - unnecessary function call
+    // bad ## unnecessary function call
     function (hasName) {
       const name = getName();
 

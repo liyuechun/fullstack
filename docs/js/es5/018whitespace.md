@@ -1,6 +1,6 @@
-### Whitespace
+# Whitespace
 
-- Use soft tabs set to 2 spaces.
+## Use soft tabs set to 2 spaces.
 
   eslint rules: [`indent`](http://eslint.org/docs/rules/indent.html).
 
@@ -21,9 +21,9 @@
   }
   ```
 
-- Place 1 space before the leading brace.
+## Place 1 space before the leading brace.
 
-  eslint rules: [`space-before-blocks`](http://eslint.org/docs/rules/space-before-blocks.html).
+  eslint rules: [`space##before##blocks`](http://eslint.org/docs/rules/space##before##blocks.html).
 
   ```javascript
   // bad
@@ -49,9 +49,9 @@
   });
   ```
 
-- Place 1 space before the opening parenthesis in control statements (`if`, `while` etc.). Place no space before the argument list in function calls and declarations.
+## Place 1 space before the opening parenthesis in control statements (`if`, `while` etc.). Place no space before the argument list in function calls and declarations.
 
-  eslint rules: [`space-after-keywords`](http://eslint.org/docs/rules/space-after-keywords.html), [`space-before-keywords`](http://eslint.org/docs/rules/space-before-keywords.html).
+  eslint rules: [`space##after##keywords`](http://eslint.org/docs/rules/space##after##keywords.html), [`space##before##keywords`](http://eslint.org/docs/rules/space##before##keywords.html).
 
   ```javascript
   // bad
@@ -75,9 +75,9 @@
   }
   ```
 
-- Set off operators with spaces.
+## Set off operators with spaces.
 
-  eslint rules: [`space-infix-ops`](http://eslint.org/docs/rules/space-infix-ops.html).
+  eslint rules: [`space##infix##ops`](http://eslint.org/docs/rules/space##infix##ops.html).
 
   ```javascript
   // bad
@@ -87,7 +87,7 @@
   const x = y + 5;
   ```
 
-- End files with a single newline character.
+## End files with a single newline character.
 
   ```javascript
   // bad
@@ -111,7 +111,7 @@
   })(this);↵
   ```
 
-- Use indentation when making long method chains. Use a leading dot, which
+## Use indentation when making long method chains. Use a leading dot, which
   emphasizes that the line is a method call, not a new statement.
 
   ```javascript
@@ -151,7 +151,7 @@
       .call(tron.led);
   ```
 
-- Leave a blank line after blocks and before the next statement.
+## Leave a blank line after blocks and before the next statement.
 
   ```javascript
   // bad
@@ -208,9 +208,9 @@
   return arr;
   ```
 
-- Do not pad your blocks with blank lines.
+## Do not pad your blocks with blank lines.
 
-  eslint rules: [`padded-blocks`](http://eslint.org/docs/rules/padded-blocks.html).
+  eslint rules: [`padded##blocks`](http://eslint.org/docs/rules/padded##blocks.html).
 
   ```javascript
   // bad
@@ -242,9 +242,9 @@
   }
   ```
 
-- Do not add spaces inside parentheses.
+## Do not add spaces inside parentheses.
 
-  eslint rules: [`space-in-parens`](http://eslint.org/docs/rules/space-in-parens.html).
+  eslint rules: [`space##in##parens`](http://eslint.org/docs/rules/space##in##parens.html).
 
   ```javascript
   // bad
@@ -268,9 +268,9 @@
   }
   ```
 
-- Do not add spaces inside brackets.
+## Do not add spaces inside brackets.
 
-  eslint rules: [`array-bracket-spacing`](http://eslint.org/docs/rules/array-bracket-spacing.html).
+  eslint rules: [`array##bracket##spacing`](http://eslint.org/docs/rules/array##bracket##spacing.html).
 
   ```javascript
   // bad
@@ -282,9 +282,9 @@
   console.log(foo[0]);
   ```
 
-- Add spaces inside curly braces.
+## Add spaces inside curly braces.
 
-  eslint rules: [`object-curly-spacing`](http://eslint.org/docs/rules/object-curly-spacing.html).
+  eslint rules: [`object##curly##spacing`](http://eslint.org/docs/rules/object##curly##spacing.html).
 
   ```javascript
   // bad
@@ -294,11 +294,11 @@
   const foo = { clark: 'kent' };
   ```
 
-- Avoid having lines of code that are longer than 100 characters (including whitespace).
+## Avoid having lines of code that are longer than 100 characters (including whitespace).
 
   > Why? This ensures readability and maintainability.
 
-  eslint rules: [`max-len`](http://eslint.org/docs/rules/max-len.html).
+  eslint rules: [`max##len`](http://eslint.org/docs/rules/max##len.html).
 
   ```javascript
   // bad

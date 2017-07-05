@@ -1,6 +1,6 @@
-### Comments
+# Comments
 
-- Use `/** ... */` for multi-line comments. Include a description, specify types and values for all parameters and return values.
+## Use `/** ... */` for multi##line comments. Include a description, specify types and values for all parameters and return values.
 
   ```javascript
   // bad
@@ -32,7 +32,7 @@
   }
   ```
 
-- Use `//` for single line comments. Place single line comments on a newline above the subject of the comment. Put an empty line before the comment unless it's on the first line of a block.
+## Use `//` for single line comments. Place single line comments on a newline above the subject of the comment. Put an empty line before the comment unless it's on the first line of a block.
 
   ```javascript
   // bad
@@ -70,9 +70,9 @@
   }
   ```
 
-- Prefixing your comments with `FIXME` or `TODO` helps other developers quickly understand if you're pointing out a problem that needs to be revisited, or if you're suggesting a solution to the problem that needs to be implemented. These are different than regular comments because they are actionable. The actions are `FIXME -- need to figure this out` or `TODO -- need to implement`.
+## Prefixing your comments with `FIXME` or `TODO` helps other developers quickly understand if you're pointing out a problem that needs to be revisited, or if you're suggesting a solution to the problem that needs to be implemented. These are different than regular comments because they are actionable. The actions are `FIXME #### need to figure this out` or `TODO #### need to implement`.
 
-- Use `// FIXME:` to annotate problems.
+## Use `// FIXME:` to annotate problems.
 
   ```javascript
   class Calculator extends Abacus {
@@ -85,7 +85,7 @@
   }
   ```
 
-- Use `// TODO:` to annotate solutions to problems.
+## Use `// TODO:` to annotate solutions to problems.
 
   ```javascript
   class Calculator extends Abacus {

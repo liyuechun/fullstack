@@ -1,6 +1,6 @@
-### jQuery
+# jQuery
 
-  - Prefix jQuery object variables with a `$`.
+  ## Prefix jQuery object variables with a `$`.
 
     ```javascript
     // bad
@@ -10,10 +10,10 @@
     const $sidebar = $('.sidebar');
 
     // good
-    const $sidebarBtn = $('.sidebar-btn');
+    const $sidebarBtn = $('.sidebar##btn');
     ```
 
-  - Cache jQuery lookups.
+  ## Cache jQuery lookups.
 
     ```javascript
     // bad
@@ -23,7 +23,7 @@
       // ...stuff...
 
       $('.sidebar').css({
-        'background-color': 'pink'
+        'background##color': 'pink'
       });
     }
 
@@ -35,13 +35,13 @@
       // ...stuff...
 
       $sidebar.css({
-        'background-color': 'pink'
+        'background##color': 'pink'
       });
     }
     ```
 
-  - For DOM queries use Cascading `$('.sidebar ul')` or parent > child `$('.sidebar > ul')`. [jsPerf](http://jsperf.com/jquery-find-vs-context-sel/16)
-  - Use `find` with scoped jQuery object queries.
+  ## For DOM queries use Cascading `$('.sidebar ul')` or parent > child `$('.sidebar > ul')`. [jsPerf](http://jsperf.com/jquery##find##vs##context##sel/16)
+  ## Use `find` with scoped jQuery object queries.
 
     ```javascript
     // bad

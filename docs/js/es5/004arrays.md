@@ -1,8 +1,8 @@
-### Arrays
+# Arrays
 
-- Use the literal syntax for array creation.
+## Use the literal syntax for array creation.
 
-  eslint rules: [`no-array-constructor`](http://eslint.org/docs/rules/no-array-constructor.html).
+  eslint rules: [`no##array##constructor`](http://eslint.org/docs/rules/no##array##constructor.html).
 
   ```javascript
   // bad
@@ -12,7 +12,7 @@
   const items = [];
   ```
 
-- Use Array#push instead of direct assignment to add items to an array.
+## Use Array#push instead of direct assignment to add items to an array.
 
   ```javascript
   const someStack = [];
@@ -24,7 +24,7 @@
   someStack.push('abracadabra');
   ```
 
-- Use array spreads `...` to copy arrays.
+## Use array spreads `...` to copy arrays.
 
   ```javascript
   // bad
@@ -39,7 +39,7 @@
   // good
   const itemsCopy = [...items];
   ```
-- To convert an array-like object to an array, use Array#from.
+## To convert an array##like object to an array, use Array#from.
 
   ```javascript
   const foo = document.querySelectorAll('.foo');

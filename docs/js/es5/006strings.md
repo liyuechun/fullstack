@@ -1,6 +1,6 @@
-### Strings
+# Strings
 
-- Use single quotes `''` for strings.
+## Use single quotes `''` for strings.
 
   eslint rules: [`quotes`](http://eslint.org/docs/rules/quotes.html).
 
@@ -12,8 +12,8 @@
   const name = 'Capt. Janeway';
   ```
 
-- Strings that cause the line to go over 100 characters should be written across multiple lines using string concatenation.
-- Note: If overused, long strings with concatenation could impact performance. [jsPerf](http://jsperf.com/ya-string-concat) & [Discussion](https://github.com/airbnb/javascript/issues/40).
+## Strings that cause the line to go over 100 characters should be written across multiple lines using string concatenation.
+## Note: If overused, long strings with concatenation could impact performance. [jsPerf](http://jsperf.com/ya##string##concat) & [Discussion](https://github.com/airbnb/javascript/issues/40).
 
   ```javascript
   // bad
@@ -31,11 +31,11 @@
     'with this, you would get nowhere fast.';
   ```
 
-- When programmatically building up strings, use template strings instead of concatenation.
+## When programmatically building up strings, use template strings instead of concatenation.
 
   > Why? Template strings give you a readable, concise syntax with proper newlines and string interpolation features.
 
-  eslint rules: [`prefer-template`](http://eslint.org/docs/rules/prefer-template.html).
+  eslint rules: [`prefer##template`](http://eslint.org/docs/rules/prefer##template.html).
 
   ```javascript
   // bad
@@ -53,4 +53,4 @@
     return `How are you, ${name}?`;
   }
   ```
-- Never use `eval()` on a string, it opens too many vulnerabilities.
+## Never use `eval()` on a string, it opens too many vulnerabilities.

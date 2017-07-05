@@ -1,6 +1,6 @@
-### Modules
+# Modules
 
-  - Always use modules (`import`/`export`) over a non-standard module system. You can always transpile to your preferred module system.
+  ## Always use modules (`import`/`export`) over a non##standard module system. You can always transpile to your preferred module system.
 
     > Why? Modules are the future, let's start using the future now.
 
@@ -18,7 +18,7 @@
     export default es6;
     ```
 
-  - Do not use wildcard imports.
+  ## Do not use wildcard imports.
 
     > Why? This makes sure you have a single default export.
 
@@ -30,9 +30,9 @@
     import AirbnbStyleGuide from './AirbnbStyleGuide';
     ```
 
-  - And do not export directly from an import.
+  ## And do not export directly from an import.
 
-    > Why? Although the one-liner is concise, having one clear way to import and one clear way to export makes things consistent.
+    > Why? Although the one##liner is concise, having one clear way to import and one clear way to export makes things consistent.
 
     ```javascript
     // bad

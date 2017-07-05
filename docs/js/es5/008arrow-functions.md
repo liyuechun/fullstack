@@ -1,12 +1,12 @@
-### Arrow Functions
+# Arrow Functions
 
-  - When you must use function expressions (as when passing an anonymous function), use arrow function notation.
+  ## When you must use function expressions (as when passing an anonymous function), use arrow function notation.
 
     > Why? It creates a version of the function that executes in the context of `this`, which is usually what you want, and is a more concise syntax.
 
     > Why not? If you have a fairly complicated function, you might move that logic out into its own function declaration.
 
-    eslint rules: [`prefer-arrow-callback`](http://eslint.org/docs/rules/prefer-arrow-callback.html), [`arrow-spacing`](http://eslint.org/docs/rules/arrow-spacing.html).
+    eslint rules: [`prefer##arrow##callback`](http://eslint.org/docs/rules/prefer##arrow##callback.html), [`arrow##spacing`](http://eslint.org/docs/rules/arrow##spacing.html).
 
     ```javascript
     // bad
@@ -22,13 +22,13 @@
     });
     ```
 
-  - If the function body consists of a single expression, omit the braces and use the implicit return. Otherwise, keep the braces and use a `return` statement.
+  ## If the function body consists of a single expression, omit the braces and use the implicit return. Otherwise, keep the braces and use a `return` statement.
 
     > Why? Syntactic sugar. It reads well when multiple functions are chained together.
 
     > Why not? If you plan on returning an object.
 
-    eslint rules: [`arrow-parens`](http://eslint.org/docs/rules/arrow-parens.html), [`arrow-body-style`](http://eslint.org/docs/rules/arrow-body-style.html).
+    eslint rules: [`arrow##parens`](http://eslint.org/docs/rules/arrow##parens.html), [`arrow##body##style`](http://eslint.org/docs/rules/arrow##body##style.html).
 
     ```javascript
     // good
@@ -47,7 +47,7 @@
     });
     ```
 
-  - In case the expression spans over multiple lines, wrap it in parentheses for better readability.
+  ## In case the expression spans over multiple lines, wrap it in parentheses for better readability.
 
     > Why? It shows clearly where the function starts and ends.
 
@@ -66,11 +66,11 @@
     ```
 
 
-  - If your function takes a single argument and doesn’t use braces, omit the parentheses. Otherwise, always include parentheses around arguments.
+  ## If your function takes a single argument and doesn’t use braces, omit the parentheses. Otherwise, always include parentheses around arguments.
 
     > Why? Less visual clutter.
 
-    eslint rules: [`arrow-parens`](http://eslint.org/docs/rules/arrow-parens.html).
+    eslint rules: [`arrow##parens`](http://eslint.org/docs/rules/arrow##parens.html).
 
     ```js
     // bad

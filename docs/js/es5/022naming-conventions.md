@@ -1,6 +1,6 @@
-### Naming Conventions
+# Naming Conventions
 
-  - Avoid single letter names. Be descriptive with your naming.
+  ## Avoid single letter names. Be descriptive with your naming.
 
     ```javascript
     // bad
@@ -14,7 +14,7 @@
     }
     ```
 
-  - Use camelCase when naming objects, functions, and instances.
+  ## Use camelCase when naming objects, functions, and instances.
 
     eslint rules: [`camelcase`](http://eslint.org/docs/rules/camelcase.html).
 
@@ -29,7 +29,7 @@
     function thisIsMyFunction() {}
     ```
 
-  - Use PascalCase when naming constructors or classes.
+  ## Use PascalCase when naming constructors or classes.
 
     ```javascript
     // bad
@@ -53,9 +53,9 @@
     });
     ```
 
-  - Use a leading underscore `_` when naming private properties.
+  ## Use a leading underscore `_` when naming private properties.
 
-    eslint rules: [`no-underscore-dangle`](http://eslint.org/docs/rules/no-underscore-dangle.html).
+    eslint rules: [`no##underscore##dangle`](http://eslint.org/docs/rules/no##underscore##dangle.html).
 
     ```javascript
     // bad
@@ -66,7 +66,7 @@
     this._firstName = 'Panda';
     ```
 
-  - Don't save references to `this`. Use arrow functions or Function#bind.
+  ## Don't save references to `this`. Use arrow functions or Function#bind.
 
     ```javascript
     // bad
@@ -93,7 +93,7 @@
     }
     ```
 
-  - If your file exports a single class, your filename should be exactly the name of the class.
+  ## If your file exports a single class, your filename should be exactly the name of the class.
 
     ```javascript
     // file contents
@@ -113,7 +113,7 @@
     import CheckBox from './CheckBox';
     ```
 
-  - Use camelCase when you export-default a function. Your filename should be identical to your function's name.
+  ## Use camelCase when you export##default a function. Your filename should be identical to your function's name.
 
     ```javascript
     function makeStyleGuide() {
@@ -122,7 +122,7 @@
     export default makeStyleGuide;
     ```
 
-  - Use PascalCase when you export a singleton / function library / bare object.
+  ## Use PascalCase when you export a singleton / function library / bare object.
 
     ```javascript
     const AirbnbStyleGuide = {

@@ -1,6 +1,6 @@
-### Semicolons
+# Semicolons
 
-- **Yup.**
+## **Yup.**
 
   eslint rules: [`semi`](http://eslint.org/docs/rules/semi.html).
 
@@ -24,4 +24,4 @@
   })();
   ```
 
-  [Read more](http://stackoverflow.com/questions/7365172/semicolon-before-self-invoking-function/7365214%237365214).
+  [Read more](http://stackoverflow.com/questions/7365172/semicolon##before##self##invoking##function/7365214%237365214).

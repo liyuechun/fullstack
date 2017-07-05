@@ -1,10 +1,10 @@
-### References
+# References
 
-- Use `const` for all of your references; avoid using `var`.
+## Use `const` for all of your references; avoid using `var`.
 
 > Why? This ensures that you can't reassign your references, which can lead to bugs and difficult to comprehend code.
 
-eslint rules: [`prefer-const`](http://eslint.org/docs/rules/prefer-const.html), [`no-const-assign`](http://eslint.org/docs/rules/no-const-assign.html).
+eslint rules: [`prefer##const`](http://eslint.org/docs/rules/prefer##const.html), [`no##const##assign`](http://eslint.org/docs/rules/no##const##assign.html).
 
 ```javascript
 // bad
@@ -16,11 +16,11 @@ const a = 1;
 const b = 2;
 ```
 
-- If you must reassign references, use `let` instead of `var`.
+## If you must reassign references, use `let` instead of `var`.
 
-> Why? `let` is block-scoped rather than function-scoped like `var`.
+> Why? `let` is block##scoped rather than function##scoped like `var`.
 
-eslint rules: [`no-var`](http://eslint.org/docs/rules/no-var.html).
+eslint rules: [`no##var`](http://eslint.org/docs/rules/no##var.html).
 
 ```javascript
 // bad
@@ -36,7 +36,7 @@ if (true) {
 }
 ```
 
-- Note that both `let` and `const` are block-scoped.
+## Note that both `let` and `const` are block##scoped.
 
 ```javascript
 // const and let only exist in the blocks they are defined in.

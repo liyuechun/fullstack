@@ -1,10 +1,10 @@
-### Iterators and Generators
+# Iterators and Generators
 
-  - Don't use iterators. Prefer JavaScript's higher-order functions like `map()` and `reduce()` instead of loops like `for-of`.
+  ## Don't use iterators. Prefer JavaScript's higher##order functions like `map()` and `reduce()` instead of loops like `for##of`.
 
-    > Why? This enforces our immutable rule. Dealing with pure functions that return values is easier to reason about than side-effects.
+    > Why? This enforces our immutable rule. Dealing with pure functions that return values is easier to reason about than side##effects.
 
-    eslint rules: [`no-iterator`](http://eslint.org/docs/rules/no-iterator.html).
+    eslint rules: [`no##iterator`](http://eslint.org/docs/rules/no##iterator.html).
 
     ```javascript
     const numbers = [1, 2, 3, 4, 5];
@@ -27,6 +27,6 @@
     sum === 15;
     ```
 
-  - Don't use generators for now.
+  ## Don't use generators for now.
 
     > Why? They don't transpile well to ES5.

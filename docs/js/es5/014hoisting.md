@@ -1,6 +1,6 @@
-### Hoisting
+# Hoisting
 
-  - `var` declarations get hoisted to the top of their scope, their assignment does not. `const` and `let` declarations are blessed with a new concept called [Temporal Dead Zones (TDZ)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone_and_errors_with_let). It's important to know why [typeof is no longer safe](http://es-discourse.com/t/why-typeof-is-no-longer-safe/15).
+  ## `var` declarations get hoisted to the top of their scope, their assignment does not. `const` and `let` declarations are blessed with a new concept called [Temporal Dead Zones (TDZ)](https://developer.mozilla.org/en##US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone_and_errors_with_let). It's important to know why [typeof is no longer safe](http://es##discourse.com/t/why##typeof##is##no##longer##safe/15).
 
     ```javascript
     // we know this wouldn't work (assuming there
@@ -35,7 +35,7 @@
     }
     ```
 
-  - Anonymous function expressions hoist their variable name, but not the function assignment.
+  ## Anonymous function expressions hoist their variable name, but not the function assignment.
 
     ```javascript
     function example() {
@@ -49,7 +49,7 @@
     }
     ```
 
-  - Named function expressions hoist the variable name, not the function name or the function body.
+  ## Named function expressions hoist the variable name, not the function name or the function body.
 
     ```javascript
     function example() {
@@ -77,7 +77,7 @@
     }
     ```
 
-  - Function declarations hoist their name and the function body.
+  ## Function declarations hoist their name and the function body.
 
     ```javascript
     function example() {
@@ -89,4 +89,4 @@
     }
     ```
 
-  - For more information refer to [JavaScript Scoping & Hoisting](http://www.adequatelygood.com/2010/2/JavaScript-Scoping-and-Hoisting/) by [Ben Cherry](http://www.adequatelygood.com/).
+  ## For more information refer to [JavaScript Scoping & Hoisting](http://www.adequatelygood.com/2010/2/JavaScript##Scoping##and##Hoisting/) by [Ben Cherry](http://www.adequatelygood.com/).
