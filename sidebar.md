@@ -37,7 +37,6 @@
 1. [Testing](#docs/js/es5/027testing)
 1. [Performance](#docs/js/es5/028performance)
 1. [Resources](#docs/js/es5/029resources)
-1. [In the Wild](#docs/js/es5/030in-the-wild)
 
 ### ECMAScript 2015 特性
 

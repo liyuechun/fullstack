@@ -122,7 +122,7 @@
     > Why? It's easier to tell which properties are using the shorthand.
 
 
-    ```javascript
+    ```js
     const anakinSkywalker = 'Anakin Skywalker';
     const lukeSkywalker = 'Luke Skywalker';
 

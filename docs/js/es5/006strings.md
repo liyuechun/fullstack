@@ -1,4 +1,4 @@
-## Strings
+### Strings
 
   - Use single quotes `''` for strings.
 
