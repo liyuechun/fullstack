@@ -1,6 +1,6 @@
 ### Arrow Functions
 
-  - [1.1](#1.1) <a name='1.1'></a> When you must use function expressions (as when passing an anonymous function), use arrow function notation.
+  - When you must use function expressions (as when passing an anonymous function), use arrow function notation.
 
     > Why? It creates a version of the function that executes in the context of `this`, which is usually what you want, and is a more concise syntax.
 
@@ -22,7 +22,7 @@
     });
     ```
 
-  - [1.2](#1.2) <a name='1.2'></a> If the function body consists of a single expression, omit the braces and use the implicit return. Otherwise, keep the braces and use a `return` statement.
+  - If the function body consists of a single expression, omit the braces and use the implicit return. Otherwise, keep the braces and use a `return` statement.
 
     > Why? Syntactic sugar. It reads well when multiple functions are chained together.
 
@@ -47,7 +47,7 @@
     });
     ```
 
-  - [1.3](#1.3) <a name='1.3'></a> In case the expression spans over multiple lines, wrap it in parentheses for better readability.
+  - In case the expression spans over multiple lines, wrap it in parentheses for better readability.
 
     > Why? It shows clearly where the function starts and ends.
 
@@ -66,7 +66,7 @@
     ```
 
 
-  - [1.4](#1.4) <a name='1.4'></a> If your function takes a single argument and doesn’t use braces, omit the parentheses. Otherwise, always include parentheses around arguments.
+  - If your function takes a single argument and doesn’t use braces, omit the parentheses. Otherwise, always include parentheses around arguments.
 
     > Why? Less visual clutter.
 

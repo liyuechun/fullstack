@@ -1,6 +1,6 @@
-## jQuery
+### jQuery
 
-  - [1.1](#1.1) <a name='1.1'></a> Prefix jQuery object variables with a `$`.
+  - Prefix jQuery object variables with a `$`.
 
     ```javascript
     // bad
@@ -13,7 +13,7 @@
     const $sidebarBtn = $('.sidebar-btn');
     ```
 
-  - [1.2](#1.2) <a name='1.2'></a> Cache jQuery lookups.
+  - Cache jQuery lookups.
 
     ```javascript
     // bad
@@ -40,8 +40,8 @@
     }
     ```
 
-  - [1.3](#1.3) <a name='1.3'></a> For DOM queries use Cascading `$('.sidebar ul')` or parent > child `$('.sidebar > ul')`. [jsPerf](http://jsperf.com/jquery-find-vs-context-sel/16)
-  - [1.4](#1.4) <a name='1.4'></a> Use `find` with scoped jQuery object queries.
+  - For DOM queries use Cascading `$('.sidebar ul')` or parent > child `$('.sidebar > ul')`. [jsPerf](http://jsperf.com/jquery-find-vs-context-sel/16)
+  - Use `find` with scoped jQuery object queries.
 
     ```javascript
     // bad

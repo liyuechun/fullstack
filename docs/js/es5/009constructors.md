@@ -1,6 +1,6 @@
 ## Constructors
 
-  - [1.1](#1.1) <a name='1.1'></a> Always use `class`. Avoid manipulating `prototype` directly.
+  - Always use `class`. Avoid manipulating `prototype` directly.
 
     > Why? `class` syntax is more concise and easier to reason about.
 
@@ -29,7 +29,7 @@
     }
     ```
 
-  - [1.2](#1.2) <a name='1.2'></a> Use `extends` for inheritance.
+  - Use `extends` for inheritance.
 
     > Why? It is a built-in way to inherit prototype functionality without breaking `instanceof`.
 
@@ -52,7 +52,7 @@
     }
     ```
 
-  - [1.3](#1.3) <a name='1.3'></a> Methods can return `this` to help with method chaining.
+  - Methods can return `this` to help with method chaining.
 
     ```javascript
     // bad

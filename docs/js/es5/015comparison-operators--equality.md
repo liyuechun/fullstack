@@ -1,8 +1,8 @@
-## Comparison Operators & Equality
+### Comparison Operators & Equality
 
-  - [1.1](#1.1) <a name='1.1'></a> Use `===` and `!==` over `==` and `!=`.
+  - Use `===` and `!==` over `==` and `!=`.
 
-  - [1.2](#1.2) <a name='1.2'></a> Conditional statements such as the `if` statement evaluate their expression using coercion with the `ToBoolean` abstract method and always follow these simple rules:
+  - Conditional statements such as the `if` statement evaluate their expression using coercion with the `ToBoolean` abstract method and always follow these simple rules:
 
     eslint rules: [`eqeqeq`](http://eslint.org/docs/rules/eqeqeq.html).
 
@@ -20,7 +20,7 @@
     }
     ```
 
-  - [1.3](#1.3) <a name='1.3'></a> Use shortcuts.
+  - Use shortcuts.
 
     ```javascript
     // bad
@@ -44,4 +44,4 @@
     }
     ```
 
-  - [1.4](#1.4) <a name='1.4'></a> For more information see [Truth Equality and JavaScript](http://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108) by Angus Croll.
+  - For more information see [Truth Equality and JavaScript](http://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108) by Angus Croll.
