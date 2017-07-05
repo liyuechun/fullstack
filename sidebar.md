@@ -42,7 +42,7 @@
 1. [Resources](#docs/js/es5/029resources)
 1. [In the Wild](#docs/js/es5/030in-the-wild)
 1. [Translation](#docs/js/es5/031translation)
-1. [The JavaScript Style Guide Guide](#032the-javascript-style-guide-guide)
+1. [The JavaScript Style Guide Guide](#docs/js/es5/032the-javascript-style-guide-guide)
 1. [Chat With Us About JavaScript](#docs/js/es5/033chat-with-us-about-javascript)
 
 
@@ -169,10 +169,10 @@
 ## 前言
 ## 概述
 ## 第一步：新建Express项目
-## 第二步 构建系统
+## 第二步：构建系统
 ## 第三步：项目结构
-## 第四步： ES6速成教程
-## 第五步： React速成教程
+## 第四步：ES6速成教程
+## 第五步：React速成教程
 ## 第六步：Flux架构速成教程
 ## 第七步：Redux架构速成教程
 ## 第八步：React路由（客户端）
