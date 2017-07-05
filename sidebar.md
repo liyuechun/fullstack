@@ -94,7 +94,7 @@
 1. [Video Speed Controller](#TODO)
 1. [Countdown Timer](#TODO)
 1. [Whack A Mole](#TODO)
-1. [源码下载](https://github.com/fullstacktribe/JavaScript30)
+
 
 --------------
 ## Node.js原生开发入门教程
