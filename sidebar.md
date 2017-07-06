@@ -8,7 +8,7 @@
 
 1. [全栈部落技术社区](http://bbs.kongyixueyuan.com)
 
-1. [Github社区](https://github.com/liyuechun)
+1. [Github社区](https://github.com/fullstacktribe)
 
 -------------
 ## JavaScript 从零到壹
