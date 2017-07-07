@@ -55,7 +55,7 @@
 1. [math + number + string + array + object APIs](#docs/js/es6/018math--number--string--array--object-apis)
 1. [二进制和八进制](#docs/js/es6/019binary-and-octal-literals)
 1. [反射 api](#docs/js/es6/020reflect-api)
-1. [tail calls](#docs/js/es6/021tail-calls)
+1. [递归调用](#docs/js/es6/021tail-calls)
 
 ## JavaScript-代码规范
 
