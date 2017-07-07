@@ -1,99 +1,103 @@
-# Comments
+# 注释（Comments）
 
-## Use `/** ... */` for multi##line comments. Include a description, specify types and values for all parameters and return values.
+## 多行注释
 
-  ```javascript
-  // bad
-  // make() returns a new element
-  // based on the passed in tag name
-  //
-  // @param {String} tag
-  // @return {Element} element
-  function make(tag) {
+使用 `/** ... */` 来进行多行注释。包括描述，指定所有参数和返回值的类型和值。
 
-    // ...stuff...
-
-    return element;
-  }
-
-  // good
-  /**
-    * make() returns a new element
-    * based on the passed in tag name
-    *
-    * @param {String} tag
-    * @return {Element} element
-    */
-  function make(tag) {
+```javascript
+// bad
+// make() returns a new element
+// based on the passed in tag name
+//
+// @param {String} tag
+// @return {Element} element
+function make(tag) {
 
     // ...stuff...
 
     return element;
-  }
-  ```
+}
 
-## Use `//` for single line comments. Place single line comments on a newline above the subject of the comment. Put an empty line before the comment unless it's on the first line of a block.
+// good
+/**
+ * make() returns a new element
+ * based on the passed in tag name
+ *
+ * @param {String} tag
+ * @return {Element} element
+ */
+function make(tag) {
 
-  ```javascript
-  // bad
-  const active = true;  // is current tab
+    // ...stuff...
 
-  // good
-  // is current tab
-  const active = true;
+    return element;
+}
+```
 
-  // bad
-  function getType() {
+## 单行注释
+使用 `//` 进行单行注释。 在要注释的代码的上面添加一行注释。每一个单行注释的上面请流出一个空行。
+
+```javascript
+// bad
+const active = true; // is current tab
+
+// good
+// is current tab
+const active = true;
+
+// bad
+function getType() {
     console.log('fetching type...');
     // set the default type to 'no type'
     const type = this._type || 'no type';
 
     return type;
-  }
+}
 
-  // good
-  function getType() {
+// good
+function getType() {
     console.log('fetching type...');
 
     // set the default type to 'no type'
     const type = this._type || 'no type';
 
     return type;
-  }
+}
 
-  // also good
-  function getType() {
+// also good
+function getType() {
     // set the default type to 'no type'
     const type = this._type || 'no type';
 
     return type;
-  }
-  ```
+}
+```
 
-## Prefixing your comments with `FIXME` or `TODO` helps other developers quickly understand if you're pointing out a problem that needs to be revisited, or if you're suggesting a solution to the problem that needs to be implemented. These are different than regular comments because they are actionable. The actions are `FIXME #### need to figure this out` or `TODO #### need to implement`.
+## `FIXME` 和 `TODO`
 
-## Use `// FIXME:` to annotate problems.
+- 使用 `// FIXME:` 注释问题
 
-  ```javascript
-  class Calculator extends Abacus {
+```javascript
+class Calculator extends Abacus {
     constructor() {
-      super();
+        super();
 
-      // FIXME: shouldn't use a global here
-      total = 0;
+        // FIXME: shouldn't use a global here
+        total = 0;
     }
-  }
-  ```
+}
+```
 
-## Use `// TODO:` to annotate solutions to problems.
+- 使用 `// TODO:` 注释问题的解决方案。
 
-  ```javascript
-  class Calculator extends Abacus {
+```javascript
+class Calculator extends Abacus {
     constructor() {
-      super();
+        super();
 
-      // TODO: total should be configurable by an options param
-      this.total = 0;
+        // TODO: total should be configurable by an options param
+        this.total = 0;
     }
-  }
-  ```
+}
+```
+
