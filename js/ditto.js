@@ -42,7 +42,7 @@ var getHash = function (hash) {
   }
 };
 
-var disqusCode = '<h3 style="font-size:20px;color:green;width:200px">微信添加小精灵，立即申请进入「全栈部落VIP」</h3><div id="disqus_thread"><img src="http://orhm8wuhd.bkt.clouddn.com/xiaojingling.jpeg" /></div>';
+var disqusCode = '<h3 style="font-size:20px;color:green;">微信添加小精灵，立即申请进入「全栈部落VIP」</h3><div id="disqus_thread"><img src="http://orhm8wuhd.bkt.clouddn.com/xiaojingling.jpeg" /></div>';
 
 
 var menu = new Array();
@@ -103,7 +103,7 @@ function init_sidebar_section() {
 }
 
 function init_searchbar() {
-  var search = '<form class="searchBox" style="margin-top:10px;margin-bottom:10px;" onSubmit="return searchbar_listener()">' +
+  var search = '<form class="searchBox" style="margin-top:10px;margin-bottom:10px;width:200px;" onSubmit="return searchbar_listener()">' +
     '<input name="search" type="search">' +
     '<input type="image" class="searchButton" src="images/magnifier.jpg" alt="Search" />' +
 //    '<a class="searchLink" href="#" target="_blank"><img src="images/magnifier.jpg"></a>' +
