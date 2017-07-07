@@ -1,6 +1,6 @@
 # 变量
 
-## 总是使用`const`来声明变量。 不这样做会导致全局变量。 我们想避免污染全局命名空间。 
+## 总是使用`const`来声明变量。 不这样做会导致全局变量,我们想避免污染全局命名空间。 
 
 ```javascript
 // bad
@@ -32,9 +32,7 @@ const goSportsTeam = true;
 const dragonball = 'z';
 ```
 
-## Group all your `const`s and then group all your `let`s.
-
-> Why? This is helpful when later on you might need to assign a variable depending on one of the previous assigned variables.
+## 将`const`声明和`let`声明分组
 
 ```javascript
 // bad
@@ -57,9 +55,9 @@ let i;
 let length;
 ```
 
-## Assign variables where you need them, but place them in a reasonable place.
+## 在需要的地方分配变量，但将它们放在合理的位置。
 
-> Why? `let` and `const` are block scoped and not function scoped.
+> 为什么? `let`和`const`是block的范围，而不是函数范围。
 
 ```javascript
 // good
@@ -78,7 +76,7 @@ function () {
     return name;
 }
 
-// bad ## unnecessary function call
+// bad - unnecessary function call
 function (hasName) {
     const name = getName();
 
