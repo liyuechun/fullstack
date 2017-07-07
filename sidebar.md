@@ -1,5 +1,7 @@
 # [从零到壹全栈部落](http://www.kongyixueyuan.com)
 
+## ![](http://om1c35wrq.bkt.clouddn.com/xiaomishu.jpeg)
+
 ## 从零到壹全栈部落-输出是最好的学习方式
 
 1. [申请加入全栈部落](#fullstack)
