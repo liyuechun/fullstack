@@ -1,61 +1,62 @@
 # jQuery
 
-  ## Prefix jQuery object variables with a `$`.
+## jQuery对象变量的前缀为`$`
 
-    ```javascript
-    // bad
-    const sidebar = $('.sidebar');
+```javascript
+// bad
+const sidebar = $('.sidebar');
 
-    // good
+// good
+const $sidebar = $('.sidebar');
+
+// good
+const $sidebarBtn = $('.sidebar-btn');
+```
+
+## 缓存jQuery对象
+
+
+```javascript
+// bad
+function setSidebar() {
+    $('.sidebar').hide();
+
+    // ...stuff...
+
+    $('.sidebar').css({'background-color': 'pink'});
+}
+
+// good
+function setSidebar() {
     const $sidebar = $('.sidebar');
+    $sidebar.hide();
 
-    // good
-    const $sidebarBtn = $('.sidebar##btn');
-    ```
+    // ...stuff...
 
-  ## Cache jQuery lookups.
+    $sidebar.css({'background-color': 'pink'});
+}
+```
 
-    ```javascript
-    // bad
-    function setSidebar() {
-      $('.sidebar').hide();
+## 使用`find`进行查找
 
-      // ...stuff...
+```javascript
+// bad
+$('ul', '.sidebar').hide();
 
-      $('.sidebar').css({
-        'background##color': 'pink'
-      });
-    }
+// bad
+$('.sidebar')
+    .find('ul')
+    .hide();
 
-    // good
-    function setSidebar() {
-      const $sidebar = $('.sidebar');
-      $sidebar.hide();
+// good
+$('.sidebar ul').hide();
 
-      // ...stuff...
+// good
+$('.sidebar > ul').hide();
 
-      $sidebar.css({
-        'background##color': 'pink'
-      });
-    }
-    ```
+// good
+$sidebar
+    .find('ul')
+    .hide();
+```
 
-  ## For DOM queries use Cascading `$('.sidebar ul')` or parent > child `$('.sidebar > ul')`. [jsPerf](http://jsperf.com/jquery##find##vs##context##sel/16)
-  ## Use `find` with scoped jQuery object queries.
-
-    ```javascript
-    // bad
-    $('ul', '.sidebar').hide();
-
-    // bad
-    $('.sidebar').find('ul').hide();
-
-    // good
-    $('.sidebar ul').hide();
-
-    // good
-    $('.sidebar > ul').hide();
-
-    // good
-    $sidebar.find('ul').hide();
-    ```

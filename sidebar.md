@@ -81,6 +81,7 @@
 1. [命名约定](#docs/js/es5-es6-rules/022naming-conventions)
 1. [访问器](#docs/js/es5-es6-rules/023accessors)
 1. [事件](#docs/js/es5-es6-rules/024events)
+1. [jQuery](#docs/js/es5-es6-rules/025jquery)
 1. [资源](#docs/js/es5-es6-rules/029resources)
 
 

@@ -1,51 +1,52 @@
-# Accessors
+# 访问器
 
-  ## Accessor functions for properties are not required.
-  ## If you do make accessor functions use getVal() and setVal('hello').
+## `getVal()` 和 `setVal('hello')`
 
-    ```javascript
-    // bad
-    dragon.age();
+```javascript
+// bad
+dragon.age();
 
-    // good
-    dragon.getAge();
+// good
+dragon.getAge();
 
-    // bad
-    dragon.age(25);
+// bad
+dragon.age(25);
 
-    // good
-    dragon.setAge(25);
-    ```
+// good
+dragon.setAge(25);
+```
 
-  ## If the property is a `boolean`, use `isVal()` or `hasVal()`.
+## 如果属性类型为 `boolean`, 使用 `isVal()` 或者 `hasVal()`
 
-    ```javascript
-    // bad
-    if (!dragon.age()) {
-      return false;
-    }
+```javascript
+// bad
+if (!dragon.age()) {
+    return false;
+}
 
-    // good
-    if (!dragon.hasAge()) {
-      return false;
-    }
-    ```
+// good
+if (!dragon.hasAge()) {
+    return false;
+}
 
-  ## It's okay to create get() and set() functions, but be consistent.
+```
 
-    ```javascript
-    class Jedi {
-      constructor(options = {}) {
+## 可以创建`get()`和`set()`函数，但要保持一致
+
+```javascript
+class Jedi {
+    constructor(options = {}) {
         const lightsaber = options.lightsaber || 'blue';
         this.set('lightsaber', lightsaber);
-      }
-
-      set(key, val) {
-        this[key] = val;
-      }
-
-      get(key) {
-        return this[key];
-      }
     }
-    ```
+
+    set(key, val) {
+        this[key] = val;
+    }
+
+    get(key) {
+        return this[key];
+    }
+}
+```
+
