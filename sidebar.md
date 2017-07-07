@@ -27,7 +27,7 @@
 1. [比较运算符 & 恒等](#docs/js/es5/015comparison-operators--equality)
 1. [块](#docs/js/es5/016blocks)
 1. [注释](#docs/js/es5/017comments)
-1. [Whitespace](#docs/js/es5/018whitespace)
+1. [空格](#docs/js/es5/018whitespace)
 1. [Commas](#docs/js/es5/019commas)
 1. [Semicolons](#docs/js/es5/020semicolons)
 1. [Type Casting & Coercion](#docs/js/es5/021type-casting--coercion)
