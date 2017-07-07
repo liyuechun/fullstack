@@ -1,46 +1,48 @@
-# Modules
+# 模块
 
-  ## Always use modules (`import`/`export`) over a non##standard module system. You can always transpile to your preferred module system.
+> 文章出处：从零到壹全栈部落
 
-    > Why? Modules are the future, let's start using the future now.
+## 始终在非标准模块系统上使用模块（`import` /`export`）。 您可以随时浏览您的首选模块系统。
 
-    ```javascript
-    // bad
-    const AirbnbStyleGuide = require('./AirbnbStyleGuide');
-    module.exports = AirbnbStyleGuide.es6;
+> 为什么? 模块是未来，让我们开始使用未来。
 
-    // ok
-    import AirbnbStyleGuide from './AirbnbStyleGuide';
-    export default AirbnbStyleGuide.es6;
+```javascript
+// bad
+const AirbnbStyleGuide = require('./AirbnbStyleGuide');
+module.exports = AirbnbStyleGuide.es6;
 
-    // best
-    import { es6 } from './AirbnbStyleGuide';
-    export default es6;
-    ```
+// ok
+import AirbnbStyleGuide from './AirbnbStyleGuide';
+export default AirbnbStyleGuide.es6;
 
-  ## Do not use wildcard imports.
+// best
+import { es6 } from './AirbnbStyleGuide';
+export default es6;
+```
 
-    > Why? This makes sure you have a single default export.
+## 不要使用通配符导入
 
-    ```javascript
-    // bad
-    import * as AirbnbStyleGuide from './AirbnbStyleGuide';
+> 为什么? 这确保您有一个默认导出。
 
-    // good
-    import AirbnbStyleGuide from './AirbnbStyleGuide';
-    ```
+```javascript
+// bad
+import * as AirbnbStyleGuide from './AirbnbStyleGuide';
 
-  ## And do not export directly from an import.
+// good
+import AirbnbStyleGuide from './AirbnbStyleGuide';
+```
 
-    > Why? Although the one##liner is concise, having one clear way to import and one clear way to export makes things consistent.
+## 不要从`import`里面直接使用`export`导出
 
-    ```javascript
-    // bad
-    // filename es6.js
-    export { es6 as default } from './airbnbStyleGuide';
 
-    // good
-    // filename es6.js
-    import { es6 } from './AirbnbStyleGuide';
-    export default es6;
-    ```
+```javascript
+// bad
+// filename es6.js
+export { es6 as default } from './airbnbStyleGuide';
+
+// good
+// filename es6.js
+import { es6 } from './AirbnbStyleGuide';
+export default es6;
+```
+

@@ -1,89 +1,92 @@
-# Constructors
+# 构造函数
 
-## Always use `class`. Avoid manipulating `prototype` directly.
+## 总是使用`class`，避免直接操作`prototype`
 
-  > Why? `class` syntax is more concise and easier to reason about.
+> 为什么? `class` 语法更简洁并且可读性更强。
 
-  ```javascript
-  // bad
-  function Queue(contents = []) {
+```javascript
+// bad
+function Queue(contents = []) {
     this._queue = [...contents];
-  }
-  Queue.prototype.pop = function () {
+}
+Queue.prototype.pop = function () {
     const value = this._queue[0];
     this._queue.splice(0, 1);
     return value;
-  }
+}
 
 
-  // good
-  class Queue {
+// good
+class Queue {
     constructor(contents = []) {
-      this._queue = [...contents];
+        this._queue = [...contents];
     }
     pop() {
-      const value = this._queue[0];
-      this._queue.splice(0, 1);
-      return value;
+        const value = this._queue[0];
+        this._queue.splice(0, 1);
+        return value;
     }
-  }
-  ```
+}
+```
 
-## Use `extends` for inheritance.
+## 使用 `extends` 来实现继承
 
-  > Why? It is a built##in way to inherit prototype functionality without breaking `instanceof`.
+> 为什么? 它是一种内置的方式来继承原型功能而不会破坏`instanceof`。
 
-  ```javascript
-  // bad
-  const inherits = require('inherits');
-  function PeekableQueue(contents) {
+```javascript
+// bad
+const inherits = require('inherits');
+
+function PeekableQueue(contents) {
     Queue.apply(this, contents);
-  }
-  inherits(PeekableQueue, Queue);
-  PeekableQueue.prototype.peek = function () {
+}
+inherits(PeekableQueue, Queue);
+PeekableQueue.prototype.peek = function () {
     return this._queue[0];
-  }
+}
 
-  // good
-  class PeekableQueue extends Queue {
+// good
+class PeekableQueue extends Queue {
     peek() {
-      return this._queue[0];
+        return this._queue[0];
     }
-  }
-  ```
+}
+```
 
-## Methods can return `this` to help with method chaining.
+## 方法可以返回`this`来帮助方法链接。
 
-  ```javascript
-  // bad
-  Jedi.prototype.jump = function () {
+```javascript
+// bad
+Jedi.prototype.jump = function () {
     this.jumping = true;
     return true;
-  };
+};
 
-  Jedi.prototype.setHeight = function (height) {
+Jedi.prototype.setHeight = function (height) {
     this.height = height;
-  };
+};
 
-  const luke = new Jedi();
-  luke.jump(); // => true
-  luke.setHeight(20); // => undefined
+const luke = new Jedi();
+luke.jump(); // => true
+luke.setHeight(20); // => undefined
 
-  // good
-  class Jedi {
+// good
+class Jedi {
     jump() {
-      this.jumping = true;
-      return this;
+        this.jumping = true;
+        return this;
     }
 
     setHeight(height) {
-      this.height = height;
-      return this;
+        this.height = height;
+        return this;
     }
-  }
+}
 
-  const luke = new Jedi();
+const luke = new Jedi();
 
-  luke.jump()
+luke.jump()
     .setHeight(20);
-  ```
+```
+
+
