@@ -1,6 +1,6 @@
 # [从零到壹全栈部落](http://www.kongyixueyuan.com)
 
-## ![](http://om1c35wrq.bkt.clouddn.com/xiaomishu.jpeg)
+## ![](http://om1c35wrq.bkt.clouddn.com/quanzhanbuluo.jpg)
 
 ## 从零到壹全栈部落-输出是最好的学习方式
 
