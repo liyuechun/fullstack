@@ -103,7 +103,7 @@ function init_sidebar_section() {
 }
 
 function init_searchbar() {
-  var search = '<form class="searchBox" style="margin-top:10px;margin-bottom:10px;width:300px" onSubmit="return searchbar_listener()">' +
+  var search = '<form class="searchBox" style="margin-top:10px;margin-bottom:10px;width:200px" onSubmit="return searchbar_listener()">' +
     '<input name="search" type="search">' +
     '<input type="image" class="searchButton" src="images/magnifier.jpg" alt="Search" />' +
 //    '<a class="searchLink" href="#" target="_blank"><img src="images/magnifier.jpg"></a>' +
