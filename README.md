@@ -26,9 +26,9 @@
 
 ![](http://os8vua8h7.bkt.clouddn.com/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%9C%89%E6%9C%A8%E6%9C%89%E7%97%9B-%E6%96%B0.png)
 
-## 培训之痛
+<!--## 培训之痛
 
- ![](http://os8vua8h7.bkt.clouddn.com/%E5%9F%B9%E8%AE%AD%E6%9C%BA%E6%9E%84%E4%B9%8B%E7%97%9B.png)
+ ![](http://os8vua8h7.bkt.clouddn.com/%E5%9F%B9%E8%AE%AD%E6%9C%BA%E6%9E%84%E4%B9%8B%E7%97%9B.png)-->
  
 
 ## IT培训应该回归本真 
