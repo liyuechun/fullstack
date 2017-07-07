@@ -77,7 +77,7 @@
 1. [空格](#docs/js/es5-es6-rules/018whitespace)
 1. [逗号](#docs/js/es5-es6-rules/019commas)
 1. [分号](#docs/js/es5-es6-rules/020semicolons)
-1. [Type Casting & Coercion](#docs/js/es5-es6-rules/021type-casting--coercion)
+1. [类型转换 & 强制类型转换](#docs/js/es5-es6-rules/021type-casting--coercion)
 1. [命名约定](#docs/js/es5-es6-rules/022naming-conventions)
 1. [访问器](#docs/js/es5-es6-rules/023accessors)
 1. [事件](#docs/js/es5-es6-rules/024events)
