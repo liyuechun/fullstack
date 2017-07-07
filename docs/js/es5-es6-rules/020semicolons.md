@@ -1,4 +1,4 @@
-# Semicolons
+# 分号(Semicolons)
 
 ## **Yup.**
 
@@ -24,4 +24,5 @@
   })();
   ```
 
-  [Read more](http://stackoverflow.com/questions/7365172/semicolon##before##self##invoking##function/7365214%237365214).
+  [了解更多](http://stackoverflow.com/questions/7365172/semicolon##before##self##invoking##function/7365214%237365214)。
+
