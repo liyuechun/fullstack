@@ -1,47 +1,50 @@
-# Comparison Operators & Equality
+# 比较运算与恒等
 
-## Use `===` and `!==` over `==` and `!=`.
+## 使用 `===` 和 `!==` 而不是 `==` 和 `!=`.
 
-## Conditional statements such as the `if` statement evaluate their expression using coercion with the `ToBoolean` abstract method and always follow these simple rules:
+## 条件语句
 
-  eslint rules: [`eqeqeq`](http://eslint.org/docs/rules/eqeqeq.html).
+条件语句如`if`语句使用`ToBoolean`抽象方法强制来评估它们的表达式，并且始终遵循这些简单的规则：
 
-  + **Objects** evaluate to **true**
-  + **Undefined** evaluates to **false**
-  + **Null** evaluates to **false**
-  + **Booleans** evaluate to **the value of the boolean**
-  + **Numbers** evaluate to **false** if **+0, ##0, or NaN**, otherwise **true**
-  + **Strings** evaluate to **false** if an empty string `''`, otherwise **true**
+eslint rules: [`eqeqeq`](http://eslint.org/docs/rules/eqeqeq.html).
 
-  ```javascript
-  if ([0]) {
++ **Objects** 评估为 **true**
++ **Undefined** 评估为 **false**
++ **Null** 评估为 **false**
++ **Booleans** 评估为 **the value of the boolean**
++ **Numbers** 如果 **+0, -0, 或者 NaN** 评估为 **false** , 否则为 **true**
++ **Strings** `''`空字符串评估为 **false** , 否则为 **true**
+
+```javascript
+if ([0]) {
     // true
     // An array is an object, objects evaluate to true
-  }
-  ```
+}
+```
 
-## Use shortcuts.
+## 使用短句
 
-  ```javascript
-  // bad
-  if (name !== '') {
+```javascript
+// bad
+if (name !== '') {
     // ...stuff...
-  }
+}
 
-  // good
-  if (name) {
+// good
+if (name) {
     // ...stuff...
-  }
+}
 
-  // bad
-  if (collection.length > 0) {
+// bad
+if (collection.length > 0) {
     // ...stuff...
-  }
+}
 
-  // good
-  if (collection.length) {
+// good
+if (collection.length) {
     // ...stuff...
-  }
-  ```
+}
+```
 
-## For more information see [Truth Equality and JavaScript](http://javascriptweblog.wordpress.com/2011/02/07/truth##equality##and##javascript/#more##2108) by Angus Croll.
+## 关于更多，请移步 [Truth Equality and JavaScript](http://javascriptweblog.wordpress.com/2011/02/07/truth##equality##and##javascript/#more##2108) by Angus Croll.
+
