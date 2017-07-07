@@ -1,49 +1,51 @@
-# Blocks
+# 块（Blocks）
 
-## Use braces with all multi##line blocks.
+## 多行时请使用括号括起来
 
-  ```javascript
-  // bad
-  if (test)
+```javascript
+// bad
+if (test)
     return false;
 
-  // good
-  if (test) return false;
+// good
+if (test) return false;
 
-  // good
-  if (test) {
+// good
+if (test) {
     return false;
-  }
+}
 
-  // bad
-  function () { return false; }
+// bad
+function () {return false;}
 
-  // good
-  function () {
+// good
+function () {
     return false;
-  }
-  ```
+}
+```
 
-## If you're using multi##line blocks with `if` and `else`, put `else` on the same line as your
-  `if` block's closing brace.
+## `if` 和 `else`
 
-  eslint rules: [`brace##style`](http://eslint.org/docs/rules/brace##style.html).
+如果使用`if` 和 `else`时，`if` 和 `else`都是用blocks，并且将`else`放在`if`语句结束`}`的同一行。
 
-  ```javascript
-  // bad
-  if (test) {
+eslint rules: [`brace-style`](http://eslint.org/docs/rules/brace-style.html).
+
+```javascript
+// bad
+if (test) {
     thing1();
     thing2();
-  }
-  else {
+} 
+else {
     thing3();
-  }
+}
 
-  // good
-  if (test) {
+// good
+if (test) {
     thing1();
     thing2();
-  } else {
+} else {
     thing3();
-  }
-  ```
+}
+```
+

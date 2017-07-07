@@ -24,7 +24,7 @@
 1. [属性](#docs/js/es5/012properties)
 1. [变量](#docs/js/es5/013variables)
 1. [变量提升](#docs/js/es5/014hoisting)
-1. [Comparison Operators & Equality](#docs/js/es5/015comparison-operators--equality)
+1. [比较运算符 & 恒等](#docs/js/es5/015comparison-operators--equality)
 1. [Blocks](#docs/js/es5/016blocks)
 1. [Comments](#docs/js/es5/017comments)
 1. [Whitespace](#docs/js/es5/018whitespace)
