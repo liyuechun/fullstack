@@ -14,7 +14,9 @@
 
 > [本篇文章Github源码](https://github.com/yiqizhongchuang/react-es6-es7-gulp-JSPM-Webpack/tree/master/react-es6-es7-gulp-JSPM-Webpack-part4)
 
- [![cover](http://okxh06i2t.bkt.clouddn.com/react.png)](http://okxh06i2t.bkt.clouddn.com/react.png)        [![cover](http://okxh06i2t.bkt.clouddn.com/js.png)](http://okxh06i2t.bkt.clouddn.com/js.png)  
+|React|JS|
+|:----:|:----:|
+|![](http://okxh06i2t.bkt.clouddn.com/react.png)|![](http://okxh06i2t.bkt.clouddn.com/js.png)|
 
 
 当我们使用`React.createClass()`时，你有可能使用所谓的混合开发。它们允许插入一些额外的方法到React组建中。这个概念不只是针对React，它也存在于`vanilla JS`和其它的`语言/框架中`。

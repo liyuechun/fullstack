@@ -4,7 +4,7 @@
 
 > Why? This ensures that you can't reassign your references, which can lead to bugs and difficult to comprehend code.
 
-eslint rules: [`prefer##const`](http://eslint.org/docs/rules/prefer##const.html), [`no##const##assign`](http://eslint.org/docs/rules/no##const##assign.html).
+eslint rules: [`prefer-const`](http://eslint.org/docs/rules/prefer-const.html), [`no-const-assign`](http://eslint.org/docs/rules/no-const-assign.html).
 
 ```javascript
 // bad

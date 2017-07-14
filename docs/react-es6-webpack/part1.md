@@ -14,7 +14,10 @@
 
 > [本篇文章Github源码](https://github.com/yiqizhongchuang/react-es6-es7-gulp-JSPM-Webpack/tree/master/react-es6-es7-gulp-JSPM-Webpack-part1)
 
- [![cover](http://okxh06i2t.bkt.clouddn.com/react.png)](http://okxh06i2t.bkt.clouddn.com/react.png)        [![cover](http://okxh06i2t.bkt.clouddn.com/js.png)](http://okxh06i2t.bkt.clouddn.com/js.png)   
+|React|JS|
+|:----:|:----:|
+|![](http://okxh06i2t.bkt.clouddn.com/react.png)|![](http://okxh06i2t.bkt.clouddn.com/js.png)|
+
 
 自从ReactJS v0.13.0 Beta 1宣布，React 组建可以使用ECMAScript 6 后，它能给我们带来什么好处呢？
 

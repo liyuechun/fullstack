@@ -14,7 +14,9 @@
 
 > [本篇文章Github源码](https://github.com/yiqizhongchuang/react-es6-es7-gulp-JSPM-Webpack/tree/master/react-es6-es7-gulp-JSPM-Webpack-part3)
 
- [![cover](http://okxh06i2t.bkt.clouddn.com/react.png)](http://okxh06i2t.bkt.clouddn.com/react.png)        [![cover](http://okxh06i2t.bkt.clouddn.com/js.png)](http://okxh06i2t.bkt.clouddn.com/js.png)   
+|React|JS|
+|:----:|:----:|
+|![](http://okxh06i2t.bkt.clouddn.com/react.png)|![](http://okxh06i2t.bkt.clouddn.com/js.png)|
 
 
 你在看[上一篇文章](http://yiqizhongchuang.cn/react-and-es6-part-2-react-classes-and-es7-property-initializers)中的`CartItem render 方法`中使用`{this.increaseQty.bind(this)}`代码时，你肯定会觉得困惑。

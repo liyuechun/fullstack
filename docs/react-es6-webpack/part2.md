@@ -14,7 +14,9 @@
 
 > [本篇文章Github源码](https://github.com/yiqizhongchuang/react-es6-es7-gulp-JSPM-Webpack/tree/master/react-es6-es7-gulp-JSPM-Webpack-part2)
 
-[![cover](http://okxh06i2t.bkt.clouddn.com/react.png)](http://okxh06i2t.bkt.clouddn.com/react.png)        [![cover](http://okxh06i2t.bkt.clouddn.com/js.png)](http://okxh06i2t.bkt.clouddn.com/js.png)
+|React|JS|
+|:----:|:----:|
+|![](http://okxh06i2t.bkt.clouddn.com/react.png)|![](http://okxh06i2t.bkt.clouddn.com/js.png)|
 
 
 在[第一篇](http://yiqizhongchuang.cn/react-and-es6-part-1-introduction)文章中，我们开始介绍如何使用ES6来创建静态的组建并且输出`Hello from ES6`. Not so exciting :)
