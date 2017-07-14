@@ -87,7 +87,7 @@
 1. [资源](#docs/js/es5-es6-rules/026resources)
 
 
-## JavaScript 30天
+<!-- ## JavaScript 30天
 1. [30天效果图一览表](#docs/js/js30/000everyday)
 1. [JavaScript Drum Kit](#TODO)
 1. [JS + CSS Clock](#TODO)
@@ -118,7 +118,7 @@
 1. [Click and Drag](#TODO)
 1. [Video Speed Controller](#TODO)
 1. [Countdown Timer](#TODO)
-1. [Whack A Mole](#TODO)
+1. [Whack A Mole](#TODO) -->
 
 
 --------------
