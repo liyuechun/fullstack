@@ -268,4 +268,6 @@ keys.forEach(key => key.addEventListener('transitionend',stopTransition));
 
 - 在定位元素的时候，可以使用`this`也可以使用`e.target`,可以简单这么理解，`this`值的是谁出发了这次事件，也就是`key`，就等同于事件的目标（e.target）.
 
+## 完整源码
 
+[Github Source Code](https://github.com/liyuechun/JavaScript30-liyuechun)
