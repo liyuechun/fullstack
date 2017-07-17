@@ -2,15 +2,9 @@
 
 ## ![](http://om1c35wrq.bkt.clouddn.com/quanzhanbuluo.jpg)
 
-## 从零到壹全栈部落-输出是最好的学习方式
+## 前言
 
-1. [写在前面](#fullstack)
-
-1. [全栈部落技术社区](http://bbs.kongyixueyuan.com)
-
-1. [全栈部落Github社区](https://github.com/fullstacktribe)
-
-1. [春哥Github](https://github.com/liyuechun)
+1. [写在前面--必读](#fullstack)
 
 -------------
 ## JavaScript 从零到壹
