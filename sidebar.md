@@ -146,7 +146,7 @@
 
 ## JavaScript 30天
 1. [30天效果图一览表](#docs/js/js30/000everyday)
-1. [JavaScript Drum Kit](#TODO)
+1. [爵士鼓](#docs/js/js30/day1)
 
 
 <!-- 1. [JS + CSS Clock](#TODO)
