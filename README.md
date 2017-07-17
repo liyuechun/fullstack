@@ -114,9 +114,3 @@
 - 自我介绍，向群友打招呼
 
 
-## 九、疑问答疑
-
-有任何问题直接咨询小精灵。
-
-![](http://orhm8wuhd.bkt.clouddn.com/xiaojingling.jpeg)
-
