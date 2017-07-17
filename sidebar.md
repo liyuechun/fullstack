@@ -4,13 +4,13 @@
 
 ## 从零到壹全栈部落-输出是最好的学习方式
 
-1. [申请加入全栈部落](#fullstack)
-
-1. [全栈部落系列视频教程](http://kongyixueyuan.com)
+1. [写在前面](#fullstack)
 
 1. [全栈部落技术社区](http://bbs.kongyixueyuan.com)
 
-1. [Github社区](https://github.com/fullstacktribe)
+1. [全栈部落Github社区](https://github.com/fullstacktribe)
+
+1. [春哥Github](https://github.com/liyuechun)
 
 -------------
 ## JavaScript 从零到壹
