@@ -5,7 +5,8 @@
 ## 前言
 
 1. [写在前面--必读](#fullstack)
-
+1. [全栈部落BBS](http://bbs.kongyixueyuan.com)
+1. [全栈部落视频专区](http://www.kongyixueyuan.com)
 -------------
 ## JavaScript 从零到壹
 -------------
