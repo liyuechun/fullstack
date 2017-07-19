@@ -149,6 +149,8 @@
 1. [30天效果图一览表](#docs/js/js30/000everyday)
 1. [Day1-爵士鼓](#docs/js/js30/day1)
 1. [Day2-JS + CSS Clock](#docs/js/js30/day2)
+1. [Day3-CSS 变量](#docs/js/js30/day3)
+
 
 <!-- 1. [JS + CSS Clock](#TODO)
 1. [CSS Variables](#TODO)
