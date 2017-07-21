@@ -42,7 +42,7 @@ var getHash = function (hash) {
   }
 };
 
-var disqusCode = '<h3 style="font-size:20px;color:red;width:300px">关注公众号，每晚十点接受原创推送</h3><div id="disqus_thread"><img src="http://orhm8wuhd.bkt.clouddn.com/quanzhanbuluo.jpeg" /></div>';
+var disqusCode = '<h3 style="font-size:20px;color:red;">关注全栈部落官方公众号，每晚十点接收经典原创技术推送</h3><div id="disqus_thread"><img src="http://orhm8wuhd.bkt.clouddn.com/quanzhanbuluo.png" /></div>';
 
 
 var menu = new Array();

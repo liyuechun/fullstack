@@ -1,6 +1,6 @@
 # [从零到壹全栈部落](http://www.kongyixueyuan.com)
 
-## ![](http://orhm8wuhd.bkt.clouddn.com/quanzhanbuluo.jpeg)
+## ![](http://orhm8wuhd.bkt.clouddn.com/quanzhanbuluo.png)
 
 ## 前言
 
