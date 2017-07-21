@@ -1,4 +1,4 @@
-# [从零到壹全栈部落](http://www.kongyixueyuan.com)
+# [从零到壹全栈部落 - IT界逻辑思维](http://www.kongyixueyuan.com)
 
 ## ![](http://orhm8wuhd.bkt.clouddn.com/quanzhanbuluo.png)
 
