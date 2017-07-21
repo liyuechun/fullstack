@@ -42,7 +42,7 @@ var getHash = function (hash) {
   }
 };
 
-var disqusCode = '<h3 style="font-size:20px;color:green;">微信添加小精灵，立即申请进入「全栈部落VIP」</h3><div id="disqus_thread"><img src="http://orhm8wuhd.bkt.clouddn.com/xiaojingling.jpeg" /></div>';
+var disqusCode = '<h3 style="font-size:20px;color:red;width:300px">关注公众号，每晚十点接受原创推送</h3><div id="disqus_thread"><img src="http://orhm8wuhd.bkt.clouddn.com/quanzhanbuluo.jpeg" /></div>';
 
 
 var menu = new Array();
