@@ -151,6 +151,8 @@
 1. [Day2-JS + CSS Clock](#docs/js/js30/day2)
 1. [Day3-CSS 变量](#docs/js/js30/day3)
 1. [Day04 - Array Cardio 指南一](#docs/js/js30/day4)
+1. [Day05 - Flex 实现可伸缩的图片墙 中文指南](#docs/js/js30/day5)
+1. [Day06 - Fetch、filter、正则表达式实现快速古诗匹配](#docs/js/js30/day6)
 
 <!-- 1. [JS + CSS Clock](#TODO)
 1. [CSS Variables](#TODO)
