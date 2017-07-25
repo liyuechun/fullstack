@@ -153,6 +153,8 @@
 1. [Day04 - Array Cardio 指南一](#docs/js/js30/day4)
 1. [Day05 - Flex 实现可伸缩的图片墙 中文指南](#docs/js/js30/day5)
 1. [Day06 - Fetch、filter、正则表达式实现快速古诗匹配](#docs/js/js30/day6)
+1. [Day07 - Array Cardio 中文指南二](#docs/js/js30/day7)
+1. [Day08 - HTML5 Canvas 实现彩虹画笔绘画板指南](#docs/js/js30/day8)
 
 <!-- 1. [JS + CSS Clock](#TODO)
 1. [CSS Variables](#TODO)
