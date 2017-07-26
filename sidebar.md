@@ -155,6 +155,11 @@
 1. [Day06 - Fetch、filter、正则表达式实现快速古诗匹配](#docs/js/js30/day6)
 1. [Day07 - Array Cardio 中文指南二](#docs/js/js30/day7)
 1. [Day08 - HTML5 Canvas 实现彩虹画笔绘画板指南](#docs/js/js30/day8)
+1. [Day09 - Console 调试各种姿势指南](#docs/js/js30/day9)
+1. [Day10 - JS 实现 Checkbox 中按住 Shift 的多选功能](#docs/js/js30/day10)
+
+
+
 
 <!-- 1. [JS + CSS Clock](#TODO)
 1. [CSS Variables](#TODO)
