@@ -157,6 +157,8 @@
 1. [Day08 - HTML5 Canvas 实现彩虹画笔绘画板指南](#docs/js/js30/day8)
 1. [Day09 - Console 调试各种姿势指南](#docs/js/js30/day9)
 1. [Day10 - JS 实现 Checkbox 中按住 Shift 的多选功能](#docs/js/js30/day10)
+1. [Day11 - 自定义视频播放器](#docs/js/js30/day11)
+1. [Day12 - 键盘输入序列的验证指南](#docs/js/js30/day12)
 
 
 
