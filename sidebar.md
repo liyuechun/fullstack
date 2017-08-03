@@ -159,8 +159,9 @@
 1. [Day10 - JS 实现 Checkbox 中按住 Shift 的多选功能](#docs/js/js30/day10)
 1. [Day11 - 自定义视频播放器](#docs/js/js30/day11)
 1. [Day12 - 键盘输入序列的验证指南](#docs/js/js30/day12)
-
-
+1. [Day13 - 图片随屏幕滚动而滑入滑出的效果](#docs/js/js30/day13)
+1. [Day14 - JavaScript 引用和值拷贝](#docs/js/js30/day14)
+1. [Day15 - LocalStorage](#docs/js/js30/day15)
 
 
 <!-- 1. [JS + CSS Clock](#TODO)
